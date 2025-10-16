@@ -1,0 +1,13 @@
+RESPOSTA DA QUESTÃO 287
+==================================================
+
+ENUNCIADO:  
+2. Cloud computing is a virtualization technology that presents network, computing, and storage resources in shared virtual resource pools on the cloud. Users can obtain these resources on demand at any time from any place.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: Nothing.

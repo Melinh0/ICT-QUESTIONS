@@ -1,0 +1,22 @@
+RESPOSTA DA QUESTÃO 246
+==================================================
+
+ENUNCIADO:  
+13. Which of the following statements about openGauss materialized views is false?
+
+ITENS:  
+A) Materialized views support UNION ALL for querying multiple single tables.  
+B) Indexes can be created on materialized views.  
+C) Materialized views support both row-store and column-store tables.  
+D) Materialized views do not support the use of CREATE, DELETE, or MODIFY operation, but only query statements.
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO:  
+Answer Explanation:  
+1. openGauss base scanning statements or UNION ALL can be used to create materialized views. Therefore, A is true. Materialized views support UNION ALL for querying multiple single tables.  
+2. In relational databases, materialized views always behave similar to those of tables, including index support and query performance optimization. Therefore, B is true. Indexes can be created on materialized views.  
+3. openGauss supports both row-store and column-store tables. Materialized views are created based on base tables and can be created using either row-store or column-store tables. Therefore, C is true.  
+4. A materialized view is similar to CREATE TABLE AS, but materialized views do not support any type of updates of storage engines. Therefore, D is false.  
+The syntax for creating them is CREATE TABLE AS, but materialized views do not support CREATE, DELETE, or MODIFY operations, and users need to run the "REFRESH" command to synchronize the data.  
+In conclusion, materialized views do not support the use of CREATE, DELETE, or MODIFY operations, but only query statements. Therefore, D is false.

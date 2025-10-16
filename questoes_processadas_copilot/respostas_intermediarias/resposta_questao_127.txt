@@ -1,0 +1,16 @@
+RESPOSTA DA QUESTÃO 127
+==================================================
+
+ENUNCIADO:  
+15. Which of the following is the main difference between the CISC and RISC instruction sets?
+
+ITENS:  
+A) RISC is more complex than CISC.  
+B) CISC is more complex than RISC.  
+C) CISC and RISC have the same complexity, but CISC processors are faster.  
+D) CISC and RISC have the same complexity, but RISC processors are faster.
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+CISC (Complex Instruction Set Computer) and RISC (Reduced Instruction Set Computer) are two types of instruction set architectures. The main difference between them is the complexity of their instructions. CISC instructions are more complex and can perform multiple low-level operations (such as memory access, arithmetic operations, etc.) in a single instruction. On the other hand, RISC instructions are simpler and are designed to execute quickly. RISC processors typically require more instructions to perform a task, but each instruction executes faster due to its simplicity. This makes RISC processors generally more efficient and faster than CISC processors.

@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 210
+==================================================
+
+ENUNCIADO: In the openGauss database architecture design, what are the advantages of the primary/standby mode compared to the standalone mode?
+
+ITENS:  
+A) The recovery point objective (RPO) and the recovery time objective (RTO) can be controlled.  
+B) Maximum reliability, performance, and availability can be ensured.  
+C) Multiple failover and switchover modes are supported.  
+D) Damaged pages can be automatically repaired.
+
+ITEM CORRETO: A, B, C, D
+
+EXPLICAÇÃO: In the primary/standby mode, data is synchronized between the primary and standby nodes in real time. This ensures that the RPO and RTO can be controlled. In addition, the primary/standby mode provides maximum reliability, performance, and availability. Multiple failover and switchover modes are supported. Damaged pages can be automatically repaired.

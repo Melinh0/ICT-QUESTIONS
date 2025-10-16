@@ -1,0 +1,15 @@
+RESPOSTA DA QUESTÃO 281
+==================================================
+
+ENUNCIADO: Smart Provisioning is an in-band extension of iBMC. Which of the following statements are true about Smart Provisioning?
+
+ITENS:  
+A) Smart Provisioning provides two modes for deploying an OS: recommended mode and custom mode.  
+B) Smart Provisioning can upgrade firmware (such as RAID controller cards, NICs, and drives), and Smart Provisioning.  
+C) Smart Provisioning hardware diagnosis covers processors, DIMMs, drives, NICs, PSUs, and fans.  
+D) Smart Provisioning provides quick and secure modes for erasing drives.  
+E) Smart Provisioning provides quick and secure modes for erasing drives.
+
+ITEM CORRETO: ABD
+
+EXPLICAÇÃO: Sorry, your answer was wrong. 0 Point(s).

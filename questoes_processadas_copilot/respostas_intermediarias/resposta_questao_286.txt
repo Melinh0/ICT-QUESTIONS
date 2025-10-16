@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 286
+==================================================
+
+ENUNCIADO: 44. Which of the following statements are true about the network model in database models?
+
+ITENS:  
+A) The network model does not have strict list structures and relationships.  
+B) The network model allows only parent-child relationships.  
+C) The network model allows more than one node to have no parent.  
+D) A node in the network model can have a maximum of two parents.
+
+ITEM CORRETO: AC
+
+EXPLICAÇÃO: Nothing

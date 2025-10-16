@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 26
+==================================================
+
+ENUNCIADO:  
+66. Which of the following composite query types are supported by openGauss?
+
+ITENS:  
+A) UNION  
+B) INTERSECT  
+C) MINUS  
+D) EXCEPT  
+
+ITEM CORRETO: ABD
+
+EXPLICAÇÃO:  
+- Option A: UNION combines the results of two or more SELECT statements in the result set and automatically deletes duplicate rows.  
+- Option B: INTERSECT returns the intersection of the results of two or more SELECT statements, that is, rows that exist in all result sets.  
+- Option C: MINUS returns the rows that match the result set of one SELECT statement but not the result set of another SELECT statement within the composite set.  
+- Option D: EXCEPT removes all rows in the result set of one SELECT statement from the result set of another SELECT statement within the composite set.

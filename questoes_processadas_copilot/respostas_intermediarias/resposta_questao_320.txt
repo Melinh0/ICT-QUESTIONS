@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 320
+==================================================
+
+ENUNCIADO:  
+48. What are the advantages of openGauss tablespaces?
+
+ITENS:  
+A) Different disks can be selected based on data features.  
+B) The upper limit (maxsize) of the tablespace capacity can be set.  
+C) A tablespace corresponds to a file system directory, you must have the read and write permissions on an empty directory.  
+D) Tablespaces allow an administrator to distribute data based on the schema of database objects, improving system performance.
+
+ITEM CORRETO: ABCD
+
+EXPLICAÇÃO:  
+- Option A: Tablespaces allow data to be stored on different types of disks based on data characteristics and usage frequency.  
+- Option B: Tablespaces support setting a maxsize for capacity.  
+- Option C: Tablespaces correspond to a file system directory and require read/write permissions.  
+- Option D: Tablespaces allow data distribution based on schema, improving performance.

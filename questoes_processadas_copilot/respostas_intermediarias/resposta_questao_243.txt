@@ -1,0 +1,20 @@
+RESPOSTA DA QUESTÃO 243
+==================================================
+
+ENUNCIADO:  
+40. In a typical LVS cluster, which of the following modes support the front-end server (FS)?
+
+ITENS:  
+A) VRF  
+B) DR  
+C) PR  
+D) NF  
+
+ITEM CORRETO: BCD
+
+EXPLICAÇÃO:  
+VRF is not a standard mode of LVS clusters and is not directly related to the front-end server.  
+DR (Direct Routing) mode allows the front-end server to schedule requests and forward them to real servers.  
+PR (IP Tunneling) mode enables the front-end server to schedule requests and forward them to real servers using IP tunneling.  
+NF (Network Address Translation) mode allows the front-end server to schedule requests and forward them to real servers using NAT.  
+LVS clusters use persistent connections and client requests are handled differently depending on the mode used.

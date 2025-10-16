@@ -1,0 +1,20 @@
+RESPOSTA DA QUESTÃO 257
+==================================================
+
+ENUNCIADO:  
+8. Após a instalação bem-sucedida do openGauss, qual dos seguintes é o nome do banco de dados que pode ser conectado por padrão?
+
+ITENS:  
+A) postgres  
+B) opengauss  
+C) openGauss  
+D) Igual ao nome de usuário da instalação
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+- Após a instalação do banco de dados, o banco de dados "postgres" é gerado por padrão. Ao conectar-se a um banco de dados pela primeira vez, você pode se conectar a esse banco de dados.  
+- Após a conclusão da instalação, não há banco de dados padrão "opengauss".  
+- O mesmo acima, e não há banco de dados padrão "openGauss".  
+- Não é mencionado que o nome do banco de dados padrão é igual ao nome de usuário da instalação.  
+- Conclusão: a resposta é A.

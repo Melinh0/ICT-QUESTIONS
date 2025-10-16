@@ -1,0 +1,22 @@
+RESPOSTA DA QUESTÃO 209
+==================================================
+
+ENUNCIADO:  
+72. Logical backup can back up the data of the entire cluster and restore the data to a homogeneous database.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+Logical backup usually refers to backing up the logical structure and data of a database instead of backing up the data of the entire cluster. In database terminology, a cluster usually refers to a collection of database instances or nodes rather than a single database. Specifically,  
+
+Logical backup is performed by exporting data and structures (such as tables, views, functions, and stored procedures) from the database. The intended use of the underlying storage engine and typically stores data in SQL scripts or other logical formats.  
+
+In contrast,  
+
+Physical backup contains database data, used to physically back up and copy data files to ensure the integrity and efficiency of the restoration. Logical backup cannot be used to restore the entire cluster because it does not include the physical files and instance-related data of the entire instance.  
+
+Therefore, logical backup cannot back up the data of the entire cluster or simply restoring the data of the entire cluster to a homogeneous database. Restoring the entire cluster usually requires physical backup and restoration methods that include the instance and the database information.

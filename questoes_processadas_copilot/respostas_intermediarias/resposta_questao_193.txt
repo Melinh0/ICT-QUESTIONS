@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 193
+==================================================
+
+ENUNCIADO: Which of the following is the main function of DNS cache?
+
+ITENS:  
+A) Accelerates domain name resolution.  
+B) Protects domain name from DDoS attacks.  
+C) Prevents DNS spoofing attacks.  
+D) Provides the domain name registration service.
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+Option A: The DNS cache server can cache the IP address corresponding to the resolved domain name. When the user accesses the domain name again, the user can directly obtain the corresponding IP address from the cache. This avoids the time for DNS resolution and significantly accelerates the network access.  
+Option B: The DNS cache server does not have the function of protecting domain names from DDoS attacks. However, it can be used as a protective shield to prevent domain names from DDoS attacks. However, this is not the main function of DNS cache.  
+Option C: The DNS cache server can store the cache location and whitelist the rules of malicious domain names and IP addresses and implement DNS domain name spoofing detection and control, but this is not the main function of DNS cache.  
+Option D: The DNS cache server does not provide domain name registration service. That service is provided by a dedicated domain name registration service.

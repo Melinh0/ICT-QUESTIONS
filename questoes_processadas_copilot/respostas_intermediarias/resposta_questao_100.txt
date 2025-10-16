@@ -1,0 +1,20 @@
+RESPOSTA DA QUESTÃO 100
+==================================================
+
+ENUNCIADO:  
+62. Qual das seguintes afirmações sobre comandos comuns de gerenciamento de processos no openEuler é falsa?
+
+ITENS:  
+A) "jobs" lista os processos em execução em primeiro plano.  
+B) "fg" retoma um processo em segundo plano para o primeiro plano.  
+C) "bg" move um processo em segundo plano para o primeiro plano.  
+D) "Ctrl+C" interrompe um processo em execução.
+
+ITEM CORRETO:  
+ABC
+
+EXPLICAÇÃO:  
+A opção A está errada: o comando "jobs" exibe a lista de tarefas no shell atual, incluindo os comandos em execução em segundo plano, não em primeiro plano.  
+A opção B está errada: o comando "fg" retoma uma tarefa em segundo plano para o primeiro plano, em vez de movê-la do primeiro plano para o segundo plano.  
+A opção C está errada: ao contrário da opção, o comando "bg" executa tarefas em segundo plano no segundo plano, em vez do primeiro plano.  
+A opção D está correta: a combinação de teclas "Ctrl+C" interrompe um processo em execução.

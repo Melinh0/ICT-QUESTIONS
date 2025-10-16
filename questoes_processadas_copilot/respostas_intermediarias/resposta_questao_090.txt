@@ -1,0 +1,16 @@
+RESPOSTA DA QUESTÃO 90
+==================================================
+
+ENUNCIADO:  
+24. Which of the following is the Linux kernel functionality?
+
+ITENS:  
+A) A graphical user interface (GUI)  
+B) System resources and hardware management  
+C) Driver management  
+D) System-user interaction
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+Congratulations! Your answer was correct. My Score: 15 Point(s) Answer: B

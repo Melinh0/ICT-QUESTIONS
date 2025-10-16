@@ -1,0 +1,15 @@
+RESPOSTA DA QUESTÃO 112
+==================================================
+
+ENUNCIADO:  
+54. On an Atlas 800 server equipped with an AVAGO MegaRAID SAS 9460-8i RAID controller card, which of the following statements are true about RAID configuration?
+
+ITENS:  
+A) You can configure RAID on the BMC page or in the BIOS.  
+B) Only RAID 1 and RAID 5 are supported.  
+C) Two SSDs and three SAS drives can be configured for RAID 5.  
+D) The storage performance can vary depending on the stripe size configured for RAID.
+
+ITEM CORRETO: AD
+
+EXPLICAÇÃO: Nothing

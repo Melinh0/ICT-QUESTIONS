@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 324
+==================================================
+
+ENUNCIADO: Quais das seguintes afirmações sobre o Nginx são verdadeiras?
+
+ITENS:  
+A) Por padrão, o Nginx utiliza polling para balanceamento de carga.  
+B) Se o desempenho dos servidores de backend variar, pode-se usar polling ponderado para balanceamento de carga.  
+C) O Nginx pode separar recursos dinâmicos e estáticos. Os recursos estáticos são mantidos pelo servidor, enquanto os recursos dinâmicos são processados pelo backend do Nginx.  
+D) O proxy reverso do Nginx é usado para encaminhar solicitações dos clientes para os servidores de backend.
+
+ITEM CORRETO: A, B, C
+
+EXPLICAÇÃO:  
+- A: Correta. Por padrão, o Nginx utiliza o método Round Robin para balanceamento de carga.  
+- B: Correta. O polling ponderado pode ser usado para atribuir diferentes pesos aos servidores de backend.  
+- C: Correta. O Nginx pode separar recursos estáticos e dinâmicos.  
+- D: Incorreta. O Nginx não encaminha diretamente as solicitações dos clientes para os servidores de backend, mas utiliza um mecanismo de proxy reverso.

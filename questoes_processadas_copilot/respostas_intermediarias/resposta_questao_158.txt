@@ -1,0 +1,22 @@
+RESPOSTA DA QUESTÃO 158
+==================================================
+
+ENUNCIADO:  
+35. Which of the following are not the functions of the 'chgrp' command?
+
+ITENS:  
+A) Configuring file permissions  
+B) Changing the group to which a file or directory belongs  
+C) Changing the owner of a file  
+D) Configuring the user file-creation mode mask (umask)
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+Sorry, your answer was wrong. My Score: 0 Point(s) Answer: ACD
+
+Answer Explanations:  
+- Option (A): This statement is incorrect. 'chgrp' does not set directory creation file permissions. It can indirectly change file permissions by changing the group to which a file belongs. 'chmod' is used to configure file permissions.  
+- Option (B): This statement is correct. 'chgrp' is used to change the group to which a file or directory belongs.  
+- Option (C): This statement is incorrect. The 'chown' command is used to change the owner of a file, not the 'chgrp' command.  
+- Option (D): This statement is incorrect. The 'umask' command is used to configure the user file-creation mode mask. It is not related to the 'chgrp' command.

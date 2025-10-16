@@ -1,0 +1,22 @@
+RESPOSTA DA QUESTÃO 77
+==================================================
+
+ENUNCIADO: In the openGauss database, which of the following sets of operators is usually used as scan nodes?
+
+ITENS:  
+A) HashJoin, MergeJoin, and NestLoopJoin  
+B) Limit, Offset, and Sort  
+C) SeqScan, IndexScan, and SubQueryScan  
+D) Aggregate, Group, and Distinct  
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO:  
+Answer Explanations:  
+- They are join operators used to process table associations. Although they play a key role in a query, they are usually not seen as simply "scan nodes". These operators involve join operations between tables, rather than directly scanning existing data from tables or indexes.  
+- These operators are used to process table associations.  
+- These operators comply with the definition of "scan nodes":  
+  - SeqScan: This operator scans all data in a table. It is implemented based on the physical storage sequence of data in the table.  
+  - IndexScan: This operator scans data based on indexes. It is implemented based on the physical storage sequence of indexes.  
+  - SubQueryScan: This operator processes scan operations in subqueries.  
+- These operators are used to access data from tables directly. They are located after the scan section as the access nodes to process data from tables and indexes.

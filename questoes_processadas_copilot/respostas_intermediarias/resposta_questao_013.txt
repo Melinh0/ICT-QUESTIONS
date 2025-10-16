@@ -1,0 +1,13 @@
+RESPOSTA DA QUESTÃO 13
+==================================================
+
+ENUNCIADO:  
+19. If the CPU, memory, and network port bandwidth usage cannot be viewed on the BMC page of a server, it is likely the BMA is not installed on the server.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO: Nothing

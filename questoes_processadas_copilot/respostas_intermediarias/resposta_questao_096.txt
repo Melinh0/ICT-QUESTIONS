@@ -1,0 +1,21 @@
+RESPOSTA DA QUESTÃO 96
+==================================================
+
+ENUNCIADO:  
+12. An Nginx server uses port 80 to provide services for external systems. The test on the server is passed, but users cannot access the server through port 80. Which of the following is the possible cause?
+
+ITENS:  
+A) Port 80 is not enabled on the firewall of the Nginx server.  
+B) Users should not use port 80 for access.  
+C) Nginx does not support direct access from a browser.  
+D) The "curl" command is used for the test on the server, but the command is not installed on the user side.
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+Answer Explanation:  
+When external systems access Nginx server configuration and access, analyze the condition between each client and the server. The test is successful but users cannot access the Nginx server through port 80.  
+Option A is correct. The firewall configuration on the server side does not enable port 80 access. Even if the Nginx server can listen to port 80 and provide services, users cannot access the server through port 80. The firewall configuration on the server does not allow access to port 80, which causes users to be unable to access the server.  
+Option B is incorrect. Users should use port 80 for access. Generally, browsers access websites through port 80. Unless there are special website policies or security requirements, users should use port 80 to access websites.  
+Option C is incorrect. Nginx supports direct access from a browser. It is a web server that supports HTTP and HTTPS protocols. Users access websites through a browser.  
+Option D is incorrect. The "curl" command is used to test the server, but it is not the reason why users cannot access the server. The test is successful but users cannot access the server. The test is likely conducted via the command-line interface (CLI). However, users access websites through a browser. Whether the "curl" tool is installed or not does not affect the browser's access to the server.

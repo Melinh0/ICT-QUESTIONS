@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 38
+==================================================
+
+ENUNCIADO: Q3. Which of the following are high-risk database operations?
+
+ITENS:  
+A) Rebuild read-only instances.  
+B) Delete instance backups.  
+C) Parse database execution logs.  
+D) Change database ports.
+
+ITEM CORRETO: A, B, D
+
+EXPLICAÇÃO:  
+- Option A: Although this operation does not directly involve data modification, rebuilding read-only instances may involve complex configuration and data synchronization processes. Improper operations may cause data loss, inconsistency or loss.  
+- Option B: This is a high-risk operation. Backup is the key to data restoration. If backups are deleted, data cannot be restored in case of data loss, affecting services.  
+- Option C: This is not a high-risk operation. Parsing execution logs is often for diagnosis or audit. Log analysis can be used to identify root causes of database issues or security risks.  
+- Option D: This is a high-risk operation. The database port is the entry for external access to the database. Improper modification may cause unauthorized access to the database or access failures. In addition, if the port is detected by malicious users, the database may be attacked.

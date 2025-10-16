@@ -1,0 +1,15 @@
+RESPOSTA DA QUESTÃO 273
+==================================================
+
+ENUNCIADO: O intervalo de endereços de rede da LAN é 192.168.1.0/24, e o endereço do gateway para a LAN se conectar a outras redes é 192.168.1.1. Quando o host 192.168.1.20 acessa a rede 172.16.1.0/24, qual das seguintes configurações de rota está correta?
+
+ITENS:  
+A) route add -net 172.16.1.0 gw 192.168.1.1 netmask 255.255.255.0 metric 1  
+B) route add -net 172.16.1.0 gw 192.168.1.1 netmask 255.255.255.255 metric 1  
+C) route add -net 192.168.1.0 gw 172.16.1.1 netmask 255.255.255.0 metric 1  
+D) route add default 192.168.1.0 netmask 172.168.1.1 metric 1
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: Parabéns, você acertou!  
+Resposta correta: B

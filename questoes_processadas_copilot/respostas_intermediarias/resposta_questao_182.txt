@@ -1,0 +1,15 @@
+RESPOSTA DA QUESTÃO 182
+==================================================
+
+ENUNCIADO:  
+5. Which of the following commands is used to change the owner of a file?
+
+ITENS:  
+A) chmod  
+B) touch  
+C) chown  
+D) chgrp  
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO: ✔️ Congratulations, you got it! My Score: 5score Correct answer: C

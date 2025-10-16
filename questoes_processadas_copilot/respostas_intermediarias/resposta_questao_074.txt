@@ -1,0 +1,16 @@
+RESPOSTA DA QUESTÃO 74
+==================================================
+
+ENUNCIADO:  
+Which of the following vi commands can be used to replace 'abc' in lines 5 to 20 with 'cba'?
+
+ITENS:  
+A) :1,$s/abc/cba/g  
+B) :5,20/abc/cba/g  
+C) :5-20s/abc/cba/g  
+D) :5,20s/abc/cba/g  
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO:  
+Congratulations, you got it in. My Score: 5score. Correct answer: D

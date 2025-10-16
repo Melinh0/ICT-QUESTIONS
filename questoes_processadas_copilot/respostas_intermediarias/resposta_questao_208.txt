@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 208
+==================================================
+
+ENUNCIADO:  
+5. When you create or update a user account in openGauss, which of the following options can improve account security?
+
+ITENS:  
+A) Setting a simple password  
+B) Allowing any IP address to log in  
+C) Enabling SSL/TLS encrypted connection  
+D) Disabling password policy check
+
+ITEM CORRETO: Nenhum dos itens
+
+EXPLICAÇÃO:  
+- Option A: A simple password is easy to crack and does not improve account security.  
+- Option B: Allowing any IP address to log in increases the attack surface and does not improve account security.  
+- Option C: Enabling SSL/TLS encrypted connection improves data transmission security but does not directly enhance account security.  
+- Option D: Disabling password policy check reduces password strength and does not improve account security.

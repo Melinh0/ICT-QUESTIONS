@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 169
+==================================================
+
+ENUNCIADO:  
+Which of the following statements about system information monitoring and viewing commands are true?
+
+ITENS:  
+A) You can run the "lscpu" command to query the CPU architecture.  
+B) You can run the "uname -r" command to query the kernel version.  
+C) System memory information returned by the "free -m" command is in MB.  
+D) You can run the "df -h" command to query the type and available space of each drive.
+
+ITEM CORRETO: ABCD
+
+EXPLICAÇÃO:  
+- Option A is true. The "lscpu" command displays detailed CPU architecture information in Linux, such as x86_64, i686, and Arm.  
+- Option B is true. The "uname -r" command displays the release version of the OS, which is usually the kernel version.  
+- Option C is true. The "free -m" command indicates the amount of used and available memory on the system in MB.  
+- Option D is true. The "df -h" command displays the amount of disk space used and available on mounted filesystems. It also provides a summary of information about the drive space usage of the system. The "-h" option specifies the file system type. The command also shows the file system type and available space of each drive. You can run the "df -Th" command to obtain the file type and available space of each drive.

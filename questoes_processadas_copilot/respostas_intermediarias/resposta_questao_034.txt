@@ -1,0 +1,23 @@
+RESPOSTA DA QUESTÃO 34
+==================================================
+
+ENUNCIADO:  
+13. Which of the following commands can be used to view the background tasks of the current shell?
+
+ITENS:  
+A) cat  
+B) vim  
+C) jobs  
+D) bg
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO:  
+Answer Explanations:  
+- Option 'A' is incorrect as the 'cat' command reads the background processes of the current terminal session or shell.  
+- After starting a command or program in a terminal or shell, you can press 'Ctrl+Z' to pause it and move it to the background. You can then run 'jobs' to view the list of background tasks.  
+- Option 'B' is used to concatenate or display file content and is not related to background tasks.  
+- Option 'C' is the correct answer but did not select it leading to incorrect answer.  
+- Option 'D' is used to resume a job that was paused and moved to the background.  
+- The 'jobs' command displays a list of background tasks, including their job IDs, status (running or stopped), and associated commands. This information allows you to decide whether to resume a background task using the 'fg' command or terminate it using the 'kill' command.  
+- The correct answer is 'C'. The 'jobs' command is the most suitable option for viewing background tasks of the current shell, as it provides a reliable tool for managing and controlling these background processes.

@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 268
+==================================================
+
+ENUNCIADO:  
+22. Which of the following statements about the NFS service permissions and user mapping is true?
+
+ITENS:  
+A) "no_root_squash" maps the root user accessing from a client as the nfsnobody user on the NFS server.  
+B) "no_root_squash" grants only read permission on the NFS server to the root user accessing from a client.  
+C) "root_squash" maps the root user accessing from a client as the root user on the NFS server.  
+D) "all_squash" maps all client users who access the NFS server as anonymous users.
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO:  
+- The statement in option C is incorrect. "root_squash" avoids root users accessing from the client to have root privileges on the NFS server, instead of being mapped to the "nfsnobody" user.  
+- The statement in option B is incorrect. "no_root_squash" not only grants read access but also grants all permissions on the NFS server to the root user accessing from a client.  
+- The statement in option A is incorrect. The "no_root_squash" maps the "root" user accessing from the client to the "root" user on the NFS server.  
+- The statement in option D is correct. When the "all_squash" option is specified in the NFS configuration file for the "export" directive, all client users are mapped to the "anonymous" user. In NFS, there is one defined user for anonymous access, typically referred to as "nfsnobody". When an access is seen from a client as "all_squash", between "uid" and "gid", the anonymous user is identified.

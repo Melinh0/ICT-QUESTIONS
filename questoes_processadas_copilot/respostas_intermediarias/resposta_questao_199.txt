@@ -1,0 +1,23 @@
+RESPOSTA DA QUESTÃO 199
+==================================================
+
+ENUNCIADO:  
+50. OpenStack consists of two main modules: Nova and Swift. Nova is the virtual server deployment and service computing module, and Swift is the distributed cloud storage module.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+OpenStack is an open-source cloud computing platform that consists of various components that collectively deliver a comprehensive set of cloud services. These components include:
+
+- Nova: the compute service that manages virtual machines and other instances to handle computing tasks.  
+- Swift: the object storage service that allows users to store and retrieve unstructured data.  
+- Glance: the image service that provides discovery, registration, and delivery services for disk and server images.  
+- Keystone: the identity service used for authentication and high-level authorization.  
+- Horizon: the dashboard that provides a web-based user interface to OpenStack services.  
+- Neutron: the networking service that provides connectivity as a service between interface devices.  
+- Cinder: the block storage service that provides persistent block storage to running instances.  
+- Heat: the orchestration service that allows developers to store the requirements of a cloud application in a file that defines what resources are necessary for that application.

@@ -1,0 +1,20 @@
+RESPOSTA DA QUESTÃO 261
+==================================================
+
+ENUNCIADO:  
+84. When using the Vim editor, you can run the x command in normal mode to save the modification and exit.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+Sorry, your answer was wrong. My Score: 0 Point(s) Answer: True  
+The vim editor provides the following modes:  
+1. Normal mode, also called the command mode, in which you can run most commands such as copy, paste, cut, and replace. However, you cannot input text directly.  
+2. Insert mode, in which you can enter text in a file by pressing 'i' (insert before the current character), 'a' (insert after the current character), or 'o' (insert a new line below the current line).  
+3. Visual mode, in which you can select text blocks by pressing 'v' (select a character), 'V' (select a line), or 'Ctrl+v' (select a block).  
+You can run the 'x' command (to delete a character) in the normal mode. The mode also allows read and write commands. In this mode, you can run advanced commands such as save, exit, and search as well.  
+The 'x' command is a shortcut in the normal mode to save the modifications to the mode (automatically) and exit. Therefore, the description is true.

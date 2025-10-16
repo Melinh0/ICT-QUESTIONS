@@ -1,0 +1,20 @@
+RESPOSTA DA QUESTÃO 184
+==================================================
+
+ENUNCIADO:  
+Which of the following statements about row-level security is false?
+
+ITENS:  
+A) Row-level security policies can apply to SELECT, UPDATE, INSERT, and DELETE operations and cannot be applied to MERGE operations.  
+B) Row-level security policies cannot be defined for views.  
+C) The initial user and system administrators are not affected by row-level security policies.  
+D) If a dynamic data masking policy is configured for a table with row-level security policies defined, grant the trigger permission of the table to other users with caution to prevent other users from bypassing the masking policy.
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO:  
+Answer Explanations:  
+- Row-level security policies can be applied to SELECT, UPDATE, INSERT, and DELETE operations and cannot be applied to INSERT and MERGE operations.  
+- This is true. Row-level security policies cannot be defined on views.  
+- This is false. Row-level security policies affect both the initial user and system administrators.  
+- This is true. If a dynamic data masking policy is configured for a table with row-level security policies defined, grant the permissions of triggers. However, it is not advised to directly grant the permissions of the table to other users, but it is a reasonable suggestion for permission and policy configuration. Although the suggestion is not directly related to the row-level security policy, it is about how to use the features in a secure manner.

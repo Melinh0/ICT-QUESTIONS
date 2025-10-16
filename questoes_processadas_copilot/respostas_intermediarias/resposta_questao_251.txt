@@ -1,0 +1,16 @@
+RESPOSTA DA QUESTÃO 251
+==================================================
+
+ENUNCIADO: 52. You cannot specify a Yum repository by modifying the Yum configuration file.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: Yum is a commonly used package manager in Linux. It relies on Yum repositories (software repositories) to provide information about software packages and their dependencies. Yum repositories can be remote (or local) such as those on the internet or on a local network.
+
+You can specify a Yum repository by modifying the Yum configuration file. The configuration files are usually located in the '/etc/yum.repos.d/' directory, with each file representing the configuration of a single Yum repository. You can define a repository by creating a new file in this directory and adding relevant entries, such as 'baseurl' (URL for the repository), 'enabled' (whether the repository is enabled), and 'gpgcheck' (whether to perform GPG verification).
+
+Therefore, stating that you cannot specify a Yum repository by modifying the Yum configuration file is incorrect. You can specify a Yum repository by modifying the Yum configuration file. When the statement is false, the statement in the question is false.

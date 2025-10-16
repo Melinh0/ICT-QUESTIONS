@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 84
+==================================================
+
+ENUNCIADO:  
+23. Which of the following Ansible modules can copy files from a managed node to a control node?
+
+ITENS:  
+A) fetch  
+B) service  
+C) copy  
+D) cron  
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+Option A: Correct option. The fetch module of Ansible is used to copy files from a remote host to a control host. It allows users to copy files or directories on a remote host and download them to a specified location on the control host. This can be used to download configuration files, logs, etc., from a remote host for analysis and troubleshooting.  
+Option B: The service module is used to manage services (such as starting, stopping, and restarting) and is unrelated to file replication.  
+Option C: The copy module is used to copy files or directories from the control host to the managed host, not from the remote host to the control host.  
+Option D: The cron module is used to manage cron jobs and is unrelated to file replication.

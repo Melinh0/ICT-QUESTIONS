@@ -1,0 +1,16 @@
+RESPOSTA DA QUESTÃO 125
+==================================================
+
+ENUNCIADO:  
+5. To replace MySQL with GaussDB in an LNMP (Linux-Nginx-MySQL-PHP) software stack, which of the following operations needs to be performed?
+
+ITENS:  
+A) Uninstall MySQL and install GaussDB.  
+B) Migrate data to GaussDB and update PHP configurations to support GaussDB.  
+C) Change Nginx configurations to support GaussDB.  
+D) Change the database connection string to point to GaussDB.
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+To replace MySQL with GaussDB in an LNMP stack, it is necessary to migrate the data from MySQL to GaussDB and update the PHP configurations to ensure compatibility with GaussDB. Simply uninstalling MySQL and installing GaussDB (Option A) is not sufficient, as data migration and configuration updates are required. Changing Nginx configurations (Option C) is unrelated to database replacement. Changing the database connection string (Option D) is part of the configuration update but not sufficient on its own.

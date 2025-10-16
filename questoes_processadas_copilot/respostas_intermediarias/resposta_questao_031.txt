@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 31
+==================================================
+
+ENUNCIADO:  
+50. A database management system is an interface between a database and a user. It allows the user to manage, monitor, and control the database.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+A database management system (DBMS) is an interface between databases and users. It provides access via networks of accessing and operating data in a database, and users can perform multiple database management tasks, such as creating, updating, querying, and deleting data. In addition, the DBMS provides functions such as data integrity, security, and concurrency control to ensure database stability and performance. Therefore, the answer is true.

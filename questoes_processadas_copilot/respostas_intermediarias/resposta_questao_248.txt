@@ -1,0 +1,22 @@
+RESPOSTA DA QUESTÃO 248
+==================================================
+
+ENUNCIADO:  
+28. Which of the following statements about zombie processes is true?
+
+ITENS:  
+A) A zombie process does not exist in the process table.  
+B) You can kill a zombie process by running "kill -9 <ID of zombie process>".  
+C) You can kill a zombie process by running "kill -15 <ID of zombie process>".  
+D) You can kill a zombie process by running "kill -9 <ID of parent process of zombie process>".
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO:  
+Option A: This is false statement. When an initial child process exits when the parent process exists and the parent process does not inform the child process and releases the resources occupied by such child process then the child process becomes a zombie process. This is a hidden system error, even if it is not visible in the process table, it exists. For example, during the execution of a process, if the parent process does not release the resources occupied by the child process such as "wait()" or "waitpid()", then the status information and release resources. Therefore zombie process exists in the process table.
+
+Option B: False statement. The kill command is used to forcibly end a process, but it cannot directly kill a zombie process. A zombie process is a process that has been terminated but has not been released by its parent process. Therefore, it does not respond to kill signals.
+
+Option C: False statement. The kill -15 command is used to send a termination signal to a process, but it cannot directly kill a zombie process. The zombie process is a process that has been terminated but has not been released by its parent process. Therefore, it does not respond to kill signals.
+
+Option D: True statement. You can kill a zombie process by running "kill -9 <ID of parent process of zombie process>". This command forcibly terminates the parent process. After the parent process is terminated, the zombie process is released by the init process (process ID 1), which becomes its new parent process. The init process automatically clears zombie processes to complete the release of resources occupied by the zombie process. Therefore, the correct answer is D.

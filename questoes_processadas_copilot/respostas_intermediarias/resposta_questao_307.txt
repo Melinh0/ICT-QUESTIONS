@@ -1,0 +1,20 @@
+RESPOSTA DA QUESTÃO 307
+==================================================
+
+ENUNCIADO:  
+25. Which of the following is NOT a function of the connection pool?
+
+ITENS:  
+A) To connect to a database.  
+B) To optimize the database connection.  
+C) To share connections with different attributes.  
+D) To optimize clients.
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO:  
+Option A: This is a function of the connection pool. Connection pooling is a technique for reusing and managing buffer pools of database connections that are ready to be used by any thread that needs them.  
+Option B: This is a function of the connection pool. The connection pool mechanism reduces the number of externalized statements and distributed files, improves the database connection pool, and improves the database connection speed.  
+Option C: This is a function of a thread linked to the connection pool. Each thread can provide a connection with different attributes such as time zone, language, and security, and is usually created for a specific database connection configuration. Although some connection pools also allow for a certain degree of flexibility, "share connections with different attributes" is more often used in general-purpose functions of connection pools.  
+Option D: This is not a function of the connection pool. The connection pool is a technique for optimizing the database connection. It does not optimize clients. The connection pool does not directly optimize clients, even though clients benefit from the reduced connection time.  
+Therefore, the correct answer to the question is D. To optimize clients.

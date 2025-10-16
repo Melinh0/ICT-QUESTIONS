@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 183
+==================================================
+
+ENUNCIADO: Which of the following statements is false about BMA?
+
+ITENS:  
+A) BMA runs on the in-hand OS and manages single-node hardware. BMA works with BMC to manage hardware beyond BMC direct management.  
+B) BMA uses in-hand to obtain hardware data, evaluates data plane performance, and assists in hardware planning.  
+C) BMA can be integrated with the out-of-band system through SmartKit mapping to realize complete server management.  
+D) BMA provides standard Redfish management interfaces to the upper-layer management software BMC.
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO: No explanations.

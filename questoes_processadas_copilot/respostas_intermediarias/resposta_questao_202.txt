@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 202
+==================================================
+
+ENUNCIADO: What is the function of the export command in bash?
+
+ITENS:  
+A) Runs commands in a subshell.  
+B) Enables the command history to be used in the subshell.  
+C) Sets environment variables for other applications.  
+D) Provides the NFS partition to other systems on the network.
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO: Congratulations, you got it in. My Score: 5score. Correct answer: C.

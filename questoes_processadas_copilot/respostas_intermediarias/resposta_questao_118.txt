@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 118
+==================================================
+
+ENUNCIADO: Which of the following statements is true about the epiphernet data decryption provided by the built-in accelerator engine of Huawei Kunpeng processors?
+
+ITENS:  
+A) The accelerator engine is located in the PCIe data encryption card.  
+B) Encrypted data is read from drives and then processed by the CPU.  
+C) Data keys stored on drives must be encrypted.  
+D) Patient data can only be transmitted through the on-chip bus but not through the PCIe bus.
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO: (não há explicação exibida na imagem)

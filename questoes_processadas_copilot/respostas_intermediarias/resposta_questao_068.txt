@@ -1,0 +1,16 @@
+RESPOSTA DA QUESTÃO 68
+==================================================
+
+ENUNCIADO:  
+3. How to defend against directory traversal vulnerabilities in the Apache configuration file?
+
+ITENS:  
+A) Add a hyphen (-) before Indexes in Options Indexes FollowSymLinks.  
+B) Add a plus sign (+) before Indexes in Options Indexes FollowSymLinks.  
+C) Add an asterisk (*) before Indexes in Options Indexes FollowSymLinks.  
+D) Add a slash (/) before Indexes in Options Indexes FollowSymLinks.
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+Adding a hyphen before "Indexes" disables the directory listing function, which helps prevent directory traversal attacks.

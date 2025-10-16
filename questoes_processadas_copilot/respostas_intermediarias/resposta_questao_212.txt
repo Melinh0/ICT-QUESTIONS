@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 212
+==================================================
+
+ENUNCIADO: How often is the openGauss WDR snapshot executed by default?
+
+ITENS:  
+A) 30 minutes  
+B) 60 minutes  
+C) 120 minutes  
+D) 360 minutes
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: By default, openGauss WDR snapshot data is collected every hour (i.e., snapshot_interval = 1h). The default value of wdr_snapshot_interval is 1h (i.e., 60 minutes). Therefore, we can determine that the answer is 60 minutes, that is B.

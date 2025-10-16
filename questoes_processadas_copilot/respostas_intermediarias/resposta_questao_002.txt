@@ -1,0 +1,22 @@
+RESPOSTA DA QUESTÃO 2
+==================================================
+
+ENUNCIADO:  
+Sobre o Salt, ferramenta de gerenciamento de configuração e automação, assinale a alternativa FALSA.
+
+ITENS:  
+A) O Salt envia comandos remotos pela porta 4505.  
+B) Os arquivos SLS do Salt podem ser indentados apenas por espaços.  
+C) Quando um minion é iniciado pela primeira vez, o "minion.pem" é gerado automaticamente no caminho especificado em "etc/salt/minion".  
+D) Se o valor de "acceptance_wait_time_max" no arquivo "salt-master" do Salt for 0, a reconexão após falha não é aceita.
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO:  
+- A alternativa A está correta: o Salt envia portas de usuário remoto em 4505 por padrão para escutar solicitações de conexão de minions e comandos remotos.  
+- A alternativa B está correta: os arquivos SLS (Salt State) devem ser indentados apenas por espaços, não por tabulações.  
+- A alternativa C está correta: quando um minion do Salt é iniciado pela primeira vez, ele cria um arquivo chamado "minion.pem" no caminho especificado no arquivo de configuração do minion.  
+- A alternativa D está incorreta: o parâmetro "acceptance_wait_time_max" define o tempo máximo que o Salt espera para que uma chave de minion seja aceita.  
+  - Definir como 0 não significa que a reconexão após falha não é aceita.  
+  - Esse parâmetro controla o tempo que o master aceita solicitações de conexão após uma falha.  
+  - O processo de reconexão inclui o processo de conexão e reconexão após timeout de "salt-run" e "salt-auth".

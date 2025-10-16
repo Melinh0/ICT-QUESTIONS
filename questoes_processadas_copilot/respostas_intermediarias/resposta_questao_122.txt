@@ -1,0 +1,15 @@
+RESPOSTA DA QUESTÃO 122
+==================================================
+
+ENUNCIADO:  
+82. In openEuler, the memory allocated by 'malloc', a dynamic memory allocation function, is physically continuous.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+Answer Explanations:  
+In Linux, including openEuler, the 'malloc' function dynamically allocates memory on the heap. The memory allocated by 'malloc' is continuous in the virtual address space, but may be discontinuous in the physical memory space. This is because the Linux kernel implements virtual memory to run programs and threads that translate the virtual memory to its location in physical memory. Moreover, Linux divides all memory in pages, and adjacent virtual memory addresses may be mapped to different physical memory pages. Therefore, the memory allocated by 'malloc' may not be continuous in the physical memory.

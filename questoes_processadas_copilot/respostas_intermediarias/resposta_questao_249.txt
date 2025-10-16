@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 249
+==================================================
+
+ENUNCIADO: Before installing the openEuler operating system, you need to change BIOS settings. Which of the following statements about the BIOS settings are true?
+
+ITENS:  
+A) BIOS settings allow the machine to identify storage devices, such as HDDs and CD-ROM drives, and correctly read installation files.  
+B) BIOS settings can be used to detect and adjust hardware parameters to ensure normal running of hardware devices.  
+C) BIOS settings allow you to set the boot sequence to ensure that the operating system can boot from the correct device.  
+D) BIOS settings allow you to change the startup password of the computer to protect the system from unauthorized access.
+
+ITEM CORRETO: ABCD
+
+EXPLICAÇÃO:  
+A: BIOS settings allow the machine to identify storage devices, such as HDDs and CD-ROM drives, and correctly read installation files.  
+B: BIOS settings can be used to detect and adjust hardware parameters to ensure normal running of hardware devices.  
+C: BIOS settings allow you to set the boot sequence to ensure that the operating system can boot from the correct device.  
+D: BIOS settings allow you to change the startup password of the computer to protect the system from unauthorized access.

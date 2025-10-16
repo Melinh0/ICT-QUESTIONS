@@ -1,0 +1,14 @@
+{
+  "numero": 12,
+  "texto_completo": "ENUNCIADO: A virtual machine (VM) has 2 GB of memory. What is the recommended swap partition size when openEuler is installed on the VM?\nITENS:\nA) [não fornecido]  \nB) [não fornecido]  \nC) [não fornecido]  \nD) [não fornecido]  \nITEM CORRETO:  \nEXPLICAÇÃO:",
+  "enunciado": "A virtual machine (VM) has 2 GB of memory. What is the recommended swap partition size when openEuler is installed on the VM?",
+  "itens": {
+    "A": "[não fornecido]",
+    "B": "[não fornecido]",
+    "C": "[não fornecido]",
+    "D": "[não fornecido]"
+  },
+  "item_correto": "E",
+  "tem_gabarito": true,
+  "explicacao": ""
+}

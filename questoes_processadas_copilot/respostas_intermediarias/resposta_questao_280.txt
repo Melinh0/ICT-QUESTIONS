@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 280
+==================================================
+
+ENUNCIADO:  
+Which of the following statements about the "free -m" command is true?
+
+ITENS:  
+A) In the output, the unit is MB.  
+B) In the output, the unit is KB.  
+C) This command is used to check the free drive space.  
+D) This command is used to check the free CPUs.
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+Option A: This is the true statement. "free -m" is used to display the usage of the physical memory and swap memory in the Linux system. The "-m" option is a common option that makes the output of the "free" command in MB (megabytes).  
+Option B: This is incorrect. Although the "free" command may be run by itself as (kb) kilobytes, the built-in option "-m" makes the output in MB.  
+Option C: This is incorrect. "free -m" is used to view the usage of the system memory (RAM) and swap space, showing sizes related to drive space. To check free drive space, use the "df" command.  
+Option D: This is incorrect. This answer is not related to the "free" command. It is used to check the concept of space. Therefore, to check the free/available CPU space, use the "vm" CPU usage, or "top", "htop", "vmstat", or "mpstat".

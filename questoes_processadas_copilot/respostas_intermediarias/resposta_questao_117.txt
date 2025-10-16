@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 117
+==================================================
+
+ENUNCIADO: 2. Which of the following commands can be used to change the permissions on a file?
+
+ITENS:  
+A) attrib  
+B) chmod  
+C) change  
+D) file  
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: Congratulations, you got it! My Score:5score Correct answer:B.

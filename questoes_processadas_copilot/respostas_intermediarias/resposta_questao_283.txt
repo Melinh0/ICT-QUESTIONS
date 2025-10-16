@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 283
+==================================================
+
+ENUNCIADO: Which of the following statements about openGauss logical decoding are false?
+
+ITENS:  
+A) The logical decoding function generates logical logs by decoding Xlogs.  
+B) Logical decoding is supported on the cascaded standby node.  
+C) After the database where a logical replication slot resides is deleted, the replication slot becomes unavailable and needs to be manually deleted.  
+D) A replication slot can be used simultaneously by the primary and standby nodes or multiple standby nodes for decoding.
+
+ITEM CORRETO: B, D
+
+EXPLICAÇÃO:  
+1. This is true. openGauss database provides logical decoding to generate logical logs by decoding Xlogs.  
+2. This is false. Logical decoding is not supported on the cascaded standby node.  
+3. This is true. When the database where the logical replication slot resides is deleted, the related replication slot usually becomes unavailable. However, the specific system configuration and management mechanism require the replication slot to be manually deleted. This statement highlights a possible scenario.  
+4. This is false. A replication slot represents a stream of changes that can be re-inserted in other databases or in the one they were originally generated in. These slots maintain a fixed position in the WAL logs. In openGauss, a replication slot can be used only by the primary and multiple standby nodes or multiple standby nodes for decoding.

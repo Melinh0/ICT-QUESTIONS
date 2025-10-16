@@ -1,0 +1,16 @@
+RESPOSTA DA QUESTÃO 93
+==================================================
+
+ENUNCIADO:  
+During slow-start, TCP allows a burst of data to be quickly transmitted between movements in half the estimation of the RTT (Round Trip Time) giving greater reading and transmission latency.
+
+ITENS:  
+A)  
+B)  
+C)  
+D)
+
+ITEM CORRETO: A, B, C, or D
+
+EXPLICAÇÃO:  
+In conclusion, the answer is A, B, C, or D.

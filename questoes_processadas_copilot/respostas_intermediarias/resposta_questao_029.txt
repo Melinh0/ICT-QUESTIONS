@@ -1,0 +1,22 @@
+RESPOSTA DA QUESTÃO 29
+==================================================
+
+ENUNCIADO:  
+69. By default, the database system administrator has the highest database permissions. To mitigate risks associated with the centralized permissions held by the system administrator, you can configure the separation-of-duties function during actual service management. Which two members can be granted the same permissions system administrators have?
+
+ITENS:  
+A) Audit administrator  
+B) Security administrator  
+C) System administrator  
+D) Initial user
+
+ITEM CORRETO: A e C
+
+EXPLICAÇÃO:  
+Answer Explanation:  
+Separation of duties is a database security management mechanism. This mechanism divides database management permissions into three independent domains to prevent excessive centralization of management permissions, resulting security risks and ensuring database security. Under the separation-of-duties mechanism, the permissions of the database system administrator are properly assigned to other two members to implement balancing.  
+- Option A: The audit administrator is responsible for auditing database operations and has the same permissions as the system administrator.  
+- Option B: The security administrator is responsible for managing database users and their permissions. The permissions of the security administrator are limited and do not overlap with those of the system administrator.  
+- Option C: The system administrator is responsible for routine maintenance of the database. The permissions of the database system administrator are assigned to multiple members in functions divided by highly technical expertise.  
+- Option D: The initial user is the first user created after the database is installed. The initial user has the same permissions as the system administrator, but the permissions are not divided by technical expertise.  
+Therefore, the correct answer is A and C. The permissions of the audit administrator and the system administrator overlap with the scope of separation of duties.

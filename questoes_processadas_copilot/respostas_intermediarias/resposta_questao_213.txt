@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 213
+==================================================
+
+ENUNCIADO: Which of the following tools is commonly used by openGauss to collect logs?
+
+ITENS:  
+A) gs_stack  
+B) gs_checks  
+C) gs_checkperf  
+D) gs_collector  
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO:  
+- Option A: gs_stack is used to check the openGauss running environment, OS environment, network environment, and database execution environment. This tool is mainly used for preventive checks instead of collecting logs.  
+- Option B: gs_checks is a tool of openGauss used to check the OS, control parameters, and disk configuration, and confirms the system control parameters, I/O configuration, network configuration, etc. It is also not used for collecting logs.  
+- Option C: gs_checkperf is a performance diagnosis tool of openGauss, specifically to check the performance of openGauss nodes, including CPU, memory, and disk performance. It is unrelated to the collection of logs.  
+- Option D: gs_collector is an information collection tool provided by openGauss to collect OS information, DB information, and configuration files and locate problems when openGauss is faulty. This tool locates the function of collecting logs, which is consistent with the description in the question.

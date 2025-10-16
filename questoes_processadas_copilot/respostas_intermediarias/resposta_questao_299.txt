@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 299
+==================================================
+
+ENUNCIADO:  
+56. Which of the following are advantages of the ext4 file system?
+
+ITENS:  
+A) High performance and reliability  
+B) Data security protection  
+C) Compatibility with all Linux distributions  
+D) Defragmentation that improves file system availability
+
+ITEM CORRETO: ABD
+
+EXPLICAÇÃO:  
+- Option A is true: ext4 is an advanced level of ext3, which incorporates scalability and reliability enhancements for supporting large file systems and extended inode.  
+- Option B is true: ext4 provides features such as journaling, which helps increase the consistency of the file system after the system crashes, including check and repair utilities, such as "e2fsck", which make ext4 secure.  
+- Option C is false: Although ext4 is widely supported in later Linux releases, it is not compatible with all Linux releases. In particular, earlier Linux releases may not support the ext4 file system.  
+- Option D is true: ext4 supports file system defragmentation, which helps increase the file system availability.

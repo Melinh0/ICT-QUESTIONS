@@ -1,0 +1,22 @@
+RESPOSTA DA QUESTÃO 313
+==================================================
+
+ENUNCIADO:  
+48. Before installing openGauss, you do not need to disable the OS firewall for security purposes.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+Before openGauss installation, OS firewall and SELinux should be disabled to ensure the proper running of openGauss and data security. Currently, openGauss can be installed only when the firewall is disabled. Disabling the firewall or configuring firewall rules is important to ensure data security.
+
+Actual installation requirements: During openGauss installation, the ports for communicating with the database should be enabled to allow necessary network traffic to pass through. However, not only enabling the ports is not enough to ensure security. Other security measures need to be established.
+
+Before openGauss installation, the high-security architecture could overload openGauss ports and protocols to pass through and interrupt the installation process. Disabling the firewall is the only solution.
+
+If the firewall is enabled, even configuring firewall rules strictly or correctly will not ensure the proper running of openGauss, including behaviors of configuring structure-related areas. Access restrictions will not be authorized, hence the need to disable the firewall.
+
+In most cases, to ensure the proper running of openGauss, it is necessary to disable the firewall or SELinux before the installation, or at least configure firewall rules to allow openGauss ports and protocols to pass through. Therefore, the answer is F.

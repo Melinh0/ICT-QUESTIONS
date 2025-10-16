@@ -1,0 +1,23 @@
+RESPOSTA DA QUESTÃO 176
+==================================================
+
+ENUNCIADO:  
+47. The order of precedence of logical operators is AND > OR > NOT.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+Answer Explanation:  
+In most programming languages, the order of precedence of logical operators is as follows:  
+1. NOT operator (!)  
+2. AND operator (&&)  
+3. OR operator (||)  
+The NOT operator has the highest precedence, followed by AND and then OR. This is similar to the order of "multiplication and division before addition and subtraction" in mathematical operations.  
+For example, for a logical expression:  
+A && B || !C  
+The order is as follows. First, !C is calculated first (because the NOT operator has the highest precedence). A && B, the previous result is then ANDed (because the AND operator has the second highest priority), and finally the result (!C) is calculated with OR (because the OR operator has the lowest precedence).  
+Therefore, the answer is False, as the correct order of precedence is NOT > AND > OR. According to this rule, we can correctly evaluate complex logical expressions.

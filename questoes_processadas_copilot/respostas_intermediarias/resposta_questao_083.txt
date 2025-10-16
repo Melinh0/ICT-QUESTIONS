@@ -1,0 +1,16 @@
+RESPOSTA DA QUESTÃO 83
+==================================================
+
+ENUNCIADO:  
+1. On openEuler, which of the following commands can be used to view the OS version information?
+
+ITENS:  
+A) uname  
+B) lscpu  
+C) free  
+D) cat /etc/os-release
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO:  
+Congratulations, you got it! My Score:5score Correct answer:D

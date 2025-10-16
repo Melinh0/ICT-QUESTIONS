@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 130
+==================================================
+
+ENUNCIADO: 1. Which of the following is a block device in most Linux distributions?
+
+ITENS:  
+A) Serial port  
+B) Drive  
+C) Virtual terminal  
+D) Printer
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: ✔️ Congratulations, you got it! My Score: 5score Correct answer: B

@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 146
+==================================================
+
+ENUNCIADO:  
+56. openEuler is a single-user, multi-tasking operating system.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+Answer Explanation:  
+In a "single-user" system, only one user can directly use the computer system and its resources at a time without resource sharing. However, openEuler allows multiple users to log in simultaneously and supports indirect access by sharing system resources.  
+"Multitasking" refers to the ability of an OS to run multiple processes or threads simultaneously, achieving concurrent execution of multiple tasks. Through task scheduling by the kernel, openEuler can execute multiple processes or threads simultaneously.  
+A single-user CPU or in parallel on a multi-core CPU in a multi-user system. openEuler fully utilizes CPU resources and improves efficiency.  
+Therefore, the statement in the question is false.

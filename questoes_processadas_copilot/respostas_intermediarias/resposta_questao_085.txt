@@ -1,0 +1,20 @@
+RESPOSTA DA QUESTÃO 85
+==================================================
+
+ENUNCIADO:  
+33. Which of the following statements about the secGear technical architecture are false?
+
+ITENS:  
+A) The vertical federated learning feature of the base layer of secGear cannot shield TEE differences.  
+B) The service layer of secGear provides the switches feature, which is based on memory sharing.  
+C) The middle layer of secGear provides the switch channel feature as libraries, including the client and server host libraries.  
+D) The client and server host of the secure channel feature provided by the middle layer of the secGear are invoked by the client and server CA of the service program respectively.
+
+ITEM CORRETO: ABC
+
+EXPLICAÇÃO:  
+This statement is incorrect. The vertical federated learning feature of secGear is designed to be independent of secure execution environment (TEE) differences and offer unified interfaces and secure services to achieve TEE independence.  
+This statement is incorrect. The switches feature of secGear is a typical library implementation based on security mechanisms such as trusted execution, mutual attestation, and memory sharing and guarantees the security of the switchable feature. A TEE does not support memory sharing.  
+This statement is incorrect. The switch channel feature is used for security communication between the client and server, and there are client-side and server-side implementations for establishing secure communication between the client and server. The switch channel feature is not provided as libraries.  
+This statement is correct. The secure channel feature is used for security communication between the client and server, which is invoked by the client and server CA of the service program respectively.  
+Thus, the correct answers are A, B, and C.

@@ -1,0 +1,28 @@
+RESPOSTA DA QUESTÃO 196
+==================================================
+
+ENUNCIADO:  
+15. Permissions of a file in Linux consist of four parts. Which of the following is represented by the third part?
+
+ITENS:  
+A) File Type  
+B) Permissions of the file owner  
+C) Permissions of the group to which the file owner belongs  
+D) Permissions of other users
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO:  
+Answer Explanation:  
+In the permissions of a file in Linux, the third part is permissions of the group to which the file owner belongs. The permissions on a file are presented in the following order:  
+1. File type  
+2. Permissions of the file owner  
+3. Permissions of the group to which the file owner belongs  
+4. Permissions of other users  
+
+A file's permissions are typically represented by a 10-bit value, each bit representing the read (r), write (w), and execute (x) permissions of the file owner, group, and others.  
+
+Option A is incorrect. File type is the first part of the permissions.  
+Option B is incorrect. Permissions of the file owner is the second part.  
+Option D is incorrect. Permissions of other users is the fourth part.  
+Option C is correct. Permissions of the group to which the file owner belongs is the third part. Understanding the order helps properly identify each component of the file permissions.

@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 161
+==================================================
+
+ENUNCIADO: Which of the following location rules of Nginx is incorrect?
+
+ITENS:  
+A) location /  
+B) location =/  
+C) location ^~ /1m.[txt|js]$  
+D) location =/index.html
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+A: This rule is correct. This rule is used to match any request because it is a prefix match and does not specify any specific path.  
+B: This rule is incorrect. The equal sign (=) indicates an exact match, so this will only match requests with a URI of "/".  
+C: This rule is incorrect. In Nginx location blocks, the use of regex should be indicated with a tilde (~), not a caret (^) followed by a tilde (~). A typical regex uses a caret to indicate the start of a string.  
+D: This rule is correct. However, in this example, it is used to specify an exact match, which is unnecessary and makes the rule less effective. There is nothing to escape after it. A correct regular expression might look like "location ~ \.(js|mp4)$", which can match any URI ending in "txt" or "js".

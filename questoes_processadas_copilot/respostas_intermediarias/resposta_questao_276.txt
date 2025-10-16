@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 276
+==================================================
+
+ENUNCIADO:  
+13. Qual das seguintes afirmações sobre o pg_basebackup é falsa?
+
+ITENS:  
+A) pg_basebackup usa o protocolo de replicação para copiar fisicamente os arquivos binários do banco de dados.  
+B) pg_basebackup pode iniciar um link de replicação a partir de um cliente.  
+C) pg_basebackup suporta backup incremental.  
+D) Se o diretório pg_xlog for um link simbólico, você precisa movê-lo para o caminho de destino após o backup.
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO:  
+A opção A está correta. O pg_basebackup usa o protocolo de replicação para copiar os arquivos binários.  
+A opção B está correta. O pg_basebackup pode iniciar um link de replicação a partir de um cliente.  
+A opção C está incorreta. O pg_basebackup não suporta backup incremental.  
+A opção D está correta. Se o pg_xlog for um link simbólico, ele deve ser movido para o caminho de destino após o backup.

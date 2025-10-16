@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 180
+==================================================
+
+ENUNCIADO:  
+Which of the following statements about foreground and background processes are true?
+
+ITENS:  
+A) Foreground processes have a lower priority than background processes.  
+B) Background processes have a lower priority than foreground processes.  
+C) A daemon process in Linux is a special background process that is independent of the terminal and periodically executes tasks or waits to be resumed.  
+D) A foreground process is a process with a control terminal to be used by a user.
+
+ITEM CORRETO: B, C, D
+
+EXPLICAÇÃO:  
+Option A is incorrect because foreground processes are processes with which users directly interact and typically have a higher priority.  
+Option B is correct because background processes are not directly interacted with by users and generally have lower priority.  
+Option C is correct because daemon processes are special background processes that run independently of the terminal.  
+Option D is correct because foreground processes are associated with a control terminal used by the user.

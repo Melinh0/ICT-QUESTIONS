@@ -1,0 +1,22 @@
+RESPOSTA DA QUESTÃO 82
+==================================================
+
+ENUNCIADO:  
+41. After multiple DELETE operations are performed on a database, periodic index rebuilds can improve query efficiency. Which of the following statements about index rebuild are true?
+
+ITENS:  
+A) If a large amount of data is deleted, the index keys on the index pages are deleted. As a result, the number of index pages decreases, causing index lookup data. Rebuilding indexes can reduce wasted space.  
+B) In a newly created index, pages with logically adjacent structures tend to be physically adjacent. Therefore, index re-creation achieves a higher access speed than an index updated multiple times.  
+C) Rebuilding indexes using REINDEX does not block read and write operations.  
+D) If you run the DROP INDEX statement to delete an index and then run the CREATE INDEX statement to create a new index, a temporary exclusive lock will be added to the parent table to block read and write operations.
+
+ITEM CORRETO: ABD
+
+EXPLICAÇÃO:  
+After multiple DELETE operations are performed on a table, the related index entries are also deleted. However, the index pages are not deleted. If the number of index pages is large, the index lookup efficiency is affected. Therefore, you are advised to periodically rebuild indexes to delete the index pages with a small amount of data and improve the index lookup efficiency.
+
+In addition, index pages are stored in the database in the sequence of index creation. If the index is updated multiple times, the index pages are scattered. As a result, the index access efficiency is affected. Therefore, you are advised to periodically rebuild indexes to store the index pages in sequence so that the index access efficiency is improved.
+
+Rebuilding indexes using REINDEX blocks read and write operations. If you want to rebuild indexes without blocking read and write operations, you can use online index rebuild operations, such as using REINDEX or equivalent operations supported by some databases. These operations do not block read and write operations.
+
+If you run the DROP INDEX statement to delete an index and then run the CREATE INDEX statement to create a new index, a temporary exclusive lock will be added to the parent table to block read and write operations. Therefore, A, B, and D are true.

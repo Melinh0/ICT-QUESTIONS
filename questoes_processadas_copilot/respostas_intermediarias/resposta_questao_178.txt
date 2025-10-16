@@ -1,0 +1,28 @@
+RESPOSTA DA QUESTÃO 178
+==================================================
+
+ENUNCIADO:  
+51. The "mount" command can be used only to mount a file system. It cannot be used to view the mounting status.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+Answer : False
+
+Answer Explanation:  
+The "mount" command can be used to mount file systems and view mounted file systems.  
+1. Mounting file systems: The "mount" command is used to mount a device or file system to a mount point, for example: mount /dev/sda1 /mnt.  
+2. Viewing mounted file systems: If "mount" is executed without any options or parameters, it lists all mounted file systems, including their device name, mount point, type, mount options.  
+3. The "mount" command can also be used to mount file systems over a network. It is a common tool for file system management.
+
+Some common "mount" command usages:  
+- "mount" : mounts all file systems specified in "/etc/fstab".  
+- "mount /dev/sda1 /mnt" : mounts the specified device to the mount point.  
+- "mount -o options" : specifies mount options.  
+- "mount -t type" : specifies the file system type.
+
+Therefore, the statement in the question is false. The "mount" command has both functions.

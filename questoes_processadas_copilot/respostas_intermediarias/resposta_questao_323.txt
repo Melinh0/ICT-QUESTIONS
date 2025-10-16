@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 323
+==================================================
+
+ENUNCIADO:  
+7. Which of the following is the fully-encrypted equality query capability provided by openGauss?
+
+ITENS:  
+A) Data is encrypted during storage and decrypted during computing.  
+B) Data is encrypted during storage and computing and decrypted when it is returned to the client.  
+C) Data is encrypted during transmission, storage, and computing and cannot be decrypted.  
+D) Data is encrypted during storage and decrypted using the dynamic key provided by the application during computing.
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO:  
+Option C is correct. The fully-encrypted equality query capability provided by openGauss ensures that data is encrypted during transmission, storage, and computing and cannot be decrypted. This guarantees data security throughout the entire lifecycle.  
+Option A is incorrect because it only encrypts data during storage.  
+Option B is incorrect because it decrypts data when returned to the client, which may pose a security risk.  
+Option D is incorrect because it relies on a dynamic key provided by the application, which may not be secure enough.

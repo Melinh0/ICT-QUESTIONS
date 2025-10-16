@@ -1,0 +1,13 @@
+RESPOSTA DA QUESTÃO 254
+==================================================
+
+ENUNCIADO:  
+18. eService can collect server logs and analyze device faults, risks, and health status based on the collected logs.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO: Nothing

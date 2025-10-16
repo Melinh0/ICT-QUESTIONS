@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 195
+==================================================
+
+ENUNCIADO:  
+3. FusionCompute and KVM are virtualization O/S software options that virtualize hardware resources and manages virtual resources.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: Sorry, your answer was wrong. Score: 0 Point(s).  
+Answer Explanations: Nothing.

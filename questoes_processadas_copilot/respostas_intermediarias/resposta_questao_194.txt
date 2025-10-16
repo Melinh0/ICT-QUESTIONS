@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 194
+==================================================
+
+ENUNCIADO:  
+1. Qual a função do comando set PS1="[\u@\h \W]\$ " ; export PS1?
+
+ITENS:  
+A) Alterar a mensagem de erro.  
+B) Alterar o prompt de comando.  
+C) Alterar alguns parâmetros do terminal.  
+D) Alterar o prompt de comando auxiliar.
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+Parabéns, você acertou em  
+Minha Pontuação: 5score  
+Resposta correta: B

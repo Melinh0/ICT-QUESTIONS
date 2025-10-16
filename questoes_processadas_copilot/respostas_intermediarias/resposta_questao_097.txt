@@ -1,0 +1,13 @@
+RESPOSTA DA QUESTÃO 97
+==================================================
+
+ENUNCIADO:  
+8. The Unified Extensible Firmware Interface (UEFI) is a personal computer system interface and an open and standard hardware management interface specification, which defines a specific method for communications between embedded management subsystems.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: Nothing.

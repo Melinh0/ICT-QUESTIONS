@@ -1,0 +1,15 @@
+RESPOSTA DA QUESTÃO 28
+==================================================
+
+ENUNCIADO:  
+45. A CPU is a super-scale integrated circuit that acts as the computing and control cores of a computer. Which of the following are essential functions of a CPU?
+
+ITENS:  
+A) Instruction control  
+B) Network control  
+C) Time control  
+D) Operation control  
+
+ITEM CORRETO: ACD
+
+EXPLICAÇÃO: Nothing.

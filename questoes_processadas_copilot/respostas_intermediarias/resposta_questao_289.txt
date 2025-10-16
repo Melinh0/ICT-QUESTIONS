@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 289
+==================================================
+
+ENUNCIADO:  
+Which of the following methods can be used to create a task in SaltStack?
+
+ITENS:  
+A) Create a task running a Python script.  
+B) Create a task from a YAML file.  
+C) Create a task from an XML file.  
+D) Create a task running a shell script.
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+Option A: Although the system built on SaltStack is written in Python and supports extensive execution of Python scripts, creating new tasks directly in Python is not supported. SaltStack uses descriptive configuration files to define and manage tasks.  
+Option B: SaltStack uses YAML files to define configuration management tasks. These files are applied to Salt minions to ensure the system is in the desired state.  
+Option C: XML is not supported as a standard method for creating tasks in SaltStack.  
+Option D: Shell scripts can be executed using SaltStack, but this is not a standard method for creating new tasks. SaltStack uses YAML files to define configuration tasks.

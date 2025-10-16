@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 148
+==================================================
+
+ENUNCIADO: Which of the following is NOT a function provided by gs_om?
+
+ITENS:  
+A) Start and stop the openGauss database.  
+B) Check the OS, control parameters, and disk configurations.  
+C) Generate static configuration files and update dynamic configuration files.  
+D) Display the help information and version number.
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: gs_om is a tool used to manage the openGauss database. It can start and stop the database, generate static configuration files and update dynamic configuration files, and display help information and version number. However, it does not check the OS, control parameters, and disk configurations.

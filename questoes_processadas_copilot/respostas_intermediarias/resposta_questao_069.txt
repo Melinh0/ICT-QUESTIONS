@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 69
+==================================================
+
+ENUNCIADO: Memory is a crucial component of a server, enabling communications between the storage and the CPU. Which of the following is not a type of memory?
+
+ITENS:  
+A) Random access memory (RAM)  
+B) Read-only memory (ROM)  
+C) Cache  
+D) Hard disk drive (HDD)
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO: Nothing.

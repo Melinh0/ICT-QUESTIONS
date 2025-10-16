@@ -1,0 +1,20 @@
+RESPOSTA DA QUESTÃO 179
+==================================================
+
+ENUNCIADO:  
+18. Which of the following statements is false about gs_dump and gs_dumpall?
+
+ITENS:  
+A) Both gs_dump and gs_dumpall can be used to export database information.  
+B) gs_dumpall can export all complete and consistent data from the openGauss database.  
+C) When gs_dump is used to export database information, the database can still be accessed.  
+D) The database cannot be accessed when gs_dumpall is exporting data from the database.
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO:  
+gs_dump is a tool used to export certain database information. Users can export all databases or the objects (such as schemas, tables, and views). gs_dumpall is used to export all database information, including all objects of the database (postgres) user-related data, all common and individual global objects of openGauss database.  
+gs_dump and gs_dumpall can be used to export database information.  
+When gs_dump is used to export database information, the database can still be accessed.  
+When gs_dumpall is used to export data, it can export all complete and consistent data from the openGauss database. When gs_dumpall is used to export data, it can still be used to export data. In fact, it is similar to gs_dump, and gs_dumpall can still be used to export data when the database is accessed.  
+The database can still be accessed when gs_dumpall is exporting data.

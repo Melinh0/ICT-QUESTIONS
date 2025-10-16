@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 216
+==================================================
+
+ENUNCIADO:  
+Which of the following statements about the procedure for the SQL engine to execute SQL statements are true?
+
+ITENS:  
+A) Syntax & lexical parsing: converts the formatted structure into objects that can be recognized by the database.  
+B) Query rewriting: converts the formatted structure into an internal representation that is usable for query execution.  
+C) Query optimization: plans the execution mode of SQL statements (that is, the execution plan) based on the output of query rewriting and the internal database statistics.  
+D) Query execution: executes SQL query statements based on the execution path planned in query optimization.
+
+ITEM CORRETO: A, C, D
+
+EXPLICAÇÃO:  
+- Syntax & lexical parsing converts SQL statements into abstract syntax trees (ASTs) or other internal representations.  
+- Query rewriting modifies the query to optimize performance but does not convert the formatted structure into an internal representation.  
+- Query optimization plans the execution mode using internal database statistics.  
+- Query execution executes SQL statements based on the execution path planned in query optimization.

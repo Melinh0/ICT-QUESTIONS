@@ -1,0 +1,20 @@
+RESPOSTA DA QUESTÃO 285
+==================================================
+
+ENUNCIADO:  
+30. Which of the following table clearance operations support transaction rollback?
+
+ITENS:  
+A) TRUNCATE  
+B) DROP  
+C) DELETE  
+D) VACUUM
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO:  
+On transaction operations, transaction rollback is not necessarily supported among different table clearance operations.  
+Option A: In MySQL, TRUNCATE is a DDL operation that does not support transaction rollback. However, in PostgreSQL, a transaction can be rolled back after the TRUNCATE operation.  
+Option B: DROP TABLE is considered a DDL operation and does not support transaction rollback in most databases.  
+Option C: The DELETE statement is used to delete rows and meets specific conditions to roll back in time. It supports transaction rollback in most databases.  
+Option D: VACUUM is used to reclaim storage and is not a table clearance operation that supports transaction rollback.

@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 156
+==================================================
+
+ENUNCIADO: Which of the following power-supply operations are available on the virtual console of Atlas 800?
+
+ITENS:  
+A) Power-on  
+B) Forced power-on  
+C) Power-off  
+D) Forced power cycle  
+
+ITEM CORRETO: ACD
+
+EXPLICAÇÃO: Nothing

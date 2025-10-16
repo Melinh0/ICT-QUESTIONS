@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 304
+==================================================
+
+ENUNCIADO:  
+Which of the following statements about x2openEuler are true?
+
+ITENS:  
+A) The migration tool for openEuler is x2openEuler.  
+B) The x2openEuler architecture consists of the server and the node to be upgraded.  
+C) x2openEuler supports simultaneous OS upgrade of 1,000 hosts.  
+D) x2openEuler supports in-place migration.
+
+ITEM CORRETO: A, B, C, D
+
+EXPLICAÇÃO:  
+- A: True. x2openEuler is indeed a migration tool for migrating a source OS to openEuler.  
+- B: True. x2openEuler consists of a server and a client. The server refers to the machine where x2openEuler is installed, and the client is the machine running the OS that requires kernel upgrade. That is, the node to be upgraded.  
+- C: True. x2openEuler is capable of upgrading 1,000 hosts simultaneously.  
+- D: True. The core function of x2openEuler is in-place migration. In the context of x2openEuler, in-place migration means that the OS is upgraded to another version or migrated to another OS while preserving the user data, configurations, and applications.

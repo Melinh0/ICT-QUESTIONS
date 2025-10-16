@@ -1,0 +1,28 @@
+RESPOSTA DA QUESTÃO 37
+==================================================
+
+ENUNCIADO:  
+57. When you run the "mkdir" command to create a directory, use the "-p" option to create any parent directory that does not already exist.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+When you run "mkdir" to create a directory in Linux but its parent directory does not exist, you use the "-p" or "--parents" option. These options automatically create any missing parent directories.  
+
+Assume that you want to create the "/path/to/newdir" directory.  
+
+If you run a command without the "-p" option:  
+mkdir /path/to/newdir  
+The system reports an error because the intermediate path "/path/to/newdir" does not exist.  
+
+If you run a command with the "-p" option:  
+mkdir -p /path/to/newdir  
+The "mkdir" automatically creates the missing parent directory "/path/to/newdir" and then creates "newdir".  
+
+Therefore, the "-p" option is essential when creating nested directories. It prevents unnecessary execution of directories at a very deep level, adding layer of convenience. It is one of the most commonly used options of "mkdir".  
+
+Therefore, the statement "When you run the 'mkdir' command to create a directory, use the '-p' option to create any parent directory that does not already exist." is True.

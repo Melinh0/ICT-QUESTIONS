@@ -1,0 +1,16 @@
+RESPOSTA DA QUESTÃO 171
+==================================================
+
+ENUNCIADO:  
+1. Which of the following Linux commands can be used to display contents one page at a time?
+
+ITENS:  
+A) pause  
+B) cat  
+C) more  
+D) grep  
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO:  
+Congratulations, you got it! My Score: 5score Correct answer: C

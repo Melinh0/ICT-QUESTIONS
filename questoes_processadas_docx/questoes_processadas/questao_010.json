@@ -1,0 +1,12 @@
+{
+  "numero": 10,
+  "texto_completo": "ENUNCIADO: No Linux, processos com maior prioridade são executados preferencialmente. Um valor PRI mais alto indica maior prioridade de processo.\nITENS:\nA) True  \nB) False  \nITEM CORRETO: B\nEXPLICAÇÃO: Um valor PRI mais baixo indica maior prioridade.",
+  "enunciado": "No Linux, processos com maior prioridade são executados preferencialmente. Um valor PRI mais alto indica maior prioridade de processo.",
+  "itens": {
+    "A": "True",
+    "B": "False"
+  },
+  "item_correto": "B",
+  "tem_gabarito": true,
+  "explicacao": "Um valor PRI mais baixo indica maior prioridade."
+}

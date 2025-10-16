@@ -1,0 +1,15 @@
+RESPOSTA DA QUESTÃO 288
+==================================================
+
+ENUNCIADO:  
+53. StratoVirt allows you to adjust the number of drives, NICs, and passthrough devices during VM running.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+StratoVirt is a VM management system. The statement "allows you to adjust the number of drives, NICs, and passthrough devices during VM running" highlights the ability of StratoVirt to modify drives, network cards, and passthrough devices on the fly.  
+This description is accurate as StratoVirt does allow users to adjust hardware resources while VMs are running. Therefore, the statement in the question is true.

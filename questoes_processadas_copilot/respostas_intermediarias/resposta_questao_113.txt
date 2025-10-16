@@ -1,0 +1,22 @@
+RESPOSTA DA QUESTÃO 113
+==================================================
+
+ENUNCIADO:  
+Which of the following files are loaded by the shell when you log in to OpenELEC using the CLI or SSH?
+
+ITENS:  
+A) /etc/profile  
+B) ~/.bash_profile  
+C) ~/.profile  
+D) ~/.bashrc  
+
+ITEM CORRETO: A B C D
+
+EXPLICAÇÃO:  
+In the OpenELEC system (and other Linux-based systems), when you log in to the system using the CLI or SSH, the shell loads a series of configuration files based on different conditions.  
+The shell (sh-type) might load the following files:  
+- '/etc/profile' (system file)  
+- '~/.profile' (user-specific file)  
+- '~/.bash_profile' (user-specific file)  
+The shell will not or might not load the following files:  
+- '~/.bashrc' (normally loaded through '~/.bash_profile' if used by the user)

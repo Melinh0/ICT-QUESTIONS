@@ -1,0 +1,16 @@
+RESPOSTA DA QUESTÃO 165
+==================================================
+
+ENUNCIADO: Cloud computing has gone through several phases of development. Which of the following phases features cloud computing based on OpenStack and VMware?
+
+ITENS:  
+A) Cloud 1.0  
+B) Cloud 2.0  
+C) Cloud 3.0  
+D) Cloud 4.0
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: Sorry, your answer was wrong.  
+My Score: 0 Point(s)  
+Answer: B

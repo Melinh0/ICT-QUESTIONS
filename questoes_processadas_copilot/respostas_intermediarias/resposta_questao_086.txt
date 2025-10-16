@@ -1,0 +1,15 @@
+RESPOSTA DA QUESTÃO 86
+==================================================
+
+ENUNCIADO:  
+Which of the following commands is used to define the global shell variables?
+
+ITENS:  
+A) exports  
+B) alias  
+C) exports  
+D) export
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO: ✔️ Congratulations, you got it! My Score: 5score Correct answer: D

@@ -1,0 +1,12 @@
+RESPOSTA DA QUESTÃO 279
+==================================================
+
+ENUNCIADO: When deploying a mail server, if you choose not to store email user information in a MYSQL database, you need to create a system user for each email user.
+
+ITENS:
+A) True  
+B) False
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO: (sem conteúdo)

@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 186
+==================================================
+
+ENUNCIADO: The openEuler community evaluates vulnerabilities based on CVSS v3.0. Vulnerabilities with a score higher than 7 will be fixed within 14 days.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+Answer Explanation:  
+The Common Vulnerability Scoring System (CVSS) is an open framework for assessing vulnerability severity. Version 3.0 (v3.0) is the currently widely adopted version. The openEuler community's choice of using CVSS v3.0 to assess vulnerabilities is reasonable. The community aims to fix vulnerabilities scoring more than 7 within 14 days, as it is a part of their policy and goal. The statement in the question is true.

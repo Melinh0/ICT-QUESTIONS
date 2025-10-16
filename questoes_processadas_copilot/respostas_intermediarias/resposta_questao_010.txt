@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 10
+==================================================
+
+ENUNCIADO:  
+44. Which of the following statements about the upgrade of the openGauss database are true?
+
+ITENS:  
+A) Do not perform the upgrade and scale-out/in at the same time.  
+B) Services must be stopped during the in-place upgrade. The gray upgrade supports all service types.  
+C) If the upgrade fails due to an exception, you need to manually roll back the upgrade. The next upgrade can be performed only after the rollback is successful.  
+D) To perform upgrade, ensure that the GUC parameter enable_stream_replication is set to off.
+
+ITEM CORRETO: ABC
+
+EXPLICAÇÃO:  
+1. During the upgrade of the openGauss database, do not perform the upgrade and scale-out/in at the same time. This is to ensure stability of the upgrade process.  
+2. Services must be stopped during the in-place upgrade, which may cause upgrade failures if not done.  
+3. If the upgrade fails due to an exception, services are stopped, and rollback is needed to proceed with another upgrade attempt. After rollback is successful, the GUC parameters configured during the upgrade must be restored.  
+4. To perform the upgrade, the usage of openGauss is not specified that the GUC parameter enable_stream_replication needs to be set to off. Therefore, D is inaccurate.

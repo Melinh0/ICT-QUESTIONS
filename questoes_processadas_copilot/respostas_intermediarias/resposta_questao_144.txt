@@ -1,0 +1,16 @@
+RESPOSTA DA QUESTÃO 144
+==================================================
+
+ENUNCIADO: When the cp command is used to copy a file, which directory is the file to be copied in by default?
+
+ITENS:  
+A) Home directory of the user  
+B) /home  
+C) /root  
+D) Current directory
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO: Congratulations, you got it in  
+My Score: 5score  
+Correct answer: D

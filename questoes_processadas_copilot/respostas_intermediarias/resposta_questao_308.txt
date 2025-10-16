@@ -1,0 +1,15 @@
+RESPOSTA DA QUESTÃO 308
+==================================================
+
+ENUNCIADO: 83. "$#" in a shell script obtains the number of arguments supplied to the script.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO: In a shell script, "$#" is a special variable used to obtain the number of arguments passed to a script or function. When you run a script on the CLI and pass some arguments, you can use "$#" inside the script to get the number of arguments. For example:  
+If you run the script and pass three arguments, such as "./script.sh arg1 arg2 arg3", the output is as follows:  
+3  
+"$#" correctly outputs the number of arguments, while "$@" indicates all arguments in a list.

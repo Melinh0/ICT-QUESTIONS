@@ -1,0 +1,15 @@
+RESPOSTA DA QUESTÃO 270
+==================================================
+
+ENUNCIADO:  
+27. A server uses system software to manage various independent hardware within a computer system. Which of the following software is used to collect, process, and store sensor signals, and monitors the operating status of each component?
+
+ITENS:  
+A) BMC  
+B) BIMA  
+C) BIOS  
+D) UEFI
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO: Nothing

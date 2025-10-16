@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 73
+==================================================
+
+ENUNCIADO:  
+Which of the following commands can be used to view information about the CPUs, swap partition, and drives of a Linux server?
+
+ITENS:  
+A) cat /proc/cpuinfo  
+B) ls -lh  
+C) cat /proc/swaps  
+D) df -h  
+
+ITEM CORRETO: A, C
+
+EXPLICAÇÃO:  
+- Option A is correct: The command displays CPU information, including the model, cache size, and number of CPU cores.  
+- Option B is incorrect: The "ls" command is used to view the server storage usage of directories and files.  
+- Option C is correct: The command displays information about the server swap partition, including its size and usage.  
+- Option D is incorrect: The "df" command is used to view the server storage usage of the file system. It does not provide swap partition or CPU information.

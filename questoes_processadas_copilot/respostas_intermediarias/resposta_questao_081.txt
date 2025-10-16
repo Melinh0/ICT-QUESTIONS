@@ -1,0 +1,21 @@
+RESPOSTA DA QUESTÃO 81
+==================================================
+
+ENUNCIADO:  
+60. What state can PITR restore data to after backup and archive?
+
+ITENS:  
+A) A restoration point created by pg_create_restore_point()  
+B) A specified timestamp  
+C) A transaction ID  
+D) A specified LSN of the logs  
+
+ITEM CORRETO: ABD
+
+EXPLICAÇÃO:  
+Answer Explanations:  
+- Point-in-time recovery (PITR) is a feature that allows a database to be restored to a specific state after backup and archiving.  
+- Option A: This is true in some database systems, such as PostgreSQL, you can use the pg_create_restore_point() function to create a named restoration point. PITR can restore data based on this restoration point.  
+- Option B: This is true. PITR allows a database to be restored to a specified timestamp to ensure that the database state is consistent with the state at a certain time point.  
+- Option C: This is false. PITR does not allow restoration to a specific transaction ID. While some database systems support internal transaction identifiers, PITR supports restoration based on timestamps, named restoration points, or log sequence numbers (LSNs), not transaction IDs.  
+- Option D: This is true. PITR can restore a database to a specified Log Sequence Number (LSN), which is a marker used in write-ahead logging to indicate a specific point in the database's history.

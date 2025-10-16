@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 269
+==================================================
+
+ENUNCIADO: What is the function of the cron daemon?
+
+ITENS:  
+A) Shares files on the network.  
+B) Manages the printing subsystem.  
+C) Traces and manages system information and errors.  
+D) Manages the scheduling of routine tasks.
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO: Congratulations, you got it! My Score: 5score Correct answer: D

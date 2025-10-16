@@ -1,0 +1,15 @@
+RESPOSTA DA QUESTÃO 67
+==================================================
+
+ENUNCIADO:  
+41. Which of the following products are base software in the Kunpeng high-performance computing architecture?
+
+ITENS:  
+A) openEuler  
+B) openGauss  
+C) FusionPoD  
+D) OpenStack  
+
+ITEM CORRETO: AB
+
+EXPLICAÇÃO: Nothing.

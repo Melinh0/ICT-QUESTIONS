@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 137
+==================================================
+
+ENUNCIADO: Which of the following commands is used to rebuild openGauss standby nodes?
+
+ITENS:  
+A) gs_sql  
+B) gs_expansion  
+C) gs_puc  
+D) gs_encrypt
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+Option A: gs_sql is a database connection tool provided by openGauss. It is used to connect to, operate, and maintain the server, but is not used to rebuild standby nodes.  
+Option B: gs_expansion is used to rebuild cluster nodes, including adding standby nodes.  
+Option C: gs_puc is used to modify DUC parameters and is not relevant to rebuilding standby nodes.  
+Option D: gs_encrypt is an encryption tool, which is irrelevant to rebuilding standby nodes.

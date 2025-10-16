@@ -1,0 +1,12 @@
+RESPOSTA DA QUESTÃO 203
+==================================================
+
+ENUNCIADO: 77: "smb.conf" is the core configuration file of Samba.
+
+ITENS:  
+A) True  
+B) False  
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO: "The smb.conf file is the Samba configuration file, which contains the runtime configurations of the Samba program. This file is necessary for the normal operating of the Samba server. It contains various configuration options of the Samba server, such as the settings of shared directories, access control, and user authentication. It is the most important configuration file of the Samba server."

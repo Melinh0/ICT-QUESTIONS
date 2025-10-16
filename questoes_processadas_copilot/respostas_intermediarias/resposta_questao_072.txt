@@ -1,0 +1,37 @@
+RESPOSTA DA QUESTÃO 72
+==================================================
+
+Claro! Aqui está a transcrição fiel do conteúdo da imagem, organizada exatamente no formato solicitado:
+
+---
+
+**ENUNCIADO:**  
+B: This is true. A newly created index is typically compact in physical storage, and logically adjacent entries tend to be physically adjacent as well, which can reduce I/O operations and improve query performance. In contrast, indexes that have been inserted, deleted, and updated for multiple times may become fragmented and deteriorate the performance. Therefore, B is true.
+
+C: This is false. The REINDEX operation (or equivalent index recreating operation) usually requires an exclusive lock (for example, the ACCESS EXCLUSIVE lock in PostgreSQL databases), which means that it blocks other read and write operations on the index during its execution. Although some database systems may offer an option for online index recreation, this does not mean it will not block any operations. It may simply manage locks in a finer-grained manner to minimize the impact on concurrent operations. Therefore, C is false.
+
+D: Deleting and recreating indexes requires exclusive locks on the respective index structures, especially in transactional databases. DROP INDEX needs to delete all data structures related to the index and may require exclusive locks to ensure consistency. Also, CREATE INDEX also requires exclusive locks to re-create the index structure. Therefore, during both operations, read and write operations that attempt to access the index are blocked. This statement is correct.
+
+In conclusion, the answers are A, B, and D.
+
+---
+
+**ITENS:**  
+A) *(Não presente na imagem, mas mencionado na conclusão como correto)*  
+B) This is true. A newly created index is typically compact in physical storage, and logically adjacent entries tend to be physically adjacent as well, which can reduce I/O operations and improve query performance. In contrast, indexes that have been inserted, deleted, and updated for multiple times may become fragmented and deteriorate the performance. Therefore, B is true.  
+C) This is false. The REINDEX operation (or equivalent index recreating operation) usually requires an exclusive lock (for example, the ACCESS EXCLUSIVE lock in PostgreSQL databases), which means that it blocks other read and write operations on the index during its execution. Although some database systems may offer an option for online index recreation, this does not mean it will not block any operations. It may simply manage locks in a finer-grained manner to minimize the impact on concurrent operations. Therefore, C is false.  
+D) Deleting and recreating indexes requires exclusive locks on the respective index structures, especially in transactional databases. DROP INDEX needs to delete all data structures related to the index and may require exclusive locks to ensure consistency. Also, CREATE INDEX also requires exclusive locks to re-create the index structure. Therefore, during both operations, read and write operations that attempt to access the index are blocked. This statement is correct.  
+E) *(Não presente na imagem)*
+
+---
+
+**ITEM CORRETO:** A, B e D
+
+**EXPLICAÇÃO:**  
+B: This is true. A newly created index is typically compact in physical storage, and logically adjacent entries tend to be physically adjacent as well, which can reduce I/O operations and improve query performance. In contrast, indexes that have been inserted, deleted, and updated for multiple times may become fragmented and deteriorate the performance. Therefore, B is true.
+
+C: This is false. The REINDEX operation (or equivalent index recreating operation) usually requires an exclusive lock (for example, the ACCESS EXCLUSIVE lock in PostgreSQL databases), which means that it blocks other read and write operations on the index during its execution. Although some database systems may offer an option for online index recreation, this does not mean it will not block any operations. It may simply manage locks in a finer-grained manner to minimize the impact on concurrent operations. Therefore, C is false.
+
+D: Deleting and recreating indexes requires exclusive locks on the respective index structures, especially in transactional databases. DROP INDEX needs to delete all data structures related to the index and may require exclusive locks to ensure consistency. Also, CREATE INDEX also requires exclusive locks to re-create the index structure. Therefore, during both operations, read and write operations that attempt to access the index are blocked. This statement is correct.
+
+In conclusion, the answers are A, B, and D.

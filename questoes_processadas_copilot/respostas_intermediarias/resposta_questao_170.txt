@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 170
+==================================================
+
+ENUNCIADO: Which of the following statements about links is incorrect?
+
+ITENS:  
+A) A hard link points the inode number of the link file to the inode of the linked file.  
+B) Both the hard link and symbolic link generate new inodes.  
+C) Links include hard links and symbolic links.  
+D) Hard links cannot point to directories.
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: Congratulations, you got it! My Score: 5score Correct answer: B

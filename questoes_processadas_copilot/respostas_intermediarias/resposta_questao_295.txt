@@ -1,0 +1,16 @@
+RESPOSTA DA QUESTÃO 295
+==================================================
+
+ENUNCIADO:  
+52. Which of the following methods allow you to view the installation screen when you install an OS on Atlas 800?
+
+ITENS:  
+A) Logging in to the Atlas 800 server and viewing the virtual console  
+B) Connecting a monitor to the server using a VGA cable  
+C) Connecting a serial cable to the server serial port and using VNC software  
+D) Connecting a monitor to the server using a serial cable
+
+ITEM CORRETO: AB
+
+EXPLICAÇÃO:  
+Congratulations! Your answer was correct. My Score: 2 (Points) Answer: AB

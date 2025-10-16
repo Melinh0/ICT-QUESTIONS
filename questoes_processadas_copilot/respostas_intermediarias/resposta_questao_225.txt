@@ -1,0 +1,21 @@
+RESPOSTA DA QUESTÃO 225
+==================================================
+
+ENUNCIADO:  
+25. Which of the following commands can be executed only by the root user?
+
+ITENS:  
+A) gps_checkperf  
+B) gps_checks  
+C) gps_check  
+D) gp_ssh
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+Answer Explanations:  
+- The requirements for using root are as follows:  
+  - gps_checkperf is used by root to check the openGaus performance, including the SSD performance. Although the "root" user is mentioned in the example command for checking SSD performance, it is not specified that the "root" user must be used to perform all gps_checkperf functions. Only specific functions such as SSD checks require the "root" user.  
+  - gps_checks is used by the administrator to check the OS status. Only the root user can execute this command.  
+  - gps_check is used by the administrator to check various fields in the current system and helps users check the cluster operating environment, OS environment, network environment, and database operating environment. The "root" user is not required to execute this command.  
+  - gp_ssh is used to execute commands on multiple remote segments in the openGauss cluster environment. It is based on the SSH protocol but provides more convenient cluster management functions. You can use it to execute commands on a single node, a grouping cluster management and maintenance, and so on. It is used as an SQL tool. It is not specified to use gp_ssh as a specific OS user (for example, the "omm" user) to execute the command. It is not specified that the "root" user must be used to execute this check. Therefore, the answer is A.

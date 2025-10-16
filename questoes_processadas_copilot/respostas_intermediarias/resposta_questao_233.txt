@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 233
+==================================================
+
+ENUNCIADO:  
+26. Which of the following are the functions of the "systemctl" command?
+
+ITENS:  
+A) Collecting serial port information of the OS  
+B) Viewing and controlling system services  
+C) Starting, restarting, and stopping services  
+D) Restarting and shutting down the system
+
+ITEM CORRETO: B, C, D
+
+EXPLICAÇÃO:  
+Option A: Incorrect, as "systemctl" is not used for managing serial port information.  
+Option B: Correct, "systemctl" is used to view and control system services.  
+Option C: Correct, "systemctl" can start, restart, and stop system services.  
+Option D: Correct, "systemctl" can be used to restart and shut down the system.

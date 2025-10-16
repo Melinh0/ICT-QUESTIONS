@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 207
+==================================================
+
+ENUNCIADO: 2. Which of the following characters is used to separate multiple commands in a line?
+
+ITENS:  
+A) @  
+B) $  
+C) ;  
+D) *  
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO: ✔️ Congratulations, you got it! My Score: 5score Correct answer: C

@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 234
+==================================================
+
+ENUNCIADO: Which of the following steps need to be performed during openGauss installation?
+
+ITENS:  
+A) Disable transparent huge pages.  
+B) Disable the firewall.  
+C) Disable the swap memory.  
+D) Unify the time zone and time.
+
+ITEM CORRETO: ABCD
+
+EXPLICAÇÃO:  
+- Option A: Transparent Huge Pages (THP) may affect the performance of the database. Therefore, you need to disable it before installing openGauss.  
+- Option B: The firewall can block network connections of the database. Turning off the firewall can avoid network communication problems during installation and configuration.  
+- Option C: To ensure the performance and stability of the database service, swap memory is usually disabled or set to a recommended value.  
+- Option D: Ensure that the time zone and time are correct. This is especially important for the database system because the timestamp plays a role in the time. If the time is different from the current time, you can copy the corresponding time zone file to the /etc/localtime directory and set the time zone.

@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 65
+==================================================
+
+ENUNCIADO: What is the execution effect of the "revoke create on schema public from public;" statement?
+
+ITENS:  
+A) The create permission in the public schema is revoked from all users.  
+B) The create permission in the public schema is revoked from public users.  
+C) An error is reported when this statement is executed.  
+D) This statement can be executed but has no effect.
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: This statement attempts to revoke the CREATE permission in the public schema from the 'PUBLIC' role (not 'any' user, because here we are not using the word 'user', and the two are the same concept in PostgreSQL).  
+- Option A: This is true when we have executed "DROP owned by PUBLIC".  
+- Option B: This is true, so the correct answer is B.  
+- Option C: This depends on the database system and context. In PostgreSQL (v15+), it is valid for a user who has the CREATE permission on the public schema, then this statement can be executed successfully.  
+- Option D: The 'PUBLIC' role includes every user in the database. So revoking the CREATE permission from the 'PUBLIC' role means that no user will be able to create objects in the public schema unless granted explicitly. So this statement will be effective and will return a message indicating successful execution.

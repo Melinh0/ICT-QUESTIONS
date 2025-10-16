@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 278
+==================================================
+
+ENUNCIADO:  
+80. iptables is a command line tool in the user space. You can use iptables to set security configurations for the data packet processing module netfilter in the Linux kernel.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+Answer Explanations:  
+iptables is a utility used to configure the Linux kernel firewall. In terms of process, iptables command is found in user mode and iptables service in kernel mode. Therefore, it is not accurate to say that iptables is located in the user space. It allows you to configure the data packet processing module netfilter in the Linux kernel through the CLI. In addition, the "iptables" command does not provide security configurations for the data packet processing module netfilter in the Linux kernel.  
+
+The netfilter framework for filtering and manipulating data packets in the Linux kernel. It provides functions such as data packet identification, network address translation (NAT), and routing decision making. iptables is the user-space interface of netfilter, which allows users to set rules for how data packets should be processed. Those rules are then used by netfilter to process data packets entering and leaving the Linux system.  
+
+Therefore, iptables is not a firewall tool located in the user space, but a tool used to configure the netfilter module in the Linux kernel.

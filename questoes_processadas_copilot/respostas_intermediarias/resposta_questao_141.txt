@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 141
+==================================================
+
+ENUNCIADO:  
+11. Which of the following Bash commands can be used to obtain the size of a file in bytes?
+
+ITENS:  
+A) wc -c filename  
+B) ls -l filename  
+C) ls -lh filename | awk '{print $5}'  
+D) du -h filename | awk '{print $1}'
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+- Option A: This command is used to count the number of times in a file related to obtaining the file size.  
+- Option B: The main syntax of this command is incorrect. The command should state "ls -lh filename". In this case, the "-lh" option of the "ls" command is used to output the file size in the specified format ("lh" indicates the file size).  
+- Option C: This command takes the detailed information about the file and pipes the output to the "awk" command that extracts the fifth column (usually the file size). This method is only valid in some cases. It depends on the output format of the "ls" command, the output is not standard and the exact size is not guaranteed.  
+- Option D: This command is incorrect, due to its order in directory or in a human-readable format and uses the "awk" command to extract the size of the file.

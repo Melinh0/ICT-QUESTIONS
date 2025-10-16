@@ -1,0 +1,17 @@
+RESPOSTA DA QUESTÃO 16
+==================================================
+
+ENUNCIADO:  
+53. A database system refers to a database management system.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+Database system and database management system (DBMS) are two different concepts, but they are closely related.  
+A database system is a system that includes not only a DBMS, but also databases, database applications, users, and software and hardware environments that support the running of database systems. The main function of a database system is to provide data storage, query and update, management functions, and ensure data integrity, security and consistency.  
+The DBMS is software that is responsible for data storage, its retrieval, saving and maintaining the database. The DBMS provides the data definition language (DDL), data manipulation language (DML), data control language (DCL), and transaction control language (TCL) to access and control the database. The DBMS also provides functions such as concurrency control, backup and recovery, and security control.  
+Therefore, the database system is a broader concept, which includes the DBMS and other components. Therefore, the answer is false.

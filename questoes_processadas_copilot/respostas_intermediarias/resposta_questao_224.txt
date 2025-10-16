@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 224
+==================================================
+
+ENUNCIADO:  
+37. Para atender aos requisitos de instalação do banco de dados openGauss, é necessário configurar os discos de forma adequada. Qual das seguintes afirmações está correta?
+
+ITENS:  
+A) Pelo menos 1 GB é necessário para instalar os aplicativos openGauss.  
+B) Cada host requer pelo menos 300 MB para armazenamento de metadados.  
+C) Pelo menos 30% do espaço restante deve ser reservado para armazenamento de dados.  
+D) Recomenda-se configurar RAID 1 como disco de sistema e RAID 5 como disco de dados, e planejar quatro grupos de discos de dados RAID 5 para instalar o openGauss.
+
+ITEM CORRETO: ABD
+
+EXPLICAÇÃO:  
+A está correta.  
+B está correta.  
+C está incorreta. Recomenda-se reservar pelo menos 40% do espaço restante para armazenamento de dados.  
+D está correta.

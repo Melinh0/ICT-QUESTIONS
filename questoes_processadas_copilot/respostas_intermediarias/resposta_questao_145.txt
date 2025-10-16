@@ -1,0 +1,26 @@
+RESPOSTA DA QUESTÃO 145
+==================================================
+
+ENUNCIADO:  
+17. Which of the following is not a table of iptables?
+
+ITENS:  
+A) filter  
+B) nat  
+C) mangle  
+D) INPUT
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO:  
+"INPUT" is not a table of iptables. iptables is a firewall utility in Linux used to manage network packet filtering and Network Address Translation (NAT) rules. It mainly operates on the following tables:  
+- "filter": The main table to create firewall rules.  
+- "nat": Used to create NAT rules for DNAT operations, including source NAT (SNAT) and destination NAT (DNAT).  
+- "mangle": The "mangle" table is used to alter packets.  
+- "raw": The "raw" table is used to disable connection tracking.  
+"INPUT", "OUTPUT", and "FORWARD" are not tables but chains defined within the tables. These chains are used for packets in different scenarios:  
+- "INPUT" is used for incoming packets to the host.  
+- "OUTPUT" is used for outgoing packets from the host.  
+- "FORWARD" is used for packets that are forwarded through the host.  
+In iptables, rules are defined in chains of a table. INPUT is an important chain defined in the "filter" table. Therefore, the correct answer is D.  
+These tables have chains that are used to process and filter network traffic. The proper context is crucial to network security in Linux.

@@ -1,0 +1,28 @@
+RESPOSTA DA QUESTÃO 23
+==================================================
+
+ENUNCIADO:  
+37. If the garbage system is the "invariantly" distribution, which of the following algorithms can we use for sampling correctly?
+
+ITENS:  
+A) hard  
+B) varied  
+C) Invariantly Randomization  
+D) select-r  
+E) gsample-r  
+F) varied-r  
+G) Invariant Distribution  
+H) select-r  
+I) gsample-r  
+J) varied-r  
+K) gsample-r  
+L) varied  
+M) hard-r  
+N) Invariantly Randomization  
+O) select-r  
+P) varied-r  
+Q) gsample-r
+
+ITEM CORRETO: Q
+
+EXPLICAÇÃO: *(não há explicação visível na imagem)*

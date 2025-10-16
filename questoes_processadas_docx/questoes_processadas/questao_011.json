@@ -1,0 +1,12 @@
+{
+  "numero": 11,
+  "texto_completo": "ENUNCIADO: In openEuler, the permissions on a file are \"-rw-rw-r--\". Which of the following statements are true about this file?\nITENS:\nA) It is a directory file  \nB) The file owner can read and write the file  \nITEM CORRETO: B  \nEXPLICAÇÃO: As permissões indicam que o proprietário pode ler e escrever no arquivo.",
+  "enunciado": "In openEuler, the permissions on a file are \"-rw-rw-r--\". Which of the following statements are true about this file?",
+  "itens": {
+    "A": "It is a directory file",
+    "B": "The file owner can read and write the file"
+  },
+  "item_correto": "B",
+  "tem_gabarito": true,
+  "explicacao": "As permissões indicam que o proprietário pode ler e escrever no arquivo."
+}

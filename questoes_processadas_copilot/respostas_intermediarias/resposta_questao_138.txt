@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 138
+==================================================
+
+ENUNCIADO: Which of the following statements are true about the openGauss database auxiliary thread?
+
+ITENS:  
+A) WAL writer is responsible for writing permanent records of committed transactions to WAL files.  
+B) WAL writer is responsible for copying the dirty data in the doublewrite area and then flushing the data to disks.  
+C) Checkpointer is used to periodically check the points at which dirty pages are flushed to disks to ensure database consistency.  
+D) Autovacuum is used to collect statistics on objects, SQL statements, sessions, and locks and store the statistics in the pgstat.stat file.
+
+ITEM CORRETO: ABC
+
+EXPLICAÇÃO: For the description of the openGauss database auxiliary thread, the options are analyzed as follows:
+
+- Option A: WAL writer is responsible for writing permanent records of committed transactions to WAL files. This is True. The WAL writer thread periodically synchronizes the contents in the buffer to disk to ensure the persistence of transaction records.  
+- Option B: WAL writer is responsible for copying the dirty data in the doublewrite area and then flushing the data to disks. This is False. The function of the final page writer thread is to flush dirty pages in the buffer pool to disks.  
+- Option C: Checkpointer is used to periodically check the points at which dirty pages are flushed to disks to ensure database consistency. This is True. The Checkpointer thread processes all major operations of checkpoints. Checkpoints are used to ensure database consistency and reduce the recovery time.  
+- Option D: Autovacuum is used to collect statistics on objects, SQL statements, sessions, and locks and store the statistics in the pgstat.stat file. This is False. Autovacuum is used to periodically delete obsolete data and update statistics. The statistics collector thread collects statistics on sessions, SQL statements, and locks and stores the statistics in the "pgstat.stat" file.

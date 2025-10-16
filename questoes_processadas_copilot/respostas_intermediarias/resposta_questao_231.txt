@@ -1,0 +1,20 @@
+RESPOSTA DA QUESTÃO 231
+==================================================
+
+ENUNCIADO:  
+21. Which of the following is not a necessary component of the default SSH service of openEuler?
+
+ITENS:  
+A) openssh  
+B) openssh-askpass  
+C) openssh-server  
+D) openssh-clients
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+Option B: openssh-askpass is not a necessary component of the default SSH service of openEuler. Other options are SSH-related software packages installed with openEuler by default.  
+Option A: The openssh package manages packages of OpenSSH and contains some source code and script files.  
+Option C: The openssh-server package provides the server-side that provides the SSH server function.  
+Option D: The openssh-clients package provides the client-side that provides the SSH client function.  
+The openssh-askpass is used to provide the passphrase assistant program for graphical environments and is not required in command-line environments.

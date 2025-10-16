@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 292
+==================================================
+
+ENUNCIADO: Which of the following permissions is not required for running a script?
+
+ITENS:  
+A) Read  
+B) Write  
+C) Execute  
+D) Directory browsing
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: Congratulations, you got it! My Score: 5score Correct answer: B

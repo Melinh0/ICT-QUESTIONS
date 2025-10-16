@@ -1,0 +1,24 @@
+RESPOSTA DA QUESTÃO 154
+==================================================
+
+ENUNCIADO:  
+Which of the following situations a WDR cannot be generated?
+
+ITENS:  
+A) A node restarts between two snapshots.  
+B) A TRUNCATE TABLE operation is executed between two snapshots.  
+C) A switch is performed between two snapshots.  
+D) A DROP DATABASE operation is executed between two snapshots.
+
+ITEM CORRETO: A, C, D
+
+EXPLICAÇÃO:  
+Upon investigation, WDRs are generated based on node restarts to diagnose and analyze database performance problems. The following analysis illustrates when a WDR cannot be generated:
+
+A. Node restarts between two snapshots: WDRs cannot be generated if a node restarts between two snapshots. After the node restarts, the snapshot before the restart is lost, and the snapshot after the restart does not include the lost snapshot. Therefore, a WDR cannot be generated.
+
+B. TRUNCATE TABLE operation is executed between two snapshots: Supported. The TRUNCATE TABLE operation deletes all rows in a table, but does not affect the generation of snapshots. As such, the WDR generation is not affected.
+
+C. A switch is performed between two snapshots: WDRs cannot be generated if a switch occurs between two snapshots. After the switch, the snapshot before the switch is lost, and the snapshot after the switch does not include the lost snapshot. Therefore, a WDR cannot be generated.
+
+D. DROP DATABASE operation is executed between two snapshots: WDRs cannot be generated if the DROP DATABASE operation deletes the entire database, which affects snapshots and prevents the generation of a WDR. Therefore, if a DROP DATABASE operation is performed between two snapshots, a WDR cannot be generated.

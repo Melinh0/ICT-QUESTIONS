@@ -1,0 +1,15 @@
+RESPOSTA DA QUESTÃO 282
+==================================================
+
+ENUNCIADO:  
+50. MindX features "2+1+X", where "2" indicates two enablement platforms. Which of the following are the two enablement platforms?
+
+ITENS:  
+A) ModeZoo  
+B) MindX DL  
+C) MindX Edge  
+D) mvVision
+
+ITEM CORRETO: B C
+
+EXPLICAÇÃO: Nothing

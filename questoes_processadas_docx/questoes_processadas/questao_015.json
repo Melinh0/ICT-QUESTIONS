@@ -1,0 +1,14 @@
+{
+  "numero": 15,
+  "texto_completo": "ENUNCIADO: Which of the following command is used to search a file for a character string that matches a specific pattern or search a directory for a specific file?\nITENS:\nA) grep  \nB) gzip  \nC) find  \nD) look  \nITEM CORRETO:  \nEXPLICAÇÃO:",
+  "enunciado": "Which of the following command is used to search a file for a character string that matches a specific pattern or search a directory for a specific file?",
+  "itens": {
+    "A": "grep",
+    "B": "gzip",
+    "C": "find",
+    "D": "look"
+  },
+  "item_correto": "E",
+  "tem_gabarito": true,
+  "explicacao": ""
+}

@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 116
+==================================================
+
+ENUNCIADO:  
+51. If Git is used to submit code to openEuler and the PR has not been merged, forcible synchronization fails.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+When a developer submits code to openEuler through Git and creates an unmerged pull request (PR), a forcible synchronization attempt will fail. openEuler uses Git as its version control system. A developer modifies code on a local branch and then submits a PR to merge the code into a remote openEuler repository. Until the PR is merged, the commit history of the openEuler repository does not match that of the local branch. Forcing a synchronization will fail because of the commit history of the remote repository. Therefore, complying with the best practices of Git, openEuler projects usually prohibit the forced commit history of the repositories. Developers must wait for their PRs to be merged before the synchronization. Therefore, the statement in the question is true.

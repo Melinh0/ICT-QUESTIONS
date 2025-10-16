@@ -1,0 +1,12 @@
+RESPOSTA DA QUESTÃO 321
+==================================================
+
+ENUNCIADO: 4. In the Kurpeng HPC solution, the hardware platform can be divided into computing, network, and storage subsystems.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO: Nothing

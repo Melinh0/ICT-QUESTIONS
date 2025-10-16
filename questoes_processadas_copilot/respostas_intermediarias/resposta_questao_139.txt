@@ -1,0 +1,15 @@
+RESPOSTA DA QUESTÃO 139
+==================================================
+
+ENUNCIADO:  
+5. Which of the following command is used to search a file for a character string that matches a specific pattern or search a directory for a specific file?
+
+ITENS:  
+A) grep  
+B) gzip  
+C) find  
+D) look  
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO: Congratulations, you got it! My Score: 5score Correct answer: C

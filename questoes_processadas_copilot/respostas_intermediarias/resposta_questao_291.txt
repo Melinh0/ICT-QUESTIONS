@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 291
+==================================================
+
+ENUNCIADO: 08. In openEuler, the niceness value of a process ranges from -20 to +20.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+Answer Explanations:  
+In openEuler and most Linux systems, the niceness value of a process ranges from -20 (high) to +19 (low), not from -20 to +20. The niceness value affects the process priority. A smaller value indicates a higher priority and a higher probability that the process is scheduled and executed by the CPU. In Linux, a positive niceness value indicates a lower priority, and a negative niceness value indicates a higher priority. The niceness value of a process ranges from -20 (highest priority) to +19 (lowest priority).

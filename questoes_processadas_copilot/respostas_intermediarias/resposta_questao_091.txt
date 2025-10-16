@@ -1,0 +1,22 @@
+RESPOSTA DA QUESTÃO 91
+==================================================
+
+ENUNCIADO:  
+34. Which of the following statements about flashback are true?
+
+ITENS:  
+A) Flashback query enables you to query a snapshot of a table at a certain time point in the past. This feature can view and logically rebuild uncommitted data deleted or modified by mistake.  
+B) Flashback table enables you to restore a table to a specific point in time. When only one table or a group of tables are logically damaged instead of the entire database, this feature can quickly restore the table to a specific time.  
+C) Flashback DROP enables you to restore tables dropped by mistake and their auxiliary structures, such as indexes and table constraints, from the recycle bin.  
+D) Flashback TRUNCATE enables you to restore tables truncated by mistake and restore the physical data of the truncated tables and indexes to the status before truncation.
+
+ITEM CORRETO: ABCD
+
+EXPLICAÇÃO:  
+Flashback query enables you to query the state of a table as it existed at a certain point in time and is part of a particular SQL. It reads data from the rollback segment within a certain point of time and restores the data to the state at that time. It can view and logically restore uncommitted data deleted or modified by mistake.
+
+Flashback table enables you to restore a table to a specific point in time or the deletion time. SQL statements are used to restore the table to the status before deletion. When only one table or a group of tables are logically damaged instead of the entire database, this feature can quickly restore the table to a specific time.
+
+Flashback DROP enables you to restore tables dropped by mistake and their auxiliary structures, such as indexes and table constraints, from the recycle bin.
+
+Flashback TRUNCATE enables you to restore tables truncated by mistake and restore the physical data of the truncated tables and indexes to the status before truncation. Oracle database and PostgreSQL database support this feature, which includes the function of restoring missing indexes.

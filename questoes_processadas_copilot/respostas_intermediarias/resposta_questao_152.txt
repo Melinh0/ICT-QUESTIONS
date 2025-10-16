@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 152
+==================================================
+
+ENUNCIADO: Which of the following are the advantages of Apache over Nginx?
+
+ITENS:  
+A) Apache is suitable for dynamic page requests.  
+B) The rewrite function of Apache is more powerful.  
+C) The functions of Apache are highly integrated.  
+D) Apache can adapt to higher concurrency.
+
+ITEM CORRETO: ABC
+
+EXPLICAÇÃO:  
+- Option A: Apache supports dynamic page requests using various modules.  
+- Option B: Apache has a powerful rewrite function.  
+- Option C: Apache integrates various functions into its modules.  
+- Option D: Apache is not as efficient as Nginx in handling high concurrency.

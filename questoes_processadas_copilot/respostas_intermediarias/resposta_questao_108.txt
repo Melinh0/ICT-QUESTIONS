@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 108
+==================================================
+
+ENUNCIADO: Which of the following statements about the performance monitoring tools are true?
+
+ITENS:  
+A) The total CPU statistics displayed by "top" does not include the CPU time used by the OS.  
+B) "perf" records the consumption of a function by adding statistics code to the function.  
+C) sar obtains a large amount of data by continuously sampling the system, analyzes the sample data, and saves the data and analysis results to files. The load of "sar" is low.  
+D) "mpstat" is used to display the status of each available CPU in a multi-CPU environment.
+
+ITEM CORRETO: C, D
+
+EXPLICAÇÃO:  
+- "top" includes overall CPU usage including the OS.  
+- "perf" uses sampling and tracing to collect performance data.  
+- "sar" collects and saves performance data with low system load.  
+- "mpstat" displays CPU usage statistics for each processor.

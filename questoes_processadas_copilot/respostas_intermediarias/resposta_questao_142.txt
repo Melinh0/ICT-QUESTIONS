@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 142
+==================================================
+
+ENUNCIADO:  
+24. During the installation of openEuler using the Anaconda GUI, which directory of the boot image are the Anaconda logs stored in?
+
+ITENS:  
+A) /etc  
+B) /var  
+C) /tmp  
+D) /usr
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+- Option A: /etc — This directory is used to store system configuration files instead of installation logs.  
+- Option B: /var — This directory is used to store system log files and is used to store the Anaconda logs, install logs, journal logs, and cache files. Because the Anaconda logs are stored directly under /var in the boot image, they are stored in a subdirectory of /var.  
+- Option C: /tmp — This directory is used to store temporary files and is not used to store the Anaconda logs. However, /tmp is used as a temporary directory to store logs during the installation process. After installation, the logs are moved to a subdirectory of /var.  
+- Option D: /usr — This directory is used to store user-related data, which is irrelevant to the storage of the Anaconda logs.

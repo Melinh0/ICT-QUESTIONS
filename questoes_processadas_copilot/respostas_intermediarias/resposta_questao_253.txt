@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 253
+==================================================
+
+ENUNCIADO: Which of the following are health check scenarios?
+
+ITENS:  
+A) Check before openGauss installation  
+B) Setting automated WLM checkpoints  
+C) Pre-upgrade check  
+D) Check before important operations
+
+ITEM CORRETO: A, C
+
+EXPLICAÇÃO:  
+Option A: Check before openGauss installation. This is true. As part of compiling and installing openGauss 5.0.0, the environment check includes checking the OS version, checking the kernel, and checking the firewall and SELinux. These steps are required before installation.  
+Option B: Setting automated WLM checkpoints. This is false. This is actually part of the DPC performance parameter setting in openGauss, not a health check.  
+Option C: Pre-upgrade check. This is true. The version requirements and dependencies are checked before upgrading, ensuring the environment and database are suitable for the new version. This is a health check scenario.  
+Option D: Check before important operations. This is false. The health check tool of openGauss is used to comprehensively check dependencies before important operations, but it is not required before each operation. Hence, it is not a health check scenario.

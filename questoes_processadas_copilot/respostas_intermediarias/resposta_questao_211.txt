@@ -1,0 +1,16 @@
+RESPOSTA DA QUESTÃO 211
+==================================================
+
+ENUNCIADO:  
+3. If the umask value is 022, what is the default permission of a newly created file?
+
+ITENS:  
+A) --- -w- -w-  
+B) -w -w -w ---  
+C) r-x r-x r-x  
+D) rw- r-- r--
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO:  
+Congratulations, you got it! My Score: 5score Correct answer: D

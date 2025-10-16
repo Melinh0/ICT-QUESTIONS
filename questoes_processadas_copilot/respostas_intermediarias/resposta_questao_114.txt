@@ -1,0 +1,23 @@
+RESPOSTA DA QUESTÃO 114
+==================================================
+
+ENUNCIADO:  
+1. Which of the following statements is true about the fully-encrypted equality query capability of the openGauss database?
+
+ITENS:  
+A) Data is encrypted during storage and decrypted during computing.  
+B) Data is encrypted during storage and computing and decrypted when it is returned to the client.  
+C) Data is encrypted during transmission, storage, and computing and cannot be decrypted.  
+D) Data is encrypted during storage and decrypted using the dynamic key provided to the database during computing.
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO:  
+Fully homomorphic encryption (FHE) is an encryption technology that allows computation to be performed directly on ciphertext without decryption throughout the lifecycle (including transmission, storage, and computing).  
+Only authorized users with appropriate roles have permissions to access the key.  
+In the fully-encrypted equality query capability, equality comparison operations can be directly performed on ciphertext data without decryption. This ensures data is protected at every stage, especially in privacy-sensitive fields.  
+Option B: The result is returned to the client as ciphertext.  
+Option D: The dynamic key is used to decrypt ciphertext data only when the ciphertext is performed in the ciphertext domain and the data has not been decrypted. This is one of openGauss implementation.  
+Therefore, the correct answer is: C.  
+My Score: 0 Point(s)  
+Answer: C.

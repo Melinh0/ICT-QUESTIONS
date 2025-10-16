@@ -1,0 +1,12 @@
+RESPOSTA DA QUESTÃO 256
+==================================================
+
+ENUNCIADO: The result of SELECT CIRCLE '(0, 0), 1' << CIRCLE '(5,0), 1'; is TRUE.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO: This question is about the geometric operator << in the openGauss database. In openGauss, << is an operator that determines whether a geometric object is completely inside another geometric object. According to the expression in the question, assume that the two CIRCLEs are A and B, their centers are (0,0) and (5,0), and their radiuses are 1. Because the center of A is on the right of B, A is completely inside B. Therefore, the expression returns TRUE.

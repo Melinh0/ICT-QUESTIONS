@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 290
+==================================================
+
+ENUNCIADO: 3. How often is an LTS version of openEuler released?
+
+ITENS:  
+A) Every 3 months  
+B) Every 6 months  
+C) Every year  
+D) Every 2 years
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO: Congratulations, you got it! My Score:5score Correct answer:D

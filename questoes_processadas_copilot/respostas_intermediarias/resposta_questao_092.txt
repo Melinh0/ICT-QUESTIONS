@@ -1,0 +1,13 @@
+RESPOSTA DA QUESTÃO 92
+==================================================
+
+ENUNCIADO:  
+20. Before adding a server to FusionDirector, you must upload the product root certificate and CA certificate of the device vendor; otherwise, the server fails to be added.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: Nothing

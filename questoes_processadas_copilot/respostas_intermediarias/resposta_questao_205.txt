@@ -1,0 +1,30 @@
+RESPOSTA DA QUESTÃO 205
+==================================================
+
+ENUNCIADO:  
+3. In openEuler, which of the following characters is used to start a background process?
+
+ITENS:  
+A) &  
+B) @  
+C) !  
+D) $
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+& is used to start a background process in openEuler.  
+In the shell of a Linux/Unix OS, you can add '&' after a command to start and run it in the background.  
+
+Example:  
+$ someprogram &  
+
+The preceding command starts the 'someprogram' process in the background. The shell will output the number of the process so that you can use the 'jobs' command to view or control it.  
+If '&' is not added, 'someprogram' runs in the foreground and occupies the current terminal window until it exits.  
+
+Option '@' is a common element in email addresses, not used for this purpose.  
+Option '!' is used to execute commands from the history.  
+Option '$' is used to reference shell variables.  
+
+When using openEuler in the background can be helpful, it is important to note that there is no limit to how many processes a user can create. It depends on the system limit level and varies depending on the system configuration.  
+In conclusion, using '&' to start a command is the standard method for running a process in the background.

@@ -1,0 +1,21 @@
+RESPOSTA DA QUESTÃO 204
+==================================================
+
+ENUNCIADO:  
+59. The Vim editor is an improved version of vi. Vim includes the normal mode, insert mode, and command-line mode.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+The Vim (Vi IMproved) editor is indeed a more powerful text editor developed from the vi editor. Vim was launched by Bram Moolenaar in 1991 as an improvement and extension of vi.
+
+- Normal mode: In this mode, you can move the cursor, copy lines, and access frequently-used text operations.  
+- Insert mode: In this mode, you press shortcut keys to input, paste text, and enter edit mode.  
+- Insert mode: This mode lets you insert and edit text. You enter insert mode from normal mode by pressing 'i' or other designated keys.  
+- Command-line mode: This mode lets you perform editor commands like save the file, delete text, and search and replace text. It is typically accessed by typing ':' in normal mode.
+
+Therefore, the statement in the question is true.

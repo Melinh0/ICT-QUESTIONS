@@ -1,0 +1,12 @@
+RESPOSTA DA QUESTÃO 12
+==================================================
+
+ENUNCIADO: The development of the "first platform" represented by mainframe computers and the "second platform" represented by LANs and the Internet slows down. The "third platform" represented by cloud computing and big data has become the mainstream in the IT industry.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO: Congratulations! Your answer was correct. My Score: 15 Point(s) Answer: True.

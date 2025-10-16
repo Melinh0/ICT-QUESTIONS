@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 155
+==================================================
+
+ENUNCIADO:  
+18. If you mistakenly delete table data by using the delete command and insert new data, which of the following restoration methods can be used?
+
+ITENS:  
+A) Flashback vacuum  
+B) Flashback drop  
+C) Flashback truncate  
+D) Flashback table
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO:  
+Flashback vacuum is not a valid restoration method.  
+Flashback drop is used to restore a table that has been dropped using the "DROP" command.  
+Flashback truncate is used to restore tables that have been truncated using the "TRUNCATE" command.  
+Flashback table is used to restore tables to a previous state, including undoing changes made by the "DELETE" command.

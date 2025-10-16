@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 325
+==================================================
+
+ENUNCIADO: Which of the following is not a key technology for implementing RAID?
+
+ITENS:  
+A) Data replication  
+B) Data striping  
+C) Mirroring  
+D) Data parity
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO: Nothing.

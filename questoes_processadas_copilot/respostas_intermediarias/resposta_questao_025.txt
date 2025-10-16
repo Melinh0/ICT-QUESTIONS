@@ -1,0 +1,16 @@
+RESPOSTA DA QUESTÃO 25
+==================================================
+
+ENUNCIADO: To restart the Linux system while writing memory data to the drive, which of the following commands should be used?
+
+ITENS:  
+A) reboot  
+B) halt  
+C) reboot -f  
+D) shutdown -r now  
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO: ✔️ Congratulations, you got it!  
+My Score: 5score  
+Correct answer: D

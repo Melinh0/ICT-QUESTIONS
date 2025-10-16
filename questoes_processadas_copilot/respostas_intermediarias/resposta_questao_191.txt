@@ -1,0 +1,24 @@
+RESPOSTA DA QUESTÃO 191
+==================================================
+
+ENUNCIADO:  
+16. Which of the following functions is NOT provided by gs_guc?
+
+ITENS:  
+A) Modify the client authentication policy.  
+B) Modify parameter values in the configuration file.  
+C) Check the parameters in the configuration file.  
+D) Check the openGauss running status.
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO:  
+Checking the openGauss running status is not a function provided by gs_guc, a tool for managing Gauss parameters of openGauss. It provides the following functions:  
+- Option -A: Check the parameter values of different parameters of a database, such as -A all, -A all:postgres, and -A all:postgres:postgres.  
+- Option -N: Set the running status of gs_guc, not mainly used for modifying parameter values of the configuration file.  
+- Option -C: gs_guc can be used to check the parameter values in the configuration file.  
+- Option -I: gs_guc can be used to modify the parameter values in the configuration file.  
+- Option -M: gs_guc can be used to modify the running status of a database. For example:  
+  -M online, -M reload, -M restart  
+- gs_guc does not include functions for checking openGauss component.  
+Therefore, checking the running status of openGauss is not a gs_guc function. The correct answer is D.

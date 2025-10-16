@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 107
+==================================================
+
+ENUNCIADO:  
+Which of the following SQL statements grant all privileges to a user?
+
+ITENS:  
+A) GRANT ALL PRIVILEGES ON *.* TO 'username'@'localhost';  
+B) REVOKE ALL PRIVILEGES ON *.* FROM 'username'@'localhost';  
+C) GRANT SELECT, INSERT, UPDATE ON dbname.* TO 'username'@'localhost';  
+D) REVOKE SELECT, INSERT, UPDATE ON dbname.* FROM 'username'@'localhost';
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+This command grants all privileges on all SQL commands, making it the truly correct answer because the usage of "GRANT" and "REVOKE" commands has to be considered in the context of the operation.  
+This command operates with a "REVOKE" statement, which is used to remove privileges, not grant them. This makes it incorrect.  
+This command grants a few privileges on a specific database, not all privileges on all databases. This makes it incorrect.  
+This command operates with a "REVOKE" statement and removes the SELECT, INSERT, and UPDATE privileges on one database. This makes it incorrect.

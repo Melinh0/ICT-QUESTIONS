@@ -1,0 +1,16 @@
+RESPOSTA DA QUESTÃO 52
+==================================================
+
+ENUNCIADO:  
+2. What open-source protocol does openGauss use?
+
+ITENS:  
+A) MIT License  
+B) GNU General Public License  
+C) BSD License  
+D) Mulan PSL
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO:  
+The open-source protocol used by openGauss is Mulan Permissive Software License (Mulan PSL). Specifically, openGauss is an open-source, modern, elastic, full-stack relational database that supports raw stream, column-store, and in-memory storage. Due to its high performance, openGauss has been adopted by many enterprises. The open-source protocol used by openGauss is Mulan PSL v2, which is more friendly than Apache License, enabling users and medium-sized enterprises to use it freely without worrying about business issues. In addition, the protocol enables secure openness and transparency, making it easier for developers to collaborate and share code. The openGauss license is based on the Mulan PSL v2 protocol, deeply integrates Huawei's open experience in the database field and continuously builds more comprehensive open-source enterprise-level scenario requirements. openGauss is an open-source database platform that encourages community contributions and adoption.

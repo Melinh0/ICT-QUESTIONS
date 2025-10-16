@@ -1,0 +1,23 @@
+RESPOSTA DA QUESTÃO 135
+==================================================
+
+ENUNCIADO:  
+23. In openEuler, shortest job next (SJN) is a non-preemptive process scheduling algorithm. Assume that the times of arrival and execution durations of processes P1, P2, P3, and P4 are (0, 8), (2, 5), (4, 1), and (5, 4), respectively. If SJN is used, which of the following is the scheduling sequence?
+
+ITENS:  
+A) P1, P2, P3, P4  
+B) P1, P3, P2, P4  
+C) P1, P3, P4, P2  
+D) P1, P2, P4, P3
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO:  
+According to the given arrival times and execution times, the specific analysis of the scheduling sequence of SJN is as follows:  
+At time 0, process P1 arrives with an execution time of 8.  
+At time 2, process P2 arrives with an execution time of 5.  
+At time 4, process P3 arrives with an execution time of 1. Since the execution time of P3 is shorter than that of P2, P3 is executed next.  
+At time 5, process P4 arrives with an execution time of 4, which is shorter than the remaining time for P2 and P1 (P2: 5, P1: 5 execution time left).  
+Therefore, P4 is executed next.  
+Finally, P2 and P1 are executed.  
+In conclusion, the correct answer is C.

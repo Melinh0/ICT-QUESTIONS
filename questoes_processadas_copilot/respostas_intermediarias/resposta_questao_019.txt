@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 19
+==================================================
+
+ENUNCIADO: Which of the following statements about constraints are true?
+
+ITENS:  
+A) There are column-level and table-level constraints, but OpenGauss supports only column-level constraints.  
+B) Constraints can be specified only when a table is created using the CREATE TABLE statement.  
+C) A PRIMARY KEY constraint is a combination of a NOT NULL constraint and a UNIQUE constraint.  
+D) None of the above.
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO:  
+- Option A: This is false. Constraints can be either column-level or table-level. Column-level constraints apply only to columns, while table-level constraints apply to the entire table. OpenGauss supports both column-level and table-level constraints.  
+- Option B: This is false. Constraints can be created in a table through the CREATE TABLE statement or after the table is created using the ALTER TABLE statement.  
+- Option C: This is true. A PRIMARY KEY constraint ensures that the column(s) defined as the primary key must contain unique values and cannot be NULL. These are enforced using the NOT NULL and UNIQUE constraints.  
+- Option D: This is false, as Option C is correct.

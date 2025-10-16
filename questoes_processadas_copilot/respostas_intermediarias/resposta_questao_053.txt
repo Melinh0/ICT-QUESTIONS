@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 53
+==================================================
+
+ENUNCIADO: What is the first line of a bash shell script?
+
+ITENS:  
+A) #!/bin/bash  
+B) #!/bin/bash  
+C) #!/bin/csh  
+D) /bin/bash  
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO: ✔️ Congratulations, you got it in! My Score: 5score Correct answer: A

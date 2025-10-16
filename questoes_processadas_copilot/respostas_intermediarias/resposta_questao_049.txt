@@ -1,0 +1,22 @@
+RESPOSTA DA QUESTÃO 49
+==================================================
+
+ENUNCIADO: Which of the following items must be checked by the openGauss installation user when the gs_checkperf tool is used?
+
+ITENS:  
+A) SSD performance  
+B) openGauss performance  
+C) CPU usage  
+D) Memory usage
+
+ITEM CORRETO: C, D
+
+EXPLICAÇÃO: This question involves the performance of storage media, which affects the performance of databases. However, gs_checkperf focuses on the performance of database services rather than the performance of storage media.
+
+That is, the gs_checkperf tool is used to check the performance of the openGauss database. It provides metrics to help users learn about the database performance.
+
+Therefore, CPU usage and memory usage are important metrics that must be checked by the installation user to monitor the performance of openGauss. openGauss does not check the performance of SSDs. Therefore, CPU usage and memory usage are correct.
+
+Memory usage is also an important metric for measuring system performance, but it is not a main concern of gs_checkperf. Although memory usage affects database performance, this tool focuses more on CPU usage.
+
+In conclusion, the answer is B, C.

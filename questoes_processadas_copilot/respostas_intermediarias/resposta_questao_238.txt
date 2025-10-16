@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 238
+==================================================
+
+ENUNCIADO: What are the main reasons for using commands to maintain each table periodically?
+
+ITENS:  
+A) VACUUM FULL can recycle disk space occupied by outdated or deleted data and merge small-size data files.  
+B) VACUUM can maintain a visualized map for each table to track pages containing arrays visible to other active transactions.  
+C) VACUUM can prevent run away data loss due to the presence of transaction IDs when the number of executed transactions exceeds the database threshold.  
+D) ANALYZE can collect statistics on tables in databases.
+
+ITEM CORRETO: ABCD
+
+EXPLICAÇÃO:  
+- A. VACUUM FULL is used to recycle disk space occupied by deleted or outdated data and merge small-size data files. This is one of the main reasons to use the "VACUUM" command.  
+- B. VACUUM can be used to maintain a visualized map for each table to track pages that contain data visible to other active transactions. This is one of the main reasons to use the "VACUUM" command.  
+- C. VACUUM can be used to prevent data loss due to the presence of transaction IDs when the number of executed transactions exceeds the database threshold. This ensures that the system has sufficient time to execute the "VACUUM" command to recycle transaction IDs and avoid transaction ID wraparound.  
+- D. ANALYZE is used to collect relevant transaction IDs. This is also an important reason to run the "ANALYZE" command periodically.

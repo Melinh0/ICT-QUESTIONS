@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 33
+==================================================
+
+ENUNCIADO:  
+9. Which of the following SQL statements is incorrect?
+
+ITENS:  
+A) alter table emp add column adobcolumn int;  
+B) alter table emp delete column adobcolumn;  
+C) alter table emp change adobcolumn adobcolumn int;  
+D) alter table emp modify column adobcolumn char(10);
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+Statement A is correct.  
+Statement B is incorrect because "DELETE" is not a valid SQL syntax for removing a column.  
+Statement C is correct; "CHANGE" is used to rename a column and change its data type.  
+Statement D is correct; "MODIFY COLUMN" changes the data type of an existing column.

@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 316
+==================================================
+
+ENUNCIADO: Which of the following options can be configured on the openEuler installation page?
+
+ITENS:  
+A) Network and host name  
+B) Time and date  
+C) Software selection  
+D) User environment variables
+
+ITEM CORRETO: ABC
+
+EXPLICAÇÃO:  
+Option A: This option is correct. The installation page usually provides options for configuring network settings such as IP, the address and gateway, and host name.  
+Option B: This option is correct. The installer asks the user to confirm and set the time and date.  
+Option C: This option is correct. Most Linux distributions allow users to select the software package groups to install, such as the desktop environment and development tools.  
+Option D: This option is incorrect. User environment variables are set and managed by users after the OS is installed and started. They cannot be configured on the installation page.

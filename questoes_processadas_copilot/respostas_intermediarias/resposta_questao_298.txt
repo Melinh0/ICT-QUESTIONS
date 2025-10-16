@@ -1,0 +1,13 @@
+RESPOSTA DA QUESTÃO 298
+==================================================
+
+ENUNCIADO:  
+15. By default, an Atlas 800 (model 3000) server is powered on together with the power supply units (PSUs).
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO: Nothing

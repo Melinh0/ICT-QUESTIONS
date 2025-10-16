@@ -1,0 +1,27 @@
+RESPOSTA DA QUESTÃO 89
+==================================================
+
+ENUNCIADO:  
+14. When creating a user in openEuler, which of the following options can be used to specify the home directory for the user?
+
+ITENS:  
+A) -d  
+B) -g  
+C) -r  
+D) -e
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+Answer Explanation:  
+When a user is created in openEuler, the '-d' option is used to specify the home directory.  
+The '-d' option is common and the standard command for creating a user in Linux with various options for configuring user attributes, including the '-d' and '--home-dir' options that explicitly specify the home directory for the new user.
+
+--home=<homebase> newuser  
+This command creates a new user and sets the home directory to '/home/newuser'. If the '-d' option is not specified, 'newuser' will create a home directory for the new user based on the system-wide default home base path (usually '/home').
+
+Option '-g' specifies the user's initial group.  
+Option '-r' creates a system user.  
+Option '-e' adds a delete expiration time for the user.
+
+Therefore, the correct answer is A.

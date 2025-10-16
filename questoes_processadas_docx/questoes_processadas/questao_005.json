@@ -1,0 +1,14 @@
+{
+  "numero": 5,
+  "texto_completo": "ENUNCIADO: A user is trying to port programs written in C, C++, and Go from the x86 architecture to Kunpeng. Which of the following statements are true about this process?\nITENS:\nA) Source code needs to be converted into machine instructions by a compiler and an assembler.  \nB) The generated machine language programs can directly load instructions and data into the CPU cache at runtime.  \nC) Machine language programs can run directly on any processor without additional processing.  \nD) Programs written in compiled languages need to be recompiled to adapt to the instruction set of Kunpeng processors.  \nITEM CORRETO: A, D\nEXPLICAÇÃO: Não fornecida.",
+  "enunciado": "A user is trying to port programs written in C, C++, and Go from the x86 architecture to Kunpeng. Which of the following statements are true about this process?",
+  "itens": {
+    "A": "Source code needs to be converted into machine instructions by a compiler and an assembler.",
+    "B": "The generated machine language programs can directly load instructions and data into the CPU cache at runtime.",
+    "C": "Machine language programs can run directly on any processor without additional processing.",
+    "D": "Programs written in compiled languages need to be recompiled to adapt to the instruction set of Kunpeng processors."
+  },
+  "item_correto": "A",
+  "tem_gabarito": true,
+  "explicacao": "Não fornecida."
+}

@@ -1,0 +1,13 @@
+RESPOSTA DA QUESTÃO 174
+==================================================
+
+ENUNCIADO:  
+9. The Atlas 800 (model 3000) server uses Ascend 310 chips for computing and does not adopt Kunpeng 920 chips.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: Nothing

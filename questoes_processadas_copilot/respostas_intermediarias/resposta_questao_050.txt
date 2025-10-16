@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 50
+==================================================
+
+ENUNCIADO: Common server OSs include Windows Server, UNIX, and Linux. Which of the following statements is true about UNIX?
+
+ITENS:  
+A) High requirements on server hardware  
+B) Good stability and security performance  
+C) A mature open-source system  
+D) Much lower user learning costs
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: Nothing.

@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 79
+==================================================
+
+ENUNCIADO:  
+31. Which of the following are correct usage examples of the route command in openEuler?
+
+ITENS:  
+A) route  
+B) route print  
+C) route add default gw 192.168.1.1  
+D) route -e -net 192.168.1.0 netmask 255.255.255.0  
+
+ITEM CORRETO: A, C
+
+EXPLICAÇÃO:  
+- Option A: Displays the current routing table.  
+- Option B: Not supported in Linux; it's a Windows command.  
+- Option C: Adds a default gateway.  
+- Option D: Incorrect usage in Linux; uses Windows syntax.

@@ -1,0 +1,20 @@
+RESPOSTA DA QUESTÃO 115
+==================================================
+
+ENUNCIADO:  
+18. When the sg_checkperf tool is used, which of the following items can be viewed only by the 'root' user?
+
+ITENS:  
+A) Node level  
+B) Processor/Process level  
+C) SSD performance  
+D) OpenGauss level
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+When sg_checkperf is used, only the 'root' user can view the SSD performance. Specifically, sg_checkperf routinely checks system-level performance: Post CPU usage, GaussDB CPU usage, and I/O usage), node-level performance (CPU, memory, and I/O usage), system-level performance (SSD performance), and OpenGauss-level performance (database performance). However, to check the SSD performance, you have to use the root user.  
+Therefore, the correct answer is:  
+sg_checkperf -U [OUTPUT] [-SSD] [-LOGFILE]  
+The '-SSD' option accesses the SSD performance check. This operation requires the 'root' user permission.  
+Therefore, the answer is C.

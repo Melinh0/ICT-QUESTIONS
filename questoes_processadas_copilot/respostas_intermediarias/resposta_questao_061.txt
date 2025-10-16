@@ -1,0 +1,15 @@
+RESPOSTA DA QUESTÃO 61
+==================================================
+
+ENUNCIADO: When you run the ping command on a host in a LAN to test the network connection, it is discovered that the host can connect to all the hosts in the LAN but cannot connect to the public network. Which of the following is a possible cause?
+
+ITENS:  
+A) The host IP address is incorrect.  
+B) The gateway to the LAN is not set.  
+C) The gateway of the LAN or the gateway of the host is incorrect.  
+D) The DNS server of the LAN is incorrect.
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO: Congratulations, you got it! My Score: 5score  
+Correct answer: C

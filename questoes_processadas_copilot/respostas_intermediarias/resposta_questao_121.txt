@@ -1,0 +1,16 @@
+RESPOSTA DA QUESTÃO 121
+==================================================
+
+ENUNCIADO: 4. Which command can be used to extract content from specified columns of each line of a text file?
+
+ITENS:  
+A) cp  
+B) dd  
+C) fmt  
+D) cut  
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO: Congratulations, you got it!  
+My Score: 5score  
+Correct answer: D

@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 242
+==================================================
+
+ENUNCIADO: Which of the following statements are false about tower servers?
+
+ITENS:  
+A) A tower server has a similar appearance and structure to a vertical PC.  
+B) Tower servers do not occupy much space and are easy to manage.  
+C) Tower servers have low energy consumption and are suitable for heavy computing loads, such as fluid dynamics.  
+D) The chassis of a tower server usually reserves space for future expansion of drives and memory.
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO: Nothing

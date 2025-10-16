@@ -1,0 +1,17 @@
+RESPOSTA DA QUESTÃO 134
+==================================================
+
+ENUNCIADO: *[O enunciado da questão não está visível na imagem fornecida.]*
+
+ITENS:
+A) *[O item A não está visível na imagem fornecida.]  
+B) *[O item B não está visível na imagem fornecida.]  
+C) *[O item C não está visível na imagem fornecida.]  
+D) *[O item D não está visível na imagem fornecida.]  
+E) *[O item E não está visível na imagem fornecida.]*
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO: Dr. this statement is correct. Based on the description, this general architecture is common in performance tuning tools because it allows the tools to address different problems in different layers and provide clear interfaces for users or other systems. This is mentioned in the initial description on modularization in Dr. Time.
+
+In conclusion, the correct answer is C.

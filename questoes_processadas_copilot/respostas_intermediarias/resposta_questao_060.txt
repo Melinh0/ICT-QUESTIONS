@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 60
+==================================================
+
+ENUNCIADO:  
+Which of the following commands can be used to make "myfile" modifiable and executable for its owner, readable and executable for its owner group, and not accessible for other users?
+
+ITENS:  
+A) chmod 706 myfile  
+B) chmod 750 myfile  
+C) chmod 705 myfile  
+D) chmod 777 myfile  
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+- Option A: The "chmod 706 myfile" command is used to change the owner and owner group permissions of the file. It does not directly modify file permissions.  
+- Option B: The "chmod 750 myfile" command is used to modify the file permissions. "7" indicates that the owner has the read, write, and execute permissions, "5" indicates that the owner group has the read and execute permissions, and "0" indicates that other users have no access to the file. Therefore, this is the correct answer to the question.  
+- Option C: The "chmod 705 myfile" command is used to change the owner and owner group of the file, but it does not directly change the file permission.  
+- Option D: The "chmod 777 myfile" command is used to grant the read, write, and execute permissions on "myfile" to all users, which does not address the user question.

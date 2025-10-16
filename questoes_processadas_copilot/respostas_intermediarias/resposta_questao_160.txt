@@ -1,0 +1,17 @@
+RESPOSTA DA QUESTÃO 160
+==================================================
+
+ENUNCIADO: Data management and development aim to reduce data redundancy, enhance data independence, and facilitate data operations.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+Answer Explanation:  
+The development of data management, especially the evolution from file systems to database systems, aims to reduce data redundancy, enhance data independence, and facilitate data operations.  
+1. Reduce data redundancy: In database systems, data is stored in structured formats and organized in tables, where the same data is not in multiple places. This not only saves storage space, but also ensures consistency, since the data needs to be updated in only one place.  
+2. Enhance data independence: Database independence includes physical independence and logical independence. Physical independence helps to reduce the effect associated with the physical storage structure. This makes the database system more flexible and easier to maintain. Logical independence helps to reduce the effect associated with the logical structure (such as the table structure) when the database schema is changed.  
+3. Facilitate data operations: A database system provides built-in operations such as querying, data insertion, deletion, and update. The database system also performs high-level language operations such as SQL, eliminating the need for users to write low-level code. This makes data operations easier and more efficient.

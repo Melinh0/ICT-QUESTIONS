@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 6
+==================================================
+
+ENUNCIADO:  
+2. Linux has three commands for viewing files. To view the file content line by line by moving the cursor, which of the following commands should be used?
+
+ITENS:  
+A) cat  
+B) more  
+C) less  
+D) me  
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO:  
+Congratulations, you got it!  
+My Score: 5score  
+Correct answer: C

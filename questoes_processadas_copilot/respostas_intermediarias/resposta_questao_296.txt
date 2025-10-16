@@ -1,0 +1,16 @@
+RESPOSTA DA QUESTÃO 296
+==================================================
+
+ENUNCIADO:  
+42. Which of the following statements about the security mechanism of Linux are true?
+
+ITENS:  
+A) The default permission on files created in Linux is "644".  
+B) The default permission on directories created in Linux is "755".  
+C) The default permission mask in Linux is "022".  
+D) You can use the "umask" command to change the default permissions on files and directories in Linux.
+
+ITEM CORRETO: A,B,C,D
+
+EXPLICAÇÃO:  
+The default permissions for files and directories in Linux are determined by the "umask" value, which is typically "022". This results in default permissions of "644" for files and "755" for directories. The "umask" command can be used to change these default permissions.

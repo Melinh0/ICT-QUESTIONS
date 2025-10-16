@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 218
+==================================================
+
+ENUNCIADO: Which of the following statements about shell script troubleshooting are true?
+
+ITENS:  
+A) Errors are usually caused by input errors, syntax errors, or incorrect script logic.  
+B) When writing scripts, using a text editor with Bash syntax highlighting helps make errors more obvious.  
+C) The most direct way to find and correct errors in a script is to debug.  
+D) A way to avoid introducing errors into a script is to build a good style during script creation.
+
+ITEM CORRETO: ABCD
+
+EXPLICAÇÃO:  
+- Option A: True. Errors in shell scripts are usually caused by input errors (such as spelling errors and incorrect commands or parameters), syntax errors (such as incorrect syntax and bracket mismatching), and incorrect logic (such as loop alignment errors and condition logic).  
+- Option B: True. Syntax highlighting in text editors helps identify errors quickly and makes scripts more readable.  
+- Option C: True. Debugging is a direct method to find and correct errors in scripts.  
+- Option D: True. Building a good style during script creation helps avoid errors and improves script maintainability.

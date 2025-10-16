@@ -1,0 +1,16 @@
+RESPOSTA DA QUESTÃO 102
+==================================================
+
+ENUNCIADO:  
+5. Which of the following commands is used to copy an entire line in the vi editor?
+
+ITENS:  
+A) y1  
+B) yy  
+C) ss  
+D) dd  
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+Congratulations, you got it! My Score: 5score Correct answer: B

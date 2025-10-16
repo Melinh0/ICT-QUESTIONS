@@ -1,0 +1,12 @@
+RESPOSTA DA QUESTÃO 40
+==================================================
+
+ENUNCIADO: During openEuler installation, you can choose to manually partition drives or utilize automatic partitioning, which leverages Logical Volume Manager (LVM) to create logical volumes.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO: (vazio)

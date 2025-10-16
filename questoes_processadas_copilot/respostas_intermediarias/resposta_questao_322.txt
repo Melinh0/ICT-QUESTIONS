@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 322
+==================================================
+
+ENUNCIADO:  
+43. Data Studio is an integrated development environment. Which of the following are features of Data Studio?
+
+ITENS:  
+A) Creating and managing database objects  
+B) Executing SQL statements/scripts  
+C) Editing and executing PL/SQL statements  
+D) Viewing VDBs
+
+ITEM CORRETO: A, B, C
+
+EXPLICAÇÃO:  
+Data Studio is an integrated development environment. The main features of Data Studio are as follows:  
+- Data Studio allows users to create and manage various database objects, including tables, functions, stored procedures, triggers, indexes, views, and sequences.  
+- Data Studio allows users to create, edit, and execute SQL statements or SQL scripts. This includes creating and executing PL/SQL statements, simplifying the database query process.  
+- Data Studio supports PL/SQL and SQL scripts, while it also provides a unique extension for SQL provided by Oracle Database.

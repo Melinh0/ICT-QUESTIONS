@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 245
+==================================================
+
+ENUNCIADO: Which of the following statements about memory management in Linux are true?
+
+ITENS:  
+A) "malloc" allocates kernel-level memory.  
+B) "malloc" allocates user-level memory.  
+C) "vmalloc" allocates kernel-level memory.  
+D) "vmalloc" allocates user-level memory.
+
+ITEM CORRETO: B e C
+
+EXPLICAÇÃO:  
+A: The "malloc" function is used to allocate memory in the Linux kernel. It is primarily used for kernel space requirements like kernel modules and device drivers. This memory is allocated directly from the memory pool of the kernel, so it is kernel-level memory. This statement is incorrect.  
+B: "malloc" allocates memory in the user-level memory, not at the user level. This statement is correct.  
+C: The "vmalloc" function is also used to allocate memory in the Linux kernel. It is different from "kmalloc" in that the memory area allocated by "vmalloc" has contiguous virtual address but may have non-contiguous physical addresses. It is mainly used to allocate large chunks of memory in the kernel which are not suitable for kmalloc and are not suitable for small memory allocation. Similarly, this is kernel-level memory. This statement is correct.  
+D: "vmalloc" allocates memory in the kernel space, not at the user level. This statement is incorrect.

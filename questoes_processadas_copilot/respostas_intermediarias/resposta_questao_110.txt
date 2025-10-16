@@ -1,0 +1,16 @@
+RESPOSTA DA QUESTÃO 110
+==================================================
+
+ENUNCIADO:  
+19. Which of the following drivers is used by the client connection tool Data Studio to communicate with the openGauss database?
+
+ITENS:  
+A) JDBC  
+B) ODBC  
+C) Libpq  
+D) Psycopg
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+Data Studio uses the Inference (CIS) structure and communicates with the Data Warehouse Service (DWS) through the JDBC driver. Although openGauss is not mentioned here, it can be inferred that Data Studio may use JDBC to communicate with openGauss, because openGauss is derived from and openGauss also supports JDBC connection. Option B: ODBC is another common connection method for databases, but it is not used by Data Studio. Option C: Libpq is the PostgreSQL client library and is not directly associated with Data Studio. Option D: Psycopg is the PostgreSQL adapter for Python and is not directly associated with Data Studio. Therefore, the correct answer is A.

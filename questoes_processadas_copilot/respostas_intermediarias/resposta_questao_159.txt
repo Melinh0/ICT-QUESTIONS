@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 159
+==================================================
+
+ENUNCIADO: A private Yum repository has been deployed using FTP but other servers cannot download resources from it. Which of the following are possible causes?
+
+ITENS:  
+A) The requesting servers are not connected to the Internet.  
+B) The FTP server does not grant the write permission to the servers.  
+C) The FTP server does not allow anonymous access.  
+D) The firewall and SELinux are enabled on the FTP server.
+
+ITEM CORRETO: C e D
+
+EXPLICAÇÃO: Sorry, your answer was wrong. Score: 0 Point(s)

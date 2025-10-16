@@ -1,0 +1,20 @@
+RESPOSTA DA QUESTÃO 4
+==================================================
+
+ENUNCIADO:  
+46. The advantage of the primary/standby database deployment model is that the application does not need to increase the development workload for database faults.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+In the primary/standby architecture, the standby database keeps log data and does not directly participate in read and write operations of services. Clients or application systems are interact with the primary database without being aware of the existence of the standby database. Therefore, during application development, developers do not need to consider the existence of the standby database.
+
+If a fault occurs in the primary database, the system automatically switches to the standby database. Data is backed up on the standby database. Therefore, even if the primary database is faulty, data will not be lost and can be restored from the standby database.
+
+The primary/standby architecture also has some disadvantages, such as resources need and performance pressure concentrated in a single database. In addition, it does not participate in service operations. Therefore, it is less flexible than the shared architecture. However, the primary/standby architecture is more suitable for read-only services because it provides more service performance bottlenecks.
+
+Therefore, this is true.

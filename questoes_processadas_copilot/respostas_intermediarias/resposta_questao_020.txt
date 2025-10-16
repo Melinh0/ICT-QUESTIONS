@@ -1,0 +1,20 @@
+RESPOSTA DA QUESTÃO 20
+==================================================
+
+ENUNCIADO:  
+52. The installation script does not automatically create the database OS user during the installation. You need to manually create the user before the installation.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+Installation script action: The installation script automatically creates a user-specified installation user and this user will be used as an administrator for subsequent running and maintenance of openGauss. This means that the installation script does automatically create the database OS user.
+
+Time of user creation: The installation script creates a user during the installation. This means that you do not need to manually create the user before the installation.
+
+Operations of user creation: When 'gs_install' is executed, a database OS user is created with the same name as the installation user is created. This user has the highest operation permissions on the database. You can use this user to install and password of the user.
+
+In summary, the installation script does automatically create the database OS user. You do not need to manually create the user before the installation. Therefore, the answer is 'False'. The correct statement should be: 'The installation script automatically creates the database OS user during the installation. You do not need to manually create the user before the installation.'

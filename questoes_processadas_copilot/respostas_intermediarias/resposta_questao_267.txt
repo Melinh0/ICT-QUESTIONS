@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 267
+==================================================
+
+ENUNCIADO: Kunpeng processors use ARM instruction sets. Which of the following are advantages of ARM over x86?
+
+ITENS:  
+A) Fixed-length instructions and simple addressing  
+B) Mature industry chain  
+C) Support for 64-bit instructions  
+D) Performs most data operations in registers to accelerate instruction execution
+
+ITEM CORRETO: AD
+
+EXPLICAÇÃO: Nothing

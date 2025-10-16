@@ -1,0 +1,17 @@
+RESPOSTA DA QUESTÃO 163
+==================================================
+
+ENUNCIADO:  
+56. If the specified port number is occupied, the port number will be preempted during openGauss installation.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+Answer Explanations:  
+Before installing openGauss, it is necessary to ensure that the specified port number is not occupied by other services. "Before the installation, check whether the specified openGauss port is occupied. If the port is occupied, change the port number or stop the process that uses the port."  
+However, during openGauss installation, the occupied port number will not be preempted automatically. Users need to manually check and address port number occupation before the installation. If the port number is occupied, users need to manually stop the process that occupies that port number or modify the openGauss configuration so that openGauss can use a different port number.  
+In summary, the port number will not be preempted automatically during the installation process even if the port is already occupied with the specified port number. Therefore, the answer is False.

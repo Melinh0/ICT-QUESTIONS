@@ -1,0 +1,12 @@
+RESPOSTA DA QUESTÃO 136
+==================================================
+
+ENUNCIADO: The version of the built-in GCC of openEuler 22.03 LTS is 7.3.x.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: openEuler 22.03 LTS is an open source OS with a variety of software packages and tools, featuring GNU Compiler Collection (GCC) as an important compiler collection. The specific version of GCC included in openEuler 22.03 LTS is unknown, as newer updates are available to LTS SPR includes GCC 10.3. Therefore, the statement in the question is false.

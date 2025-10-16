@@ -1,0 +1,23 @@
+RESPOSTA DA QUESTÃO 75
+==================================================
+
+ENUNCIADO:  
+Assume that there are eight processes in an openEuler system. A resource allows three processes to enter their critical sections at the same time. Which of the following is the possible value range of semaphores s and the maximum number of processes in the waiting state?
+
+ITENS:  
+A) 4<s<5;3  
+B) 5<s<6;3  
+C) 6<s<7;3  
+D) 6<s<7;4  
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO:  
+There are a total of eight processes. The resource allows three processes to enter its critical section simultaneously. We use a semaphore (s) to manage the processes.  
+Semaphore s: The initial value of the semaphore should be s = 8 (total) minus three processes can enter, so s = 5. However, the internal value of the semaphore will be s = 5, because a semaphore is used to control access to the resource. When three processes are allowed, and the remaining are waiting (8 - 3 = 5). Therefore, the range is 6 < s < 7.  
+Maximum number of waiting processes: As explained above, the remaining number of processes is 8 - 3 = 5. So the maximum is 5.  
+Both the options are incorrect:  
+- The semaphore value range is incorrect; the upper limit should be 7, not 3, and the maximum number of waiting processes is also incorrect.  
+- The semaphore value range is incorrect; the upper limit should be 7, not 4, and the maximum number of waiting processes is also incorrect.  
+- The semaphore value range is correct, and the maximum number of waiting processes is correct.  
+- The semaphore value range is correct, but the maximum number of waiting processes is incorrect.

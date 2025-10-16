@@ -1,0 +1,15 @@
+RESPOSTA DA QUESTÃO 109
+==================================================
+
+ENUNCIADO:  
+23. Which of the following options is true about server availability?
+
+ITENS:  
+A) Server normal uptime  
+B) Average interval between two failures on a server  
+C) Percentage of normal uptime and service time  
+D) Percentage of service time when the resource usage is less than 100%
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO: Nothing

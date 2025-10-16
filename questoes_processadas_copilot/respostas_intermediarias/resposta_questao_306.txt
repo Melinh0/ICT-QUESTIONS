@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 306
+==================================================
+
+ENUNCIADO:  
+Which of the following statements about user management commands are true?
+
+ITENS:  
+A) `useradd -b /home/anguue` should add a user and sets home/anguue as the user's home directory.  
+B) `userdel -r idris` deletes the user as well as the user's group and home directory.  
+C) `groupadd -c "Common users" test` adds a remark for the test user.  
+D) `cat /etc/group` displays the created groups and corresponding group IDs.
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO:  
+- Option A is incorrect because the `-b` option specifies the base directory, not the full home directory.  
+- Option B is incorrect because the `-r` option removes the home directory and mail spool but not the group unless it is a user private group.  
+- Option C is incorrect because the `-c` option in `groupadd` is not valid.  
+- Option D is correct because `cat /etc/group` displays all groups and their corresponding group IDs.

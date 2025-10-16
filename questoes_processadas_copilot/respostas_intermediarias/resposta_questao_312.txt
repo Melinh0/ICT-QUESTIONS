@@ -1,0 +1,15 @@
+RESPOSTA DA QUESTÃO 312
+==================================================
+
+ENUNCIADO:  
+46. A server comprises various hardware components like CPUs and drives. Which of the following are key hardware components of a server?
+
+ITENS:  
+A) Mainboard  
+B) Fan  
+C) Switch  
+D) Memory  
+
+ITEM CORRETO: AB
+
+EXPLICAÇÃO: Nothing

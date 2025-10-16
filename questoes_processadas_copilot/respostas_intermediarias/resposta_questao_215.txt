@@ -1,0 +1,15 @@
+RESPOSTA DA QUESTÃO 215
+==================================================
+
+ENUNCIADO:  
+32. Which of the following commands is used to query NPU information after the NPU driver is installed on an Atlas 800 server?
+
+ITENS:  
+A) npu list  
+B) npu info  
+C) npu-smi list  
+D) npu-smi info
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO: Nothing

@@ -1,0 +1,23 @@
+RESPOSTA DA QUESTÃO 105
+==================================================
+
+ENUNCIADO:  
+52. In HAProxy, which of the following options can use an access control list to restrict the IP addresses that can access the frontend?
+
+ITENS:  
+A) The 'allow' command  
+B) The 'allowlist' command  
+C) The 'acl' command  
+D) The 'restrict' command  
+
+ITEM CORRETO: AC
+
+EXPLICAÇÃO:  
+Answer Explanations:  
+Option A: The 'allow' command is a fixed "allow" command for ACL. However, in Layer 7 proxy, "http-request allow" and "http-request deny" can be used to restrict access to ACL-based HTTP requests. Therefore, this is not a command on its directly corresponded to the ACL. The "allow" command is used to restrict the frontend, thereby restricting the IP address that can access the frontend, so it is used to restrict IP addresses via ACL definitions, but it is not used to control access under ACL rules.
+
+Option B: The "allowlist" command does not exist in typical HAProxy configurations. The "allowlist" term is used to describe a whitelist that is allowed access, but there is no such command in HAProxy.
+
+Option C: This is correct. In HAProxy, an ACL (access control list) is defined using the "acl" command. You can use the "acl" command to define one or more conditions based on attributes such as source IP address, destination IP address, ports, and HTTP headers. You can then use these ACLs to restrict access to the frontend.
+
+Option D: The standard configurations and commands for HAProxy do not include a "restrict" command. You can restrict access to the frontend using ACLs and other commands, but there is no specific "restrict" command in HAProxy.

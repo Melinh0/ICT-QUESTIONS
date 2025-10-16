@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 175
+==================================================
+
+ENUNCIADO:  
+Which of the following statements about compiler optimization is false?
+
+ITENS:  
+A) GCC -O2 enables automatic vectorization optimization at the "-O2" optimization level to improve program performance.  
+B) GCC -O2 enables constant propagation optimization at the "-O2" optimization level to improve program performance.  
+C) GCC -O2 enables function inline optimization at the "-O2" optimization level to improve program performance.  
+D) GCC -O2 enables partial redundancy elimination optimization at the "-O2" optimization level to improve program performance.
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+While GCC does support automatic vectorization optimization, it is not clear whether it is enabled by default at the "-O2" level. Automatic vectorization is a complex optimization that may not be enabled in all cases, especially when the code has dependencies between iterations. Therefore, this statement is false.  
+Constant propagation is a common optimization in GCC and is enabled at the "-O2" optimization level to improve performance. According to the documentation, this optimization is enabled at the "-O2" level. Therefore, this statement is correct.  
+Function inlining is an important optimization included in GCC's "-O2" optimization level. This statement is correct and reflects one of the features that is enabled to reduce the overhead of function calls. According to the documentation, function inlining is enabled at the "-O2" level. Therefore, this statement is correct.  
+Partial redundancy elimination is a common optimization technique that is enabled at the "-O2" optimization level in GCC. This is also one of the common optimizations at various optimization levels in GCC. According to the documentation available for GCC, this statement is correct.

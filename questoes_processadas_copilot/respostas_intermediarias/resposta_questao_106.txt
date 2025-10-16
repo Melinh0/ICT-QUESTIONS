@@ -1,0 +1,17 @@
+RESPOSTA DA QUESTÃO 106
+==================================================
+
+ENUNCIADO: Currently, the SERIAL column can be specified when you create a table and it can be inserted into an existing table.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+Answer Explanation:  
+This is false.  
+In openGauss, similar to other database management systems (such as PostgreSQL), the SERIAL type is a special column type used to automatically create a unique identifier (usually an integer) and can be automatically incremented. However, this special column type is used to define auto-increment columns in PostgreSQL.  
+In PostgreSQL, you can use SERIAL, BIGSERIAL, or SMALLSERIAL to define auto-increment columns. The column is created in 'example_table'. This column automatically increments and can be used as the primary key.  
+However, in openGauss, there is no such support for the SERIAL type. Therefore, you cannot use SERIAL to define auto-increment columns when creating a table and cannot use the SERIAL column type in an existing table.

@@ -1,0 +1,13 @@
+RESPOSTA DA QUESTÃO 76
+==================================================
+
+ENUNCIADO:  
+13. The OS on an Atlas 800 server can provide services for external systems through the BMC management port.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: Nothing.

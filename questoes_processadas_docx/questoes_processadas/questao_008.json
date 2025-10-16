@@ -1,0 +1,12 @@
+{
+  "numero": 8,
+  "texto_completo": "ENUNCIADO: In openGauss, the Sophon intelligent index optimization technology enables databases to adjust index policies based on workloads automatically. In this way, the query performance can be continuously optimized without manual intervention.\nITENS:\nA) True  \nB) False  \nITEM CORRETO: A  \nEXPLICAÇÃO: A tecnologia Sophon realiza otimizações automáticas de índices com base na carga de trabalho, melhorando o desempenho das consultas.",
+  "enunciado": "In openGauss, the Sophon intelligent index optimization technology enables databases to adjust index policies based on workloads automatically. In this way, the query performance can be continuously optimized without manual intervention.",
+  "itens": {
+    "A": "True",
+    "B": "False"
+  },
+  "item_correto": "A",
+  "tem_gabarito": true,
+  "explicacao": "A tecnologia Sophon realiza otimizações automáticas de índices com base na carga de trabalho, melhorando o desempenho das consultas."
+}

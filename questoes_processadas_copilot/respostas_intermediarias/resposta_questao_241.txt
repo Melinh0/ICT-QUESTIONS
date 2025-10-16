@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 241
+==================================================
+
+ENUNCIADO:  
+32. Which of the following statements about the openGauss resource pool are true?
+
+ITENS:  
+A) The primary and standby nodes share one copy of data, significantly reducing the storage capacity in traditional HA deployment mode.  
+B) Log replication is not required between the primary and standby nodes. Instead, page swap is implemented between the primary and standby nodes, and real-time consistent read is supported on standby nodes.  
+C) By default, the primary and standby nodes pass through the TCP network.  
+D) To reduce the page swap latency, you can use the OCK RDMA dynamic library to accelerate the real-time consistent performance of the standby nodes.
+
+ITEM CORRETO: ABC
+
+EXPLICAÇÃO:  
+- The resource pool of openGauss database, the primary and standby nodes share one copy of data, significantly reducing the storage capacity in traditional HA deployment mode.  
+- The primary and standby nodes share one copy of data. Log replication is not required between the primary and standby nodes. Instead, page swap is implemented between the primary and standby nodes. Data consistency is ensured between the primary and standby nodes. The standby node supports real-time consistent read.  
+- By default, the primary and standby nodes pass through the TCP network. However, to reduce the page swap latency, openGauss database can use the Remote Direct Memory Access (RDMA) dynamic library to accelerate the real-time consistent performance of the standby nodes.

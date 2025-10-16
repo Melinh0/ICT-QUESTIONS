@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 128
+==================================================
+
+ENUNCIADO: There are four methods for assigning values to variables in the shell. What is the name=12 method called?
+
+ITENS:  
+A) Assign a value directly.  
+B) Assign a value through the read command.  
+C) Use a positional parameter.  
+D) Use the command output.
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO: Congratulations, you got it! My Score:Score Correct answer A.

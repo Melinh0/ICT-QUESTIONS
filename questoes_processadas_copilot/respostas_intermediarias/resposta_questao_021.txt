@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 21
+==================================================
+
+ENUNCIADO:  
+73. After openEuler is installed, the default root partition is "openeuler-root".
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+openEuler is an open source Linux distribution. The partition settings during the installation process may vary according to the version and installation options. You cannot determine whether the default root partition is "openeuler-root" after openEuler is installed. You need to refer to the official documents or installation guide of openEuler to obtain accurate information.

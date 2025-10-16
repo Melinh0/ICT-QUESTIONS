@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 32
+==================================================
+
+ENUNCIADO: FusionDirector is a centralized O&M platform. Which of the following is not a server management operation supported by FusionDirector?
+
+ITENS:  
+A) Manual addition  
+B) Batch import  
+C) DHCP automatic IP address allocation  
+D) SNMP auto-discovery
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO: Nothing

@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 220
+==================================================
+
+ENUNCIADO:  
+16. Which of the following is used to specify the node name when gs_guc set is used to set parameters?
+
+ITENS:  
+A) -D  
+B) -N  
+C) -I  
+D) -C
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+- This option specifies the openGauss database instance directory in which the command is to be run. When the "encrypt" command is used, this parameter indicates the directory for storing the generated password file.  
+- This option specifies the name of the host to be set.  
+- This option specifies the name of the node to be set.  
+- This option specifies the name and value of the openGauss configuration parameter to be set. The format is "parameter=value".

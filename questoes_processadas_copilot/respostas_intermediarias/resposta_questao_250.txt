@@ -1,0 +1,20 @@
+RESPOSTA DA QUESTÃO 250
+==================================================
+
+ENUNCIADO: Which of the following tools can be used to run the same command on multiple database nodes?
+
+ITENS:  
+A) gs_guc  
+B) gs_check  
+C) gs_ssh  
+D) gs_om  
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO: In openGauss, gs_ssh is used to execute the same command on multiple nodes. It is used to set parameters in the openGauss configuration files (such as "postgresql.conf" and "pg_hba.conf") and does not support to execute commands in parallel on multiple database nodes. This tool is used to check the openGauss operating environment, including OS version, kernel environment, and database operating environment. Although it may involve multiple database nodes, it is mainly used for managing cross-level tasks rather than executing the same command in parallel on multiple nodes.
+
+gs_ssh is used to execute the same command on multiple nodes and execute them in parallel on multiple database nodes. In the openGauss environment, gs_ssh may be used to execute the same command or script on multiple database nodes. Therefore, this tool can execute the same command on multiple database nodes.
+
+In conclusion, the tool used in the openGauss environment for issuing, storing, and rebooting the cluster. Although it involves multiple database nodes, it is mainly used for managing cross-level tasks rather than executing the same command in parallel on multiple nodes.
+
+In conclusion, the answer is C.

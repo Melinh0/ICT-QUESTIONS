@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 111
+==================================================
+
+ENUNCIADO: 3. Which of the following commands is used to determine the type of the myfile file?
+
+ITENS:  
+A) whatis myfile  
+B) file myfile  
+C) type myfile  
+D) type -q myfile  
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: ✅ Congratulations, you got it! My Score: Correct answer: B

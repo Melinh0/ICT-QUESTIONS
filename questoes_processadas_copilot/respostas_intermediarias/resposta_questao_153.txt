@@ -1,0 +1,27 @@
+RESPOSTA DA QUESTÃO 153
+==================================================
+
+ENUNCIADO:  
+10. Which of the following tools is used to check whether the environment meets the installation requirements before openGauss installation?
+
+ITENS:  
+A) gs_checks  
+B) gs_check  
+C) gs_checkperf  
+D) gs_collector
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+Answer Explanation:  
+To check the environment, you need to use a dedicated tool to check the environment to ensure that the OS environment and configuration are proper. gs_check is used to check the OS. It provides the following functions:
+
+Checking the OS version: Ensures that the OS version is compatible with openGauss.
+
+Checking kernel parameters: Checks kernel parameters to ensure that the performance and stability of the OS are ensured. This check verifies that kernel parameters are set properly.
+
+Checking the OS configuration: Checks whether the OS configuration is correct and satisfies the requirements of openGauss installation. This check verifies that the disk space is sufficient and whether the I/O configuration is optimal.
+
+Checking network configuration: A database requires stable network configuration. This check verifies the network configuration to ensure that the network is stable and the timeout interval is proper.
+
+Therefore, gs_check is the correct answer. Although other tools such as gs_check, gs_checkperf, and gs_collector are also provided by openGauss, they are not as direct and comprehensive as gs_check in checking the environment before installation.

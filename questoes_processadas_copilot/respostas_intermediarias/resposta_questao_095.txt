@@ -1,0 +1,20 @@
+RESPOSTA DA QUESTÃO 95
+==================================================
+
+ENUNCIADO:  
+9. A tablespace is used to manage data objects and corresponds to a directory on a disk.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+This is true.  
+In the database system, a tablespace is used to manage data objects (such as tables and indexes) and corresponds to a directory on a disk. Specifically:  
+The functions of tablespaces are as follows:  
+A tablespace is a logical structure for storing data in a database. It is used to organize and manage physical storage in a database. With tablespaces, database administrators can better control the physical storage space and data storage policies.  
+Managing data objects and storage becomes easier.  
+Each tablespace usually corresponds to a directory on a disk. This directory stores data files that belong to the tablespace. These data files contain data of tables, indexes, and other objects in the database.  
+In this way, tablespaces provide a flexible mechanism that allows database administrators to allocate and manage physical storage locations based on data access patterns, resource usage, access modes, storage requirements, security policies, and performance considerations.

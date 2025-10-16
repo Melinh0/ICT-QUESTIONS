@@ -1,0 +1,15 @@
+RESPOSTA DA QUESTÃO 166
+==================================================
+
+ENUNCIADO:  
+5. Which of the following commands is used to list the files in the /home directory and its subdirectories?
+
+ITENS:  
+A) ls -R /home  
+B) ls -d /home  
+C) ls -a /home  
+D) ls -l /home  
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO: Congratulations, you got it! My Score: 5score Correct answer: A

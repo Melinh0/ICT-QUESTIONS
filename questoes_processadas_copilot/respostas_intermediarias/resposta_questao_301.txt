@@ -1,0 +1,12 @@
+RESPOSTA DA QUESTÃO 301
+==================================================
+
+ENUNCIADO: An openEuler update is released every week to incorporate fixes for bugs and CVEs. The openEuler update is released as a full update to ensure that the service level objective (SLO) for CVE fixing is achieved.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: This question can be dissected into two parts. The first part, "an openEuler update is released every week to incorporate fixes for bugs and CVEs", is accurate as openEuler update is released on a weekly basis. The actual release plan depends on the severity of bugs, CVEs, and the availability of the development team. The second part, "The openEuler update is released as a full update to ensure the service level objective (SLO) for CVE fixing is met", is also incorrect. Updates include full updates, security patches, bug fixes, and more. Based on this, the openEuler update is not released as a full update to ensure the SLO for CVE fixing is met.

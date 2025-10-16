@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 149
+==================================================
+
+ENUNCIADO:  
+44. The openGauss has two built-in tablespaces: pg_default and pg_global. Which of the following statements are true?
+
+ITENS:  
+A) The pg_global tablespace stores system catalogs, user tables, user table indexes, temporary tables, temporary table indexes, and internal temporary tables. The directory is "$GAUSS_DATA_HOME/base".  
+B) The pg_global tablespace stores system catalogs in "$GAUSS_DATA_HOME/global".  
+C) The pg_default tablespace stores system catalogs, user tables, user table indexes, temporary tables, temporary table indexes, and internal temporary tables. The directory is "$GAUSS_DATA_HOME/base".  
+D) The pg_default tablespace stores system catalogs in "$GAUSS_DATA_HOME/global".
+
+ITEM CORRETO: B, C
+
+EXPLICAÇÃO:  
+- Option A: Incorrect. The pg_global tablespace is used to store shared system catalogs, not user tables. The corresponding storage directory is "$GAUSS_DATA_HOME/global" instead of "base".  
+- Option B: Correct. The pg_global tablespace is used to store shared system catalogs. The corresponding storage directory is "$GAUSS_DATA_HOME/global".  
+- Option C: Correct. The pg_default tablespace is used to store user tables, user table indexes, temporary tables, temporary table indexes, and internal temporary tables. The corresponding storage directory is "$GAUSS_DATA_HOME/base".  
+- Option D: Incorrect. The pg_default tablespace is used to store user tables, not shared system catalogs. The corresponding storage directory is "$GAUSS_DATA_HOME/base" instead of "global".

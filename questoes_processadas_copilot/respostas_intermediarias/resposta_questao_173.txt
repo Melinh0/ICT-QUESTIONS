@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 173
+==================================================
+
+ENUNCIADO: 47. Server management typically requires multiple protocols. Which of the following protocols can be used for server management?
+
+ITENS:  
+A) TCP  
+B) Redfish  
+C) UDP  
+D) SNMP
+
+ITEM CORRETO: BD
+
+EXPLICAÇÃO: Nothing

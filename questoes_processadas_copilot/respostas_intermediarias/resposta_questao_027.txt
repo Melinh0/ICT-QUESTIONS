@@ -1,0 +1,15 @@
+RESPOSTA DA QUESTÃO 27
+==================================================
+
+ENUNCIADO:  
+4. Which of the following commands can be used to decompress the rr.tar.gz file?
+
+ITENS:  
+A) tar  
+B) unzip  
+C) gzip  
+D) bunzip2
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO: Congratulations, you got it! My Score: 5score Correct answer: A

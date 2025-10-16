@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 58
+==================================================
+
+ENUNCIADO:  
+57. In which of the following situations a WOR cannot be generated?
+
+ITENS:  
+A) A node restarts between two snapshots.  
+B) TRUNCATE TABLE operation is executed between two snapshots.  
+C) A primary/standby switchover is performed between two snapshots.  
+D) DROP DATABASE operation is executed between two snapshots.
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+- Option A: A node restart does not affect the integrity and accuracy of the reports.  
+- Option B: TRUNCATE TABLE operation deletes data and cannot be recovered, affecting data consistency and integrity.  
+- Option C: A primary/standby switchover does not affect the integrity and accuracy of the reports.  
+- Option D: DROP DATABASE deletes metadata, including tables and views, but does not affect the integrity of the database.

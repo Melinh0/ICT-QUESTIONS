@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 252
+==================================================
+
+ENUNCIADO: 1. Which of the following is the super administrator on Linux?
+
+ITENS:  
+A) Administrator  
+B) root  
+C) user  
+D) AnonymousUser  
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: Congratulations, you got it! My Score: 5score Correct answer: B.

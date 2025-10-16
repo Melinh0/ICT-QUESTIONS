@@ -1,0 +1,14 @@
+{
+  "numero": 3,
+  "texto_completo": "ENUNCIADO: Programas executáveis ​​baseados em x86 podem ser executados diretamente na plataforma Kunpeng?\nITENS:\nA) Sim, sem necessidade de ajustes.\nB) Sim, com uso de emuladores.\nC) Não, é necessário recompilar o código-fonte.\nD) Apenas se forem linguagens interpretadas.\nITEM CORRETO: C\nEXPLICAÇÃO: Os binários x86 não são compatíveis com arquiteturas ARM como Kunpeng. Os executáveis devem ser reconstruídos a partir do código-fonte.",
+  "enunciado": "Programas executáveis ​​baseados em x86 podem ser executados diretamente na plataforma Kunpeng?",
+  "itens": {
+    "A": "Sim, sem necessidade de ajustes.",
+    "B": "Sim, com uso de emuladores.",
+    "C": "Não, é necessário recompilar o código-fonte.",
+    "D": "Apenas se forem linguagens interpretadas."
+  },
+  "item_correto": "C",
+  "tem_gabarito": true,
+  "explicacao": "Os binários x86 não são compatíveis com arquiteturas ARM como Kunpeng. Os executáveis devem ser reconstruídos a partir do código-fonte."
+}

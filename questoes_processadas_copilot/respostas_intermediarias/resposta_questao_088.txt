@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 88
+==================================================
+
+ENUNCIADO:  
+43. Sobre a configuração do Keepalived, assinale as afirmativas falsas.
+
+ITENS:  
+A) Antes de configurar o script de verificação de integridade, verifique a disponibilidade do servidor. Se o status retornado for 0, o servidor está indisponível e o tráfego precisa ser encaminhado para outros nós.  
+B) A opção de configuração "nopreempt" pode ser definida no nó master para evitar a troca automática quando o nó master estiver disponível novamente.  
+C) Se o "lb_kind" estiver definido como "DR" (roteamento direto), o nó de polling "lvs" ou "lvs" pode ser usado.  
+D) "lvs_id" é o ID do balanceador de carga. O valor de "lvs_id" deve ser exclusivo em uma rede.
+
+ITEM CORRETO: ABC
+
+EXPLICAÇÃO:  
+A) Falsa. O status retornado 0 indica que o servidor está disponível.  
+B) Falsa. A opção "nopreempt" deve ser definida no nó backup, não no master.  
+C) Falsa. Quando o "lb_kind" é "DR", o nó de polling deve ser o próprio nó real, não "lvs".  
+D) Verdadeira. O "lvs_id" deve ser exclusivo em uma rede para identificar corretamente o balanceador de carga.

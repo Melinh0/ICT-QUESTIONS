@@ -1,0 +1,14 @@
+{
+  "numero": 13,
+  "texto_completo": "ENUNCIADO: Which of the following commands is used to paste the content in the buffer before the cursor?\nITENS:\nA) a  \nB) i  \nC) p  \nD) P  \nITEM CORRETO:  \nEXPLICAÇÃO:",
+  "enunciado": "Which of the following commands is used to paste the content in the buffer before the cursor?",
+  "itens": {
+    "A": "a",
+    "B": "i",
+    "C": "p",
+    "D": "P"
+  },
+  "item_correto": "E",
+  "tem_gabarito": true,
+  "explicacao": ""
+}

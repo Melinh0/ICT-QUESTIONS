@@ -1,0 +1,16 @@
+RESPOSTA DA QUESTÃO 71
+==================================================
+
+ENUNCIADO:  
+29. Loop unrolling is an optimization technique that improves the performance of a program by reducing the number of loops. Which of the following options enables loop unrolling?
+
+ITENS:  
+A) -O  
+B) -O1  
+C) -O2  
+D) -O3
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO:  
+Loop unrolling is a compiler optimization technique that involves reducing the number of iterations in a loop by executing multiple iterations in a single loop body. This can improve performance by decreasing loop overhead and increasing instruction-level parallelism. In the GNU Compiler Collection (GCC), loop unrolling is typically enabled at higher optimization levels such as "-O2" and "-O3". The "-O3" level includes all the optimizations from "-O2" and adds more aggressive optimizations, including loop unrolling.

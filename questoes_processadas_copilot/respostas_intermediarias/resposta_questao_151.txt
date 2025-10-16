@@ -1,0 +1,12 @@
+RESPOSTA DA QUESTÃO 151
+==================================================
+
+ENUNCIADO: Uninstalling the database is a major operation. Therefore, you need to run the uninstallation script as the user root.
+
+ITENS:
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: Sometimes, uninstalling a database might only require running a specific uninstallation command or script as the database administrator (such as DBA for Oracle databases, the 'root' user for MySQL databases, or the corresponding role for other databases). However, in other cases, especially when database software or some components are installed as the 'root' user, it may be necessary to run the uninstallation script as the 'root' user. Uninstalling the database is a major operation, which is why there is a lot of 'must' to perform the operation as the 'root' user. Therefore, the software installation, software removal, and OS environment are also key factors to be considered. In some cases, it may be necessary to perform the operation as the root user, and in others, it may not be. Therefore, the answer is: False.

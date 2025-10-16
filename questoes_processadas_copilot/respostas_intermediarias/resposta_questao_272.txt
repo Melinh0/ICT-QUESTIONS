@@ -1,0 +1,22 @@
+RESPOSTA DA QUESTÃO 272
+==================================================
+
+ENUNCIADO:  
+Which of the following statements are true about the openGauss database?
+
+ITENS:  
+A) OM, the cluster management module, provides cluster startup and stop, primary/standby switchover, and status query.  
+B) CM, the OM management module, provides management APIs and tools for routine database O&M and configuration management.  
+C) Client driver receives the access requests from applications and returns the execution results to the applications.  
+D) openGauss primarily stores structured service data (for example, two-table joins, column-store tables, or MTONs), executes data query tasks, and returns execution results to the client driver.  
+E) The client driver receives the access requests from applications and returns the execution results to the applications.
+
+ITEM CORRETO: C D
+
+EXPLICAÇÃO:  
+The correct answers are explained as follows:  
+- Option A is incorrect. The OM management module provides management APIs and tools for routine database O&M and configuration management. The Cluster Manager (CM) module of the OM management module provides cluster startup and stop, primary/standby switchover, and status query.  
+- Option B is incorrect. The CM module provides cluster startup and stop, primary/standby switchover, and status query. OM is the O&M management module.  
+- Option C is correct. The client driver receives the access requests from applications and returns the execution results to applications.  
+- Option D is correct. openGauss primarily stores structured service data (for example, two-table joins, column-store tables, or MTONs), executes data query tasks, and returns execution results to the client driver.  
+- Option E is incorrect. The client driver receives the access requests from applications and returns the execution results to applications. However, it is the same as Option C. In multiple-answer questions, the same option cannot be selected repeatedly.

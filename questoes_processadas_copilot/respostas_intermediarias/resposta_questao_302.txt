@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 302
+==================================================
+
+ENUNCIADO:  
+4. Which of the following is a client command tool provided by openGauss?
+
+ITENS:  
+A) gsql  
+B) gs_check  
+C) gs_dump  
+D) gs_guc
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+gsql is a database connection tool provided by openGauss and runs in the command-line interface (CLI). Users can use gsql to connect to a server and perform DML on the server.  
+gs_check is used to check the status of the database and operating system.  
+gs_dump is a tool to export data from openGauss.  
+gs_guc is used to adjust openGauss configuration parameters.

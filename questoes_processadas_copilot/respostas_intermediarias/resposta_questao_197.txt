@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 197
+==================================================
+
+ENUNCIADO: Which of the following options are appropriate for Atlas 800 installation?
+
+ITENS:  
+A) Using the virtual CD drive to install the OS for a single server  
+B) Deploying a product execution environment (PXE) server to install the OS for a single server using PXE booting  
+C) Using the virtual CD drive to install the OS for tens of servers  
+D) Deploying a product execution environment (PXE) server to install the OS for tens of servers using PXE booting
+
+ITEM CORRETO: A D
+
+EXPLICAÇÃO: Nothing

@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 265
+==================================================
+
+ENUNCIADO:  
+4. Which of the following commands can be used to list all files in a directory?
+
+ITENS:  
+A) ls -l  
+B) ls  
+C) ls -a  
+D) ls -d  
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO:  
+Congratulations, you got it!  
+Correct answer: C  
+My Score: 5score

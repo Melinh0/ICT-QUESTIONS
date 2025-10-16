@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 3
+==================================================
+
+ENUNCIADO:  
+38. Which of the following statements about built-in variables in openEuler are true?
+
+ITENS:  
+A) "$*" indicates all shell parameters.  
+B) "$n" ranges from 1 to 9 and indicates the value of the nth positional parameter of the shell program (or process).  
+C) "$@" indicates a character string consisting of all positional parameters of the shell program.  
+D) "$#" indicates the number of positional parameters of the shell program.
+
+ITEM CORRETO: BCD
+
+EXPLICAÇÃO:  
+Option A: This statement is incorrect. "$*" indicates the name of the script program being executed, not all parameters.  
+Option B: This statement is correct. "$n" indicates the value of the nth positional parameter of the shell program.  
+Option C: This statement is correct. "$@" indicates all parameters as a single string.  
+Option D: This statement is correct. "$#" indicates the number of positional parameters of the shell program.

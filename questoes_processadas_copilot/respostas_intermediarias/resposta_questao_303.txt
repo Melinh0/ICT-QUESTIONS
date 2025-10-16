@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 303
+==================================================
+
+ENUNCIADO: Which of the following statements about performance tuning and tools is false?
+
+ITENS:  
+A) In Java, regular expressions will be precompiled.  
+B) In C/C++, bitwise operations are more efficient than arithmetic operations. Therefore, bitwise operations can be used to replace arithmetic operations in some scenarios.  
+C) In Python, while 1 executes more efficiently than while True. You are advised to use while 1 instead of while True.  
+D) The overall architecture of D-Tune developed based on OpenEULER consists of three layers: intelligent decision-making, system profile, and interaction system.
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO: In the implementation of Python, "True" is a Boolean constant with a value of 1. The number "1" is also interpreted as true in a Boolean context, so 1==True, and 2==True in Python are considered true. The difference between "while 1" and "while True" is that the former is a numeric constant and the latter is a Boolean constant. However, the performance difference between "while True" and "while 1" is negligible because the Python interpreter copies a persistent Boolean value (True) to the stack during execution. Therefore, the statement that "while 1 executes more efficiently than while True" is false.

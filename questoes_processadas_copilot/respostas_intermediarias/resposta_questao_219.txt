@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 219
+==================================================
+
+ENUNCIADO: Which of the following commands is used to delete a non-empty directory?
+
+ITENS:  
+A) mkdir  
+B) rmdir  
+C) mv  
+D) rm  
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO: Congratulations, you got it! My Score: 5score Correct answer: D

@@ -1,0 +1,13 @@
+RESPOSTA DA QUESTÃO 315
+==================================================
+
+ENUNCIADO:  
+7. NICs are used to connect computers to networks. NICs can be classified into integrated NICs (LOMs), PCIe cards, FlexIO cards, and mezzanine cards based on application types.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: Nothing.

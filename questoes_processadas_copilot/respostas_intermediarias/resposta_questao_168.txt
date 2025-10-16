@@ -1,0 +1,24 @@
+RESPOSTA DA QUESTÃO 168
+==================================================
+
+ENUNCIADO:  
+Which of the following statements about the openGauss HA enterprise deployment, RPO, and RTO is true?
+
+ITENS:  
+A) openGauss does not support HA synchronization. As a result, the RPO value is high.  
+B) openGauss supports HA synchronization to ensure zero RPO and uses the ultimate RTO technology to ensure that the RTO is less than 30 seconds.  
+C) openGauss supports an RPO of less than 10 seconds and zero RTO only in the HA enterprise deployment.  
+D) openGauss supports an RTO of less than 10 seconds but cannot ensure zero RPO in the HA enterprise deployment.
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+- openGauss can be deployed in standalone or HA mode (one primary node and one or more standby nodes).  
+- HA deployment supports synchronization between the primary and standby nodes to ensure zero RPO.  
+- openGauss supports the ultimate RTO technology to ensure that services can be quickly restored within 30 seconds after a fault occurs.  
+- In HA deployment, the primary and standby nodes synchronize data in real time. If the primary node fails, services are quickly switched to the standby node, ensuring zero RPO.  
+- The ultimate RTO technology ensures that services can be restored within 30 seconds after a fault occurs.  
+- Therefore, option B is correct.  
+- Option A is incorrect because openGauss supports HA synchronization.  
+- Option C is incorrect because openGauss supports zero RTO and zero RPO in HA deployment.  
+- Option D is incorrect because openGauss supports zero RPO and zero RTO in HA deployment.

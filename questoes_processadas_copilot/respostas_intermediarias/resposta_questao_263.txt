@@ -1,0 +1,16 @@
+RESPOSTA DA QUESTÃO 263
+==================================================
+
+ENUNCIADO:  
+Which of the following crontab entries can be used to run the mybackup program at 1:00 p.m. and 8:00 p.m. from Monday to Friday?
+
+ITENS:  
+A) 13,20 * * * 1,5 mybackup  
+B) 0 13,20 * * 1-5 mybackup  
+C) * 13,20 * * 1,2,3,4,5 mybackup  
+D) 0 13,20 1,5 * * mybackup  
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+Congratulations, you got it! My Score: 5score Correct answer: B

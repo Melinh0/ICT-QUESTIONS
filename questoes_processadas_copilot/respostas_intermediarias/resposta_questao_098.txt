@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 98
+==================================================
+
+ENUNCIADO:  
+Which of the following statements are true about the openGauss table design?
+
+ITENS:  
+A) Planning the table structure design prevents the addition of columns and modification of column types or lengths.  
+B) For Astra tables that are frequently updated, a small fill factor needs to be specified.  
+C) COMMENT does not need to be specified.  
+D) Clustering or partial clustering is used to implement continuous storage of hot data and convert random I/Os into continuous I/Os.
+
+ITEM CORRETO: ABD
+
+EXPLICAÇÃO:  
+- Option A: Planning the table structure design prevents the addition and modification of column types or lengths. This is true. A good table structure is critical to database design. To maintain data consistency and application stability, columns cannot be added or modified frequently.  
+- Option B: For Astra tables that are frequently updated, a small fill factor needs to be specified. This is true. The fillfactor attribute of a table specifies the percentage of space to be filled with data when the table is created. For frequently updated tables, a small fill factor is specified to reserve space for future updates, reducing the need to move tuples and improving update performance.  
+- Option C: COMMENT does not need to be specified. This is incorrect. The COMMENT attribute is used to describe the table and its columns. It helps users understand the table structure and usage, improving development efficiency.  
+- Option D: Clustering or partial clustering is used to implement continuous storage of hot data and convert random I/Os into continuous I/Os. This is true. Hot data can be continuously stored through clustering or partial clustering, improving I/O performance. Clustering stores data in the order of specified columns, and partial clustering stores hot data in continuous blocks, converting random I/Os into continuous I/Os.

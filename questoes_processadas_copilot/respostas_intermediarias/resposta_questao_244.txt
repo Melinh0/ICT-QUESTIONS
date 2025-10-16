@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 244
+==================================================
+
+ENUNCIADO: Which of the following files can be modified to change the home directory of a user when the user is created?
+
+ITENS:  
+A) /etc/passwd  
+B) /etc/default/useradd  
+C) /etc/profile  
+D) /etc/fstab  
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: Congratulations, you got it! My Score: Score Correct answer: B

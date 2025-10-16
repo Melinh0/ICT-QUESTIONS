@@ -1,0 +1,13 @@
+RESPOSTA DA QUESTÃO 236
+==================================================
+
+ENUNCIADO: 75. SELinux is a mandatory access control security mechanism based on the Linux LSM framework
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+SELinux is a mandatory access control (MAC) strategy developed based on the Linux Security Modules (LSM) framework. It was developed by the United States National Security Agency (NSA) and other security organizations such as Secure Computing Corporation (SCC) to enhance the security of conventional Linux operating systems. SELinux is integrated into the Linux kernel, allowing users to define access control policies using MAC. SELinux policies define how processes interact with files, devices, and other processes, and are enforced by the kernel to ensure secure system operations.

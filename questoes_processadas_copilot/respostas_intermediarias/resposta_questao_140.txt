@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 140
+==================================================
+
+ENUNCIADO:  
+5. The domain name system (DNS) is responsible for resolving host names and ( ).
+
+ITENS:  
+A) IP addresses  
+B) MAC addresses  
+C) Network addresses  
+D) Host aliases
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+Congratulations, you got it!  
+Correct answer A  
+My Score: 5score

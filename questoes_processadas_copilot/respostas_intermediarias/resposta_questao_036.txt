@@ -1,0 +1,21 @@
+RESPOSTA DA QUESTÃO 36
+==================================================
+
+ENUNCIADO:  
+70. In the openGauss memory structure, which of the following are local memory buffers?
+
+ITENS:  
+A) work_mem  
+B) CCK-FDMA  
+C) maintenance_work_mem  
+D) Storage
+
+ITEM CORRETO: AC
+
+EXPLICAÇÃO:  
+Answer Explanations:  
+- In the memory structure of the openGauss database, the local memory refers to the memory space each database session process uses to temporarily store data.  
+- Option A: "work_mem" is the parameter used for memory used for hash operations. When the database performs sorting with hash operations, it uses this part of memory to speed up processing. This is a form of local buffer used to store data temporarily to speed up operations.  
+- Option B: CCK-FDMA does not seem to be a standard term in the memory structure of openGauss or other mainstream database management systems. Remote direct memory access (RDMA) technology is a low-level technology that allows data to be transferred directly between memory and storage without involving the CPU. Therefore, it is not a concept of local buffer.  
+- Option C: "maintenance_work_mem" is a parameter usually used for maintenance operations, such as VACUUM, CREATE INDEX, and ALTER TABLE. These operations often require a large amount of memory, especially when processing a large amount of data. This memory is also a form of local buffer used to temporarily store data during maintenance operations.  
+- Option D: Storage refers to the physical storage medium, such as hard disks or flash memory, which store actual data for each session. These are not local memory buffers, nor immediate storage in memory.

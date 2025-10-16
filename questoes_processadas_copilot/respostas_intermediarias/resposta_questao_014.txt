@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 14
+==================================================
+
+ENUNCIADO:  
+Which of the following statements about the commands are correct?
+
+ITENS:  
+A) The "cat /etc/os-release" command is used to view the OS version.  
+B) The "lscpu" command is used to view the CPU model, quantity, and frequency.  
+C) The "lsusb" command is used to view system hardware information.  
+D) The "cat /etc/fstab" command is used to check the memory usage.
+
+ITEM CORRETO: A e B
+
+EXPLICAÇÃO:  
+- Option A: The "cat /etc/os-release" is used to check OS version information, and "cat /etc/os-release" displays the correct content.  
+- Option B: The "lscpu" command lists the CPU model, quantity, and frequency.  
+- Option C: The "lsusb" command shows detailed information about USB devices in the system.  
+- Option D: The "cat /etc/fstab" command shows the file systems to be mounted and is not used to check memory usage.

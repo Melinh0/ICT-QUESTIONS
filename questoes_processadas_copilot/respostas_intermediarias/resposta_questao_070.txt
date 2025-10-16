@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 70
+==================================================
+
+ENUNCIADO: What is the kernel version of openEuler 20.03 LTS?
+
+ITENS:  
+A) 3.1  
+B) 4.1  
+C) 3.19  
+D) 4.19
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO: ✔️ Congratulations, you got it! My Score: 5score Correct answer: D

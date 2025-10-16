@@ -1,0 +1,25 @@
+RESPOSTA DA QUESTÃO 230
+==================================================
+
+ENUNCIADO:  
+11. Which of the following is the first step of the openEuler startup process?
+
+ITENS:  
+A) System boot  
+B) Hardware self-check  
+C) Kernel start  
+D) System initialization
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+Answer Explanation:  
+When a computer starts up, the first step is the hardware self-test, also known as Power-on self-test (POST). This step is performed under the control of the BIOS or UEFI firmware.  
+
+The POST verifies the functioning of essential computer hardware, including the memory, CPU, drives, and graphics card. Such verification steps ensure the successful completion of the POST.  
+
+- Option A: System boot occurs after the hardware self-check.  
+- Option C: Kernel start occurs after the system boot and other kernel files are loaded.  
+- Option D: System initialization is the final step of the startup process after the kernel is started.  
+
+The openEuler startup process is similar to that of other operating systems. The first step is to perform a hardware self-check. The BIOS or UEFI helps to perform a hardware self-check. This ensures that the computer hardware is functioning correctly, and the system can proceed to the next steps of the startup process.

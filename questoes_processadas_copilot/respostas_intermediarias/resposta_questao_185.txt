@@ -1,0 +1,26 @@
+RESPOSTA DA QUESTÃO 185
+==================================================
+
+ENUNCIADO: In addition to the query performance, indexes can be used to improve the insertion and deletion performance of the database.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: Indexes are mainly used to improve the query performance of the database, but they usually have a negative impact on insert and delete operations.
+
+Query performance:  
+Indexes significantly improve query performance by providing a quick search mechanism, especially in searching, sorting, and filtering.
+
+Insertion performance:  
+During insert operation, the database not only needs to insert data in a table, but also needs to update related indexes. This means that the insert operation becomes slower because the index structure needs to be maintained and updated.
+
+Deletion performance:  
+Similarly, when data is deleted from a table, the associated indexes also need to be updated to remove the deleted data from the index. This also increases overheads of the delete operation.
+
+Update performance:  
+In indexes, update involves index columns, indexes also need to be maintained and updated, thereby affecting the performance.
+
+In summary, indexes improve query performance, but they typically deteriorate the insert and delete performance of the database.

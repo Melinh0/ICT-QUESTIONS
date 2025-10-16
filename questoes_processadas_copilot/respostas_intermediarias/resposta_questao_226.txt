@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 226
+==================================================
+
+ENUNCIADO:  
+15. Which of the following statements about GlusterFS volume types is false?
+
+ITENS:  
+A) At least four servers are required for creating a distributed dispersed volume.  
+B) Distributed volumes divide files into bricks, improving access efficiency.  
+C) Distributed volumes do not have redundancy.  
+D) Data of a replicated volume is stored on multiple nodes simultaneously. Even if one of the nodes fails, data is still available.
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+- This statement is correct. Dispersed Volume is a volume type based on erasure coding. It requires a certain number of bricks and redundancy level to ensure data reliability.  
+- This statement is not accurate. Distributed volume allows users to randomly distribute files across bricks, rather than dividing files into bricks. They are mainly for scaling storage, not for efficiency.  
+- This statement is correct. Distributed volumes do not provide redundancy.  
+- This statement is correct. Replicated volume is primarily for expanding storage, and they do not provide redundancy unless implemented through other hardware or software layers.

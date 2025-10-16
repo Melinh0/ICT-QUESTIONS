@@ -1,0 +1,16 @@
+RESPOSTA DA QUESTÃO 124
+==================================================
+
+ENUNCIADO:  
+38. What is the correct sequence of total OEM process of SmartUX?
+
+ITENS:  
+A) 6 -> 3 -> 4 -> 2 -> 5 -> 1  
+B) 3 -> 6 -> 4 -> 2 -> 5 -> 1  
+C) 6 -> 4 -> 3 -> 2 -> 5 -> 1  
+D) 3 -> 4 -> 6 -> 2 -> 5 -> 1  
+E) 6 -> 4 -> 2 -> 3 -> 5 -> 1
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: Nothing.

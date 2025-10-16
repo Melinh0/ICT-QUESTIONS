@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 126
+==================================================
+
+ENUNCIADO:  
+20) Which of the following statements about the ACID feature of database transactions is false?
+
+ITENS:  
+A) R refers to atomicity. Operations in a transaction are either all successful or all failed.  
+B) C refers to consistency. The system states can only be the states before or after the transaction is successful. No inconsistent intermediate states can exist.  
+C) I refers to availability. The database system must provide the highest availability for database execution to ensure that most transactions can be successfully executed.  
+D) D refers to durability. The status of a successful transaction can be maintained even if the machine is powered off.
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO:  
+- Option A is true because it complies with the atomicity definition of the ACID feature.  
+- Option B is true because it complies with the consistency definition of the ACID feature.  
+- Option C is false because availability has no correlation with the availability definition of the ACID feature. ACID refers to atomicity, consistency, isolation, and durability. The entire result of one transaction must be transferred to the database. Therefore, this is false.  
+- Option D is true because durability means the entire result of a transaction can be maintained even if the machine is powered off.

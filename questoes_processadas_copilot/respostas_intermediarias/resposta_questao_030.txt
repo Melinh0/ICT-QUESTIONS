@@ -1,0 +1,12 @@
+RESPOSTA DA QUESTÃO 30
+==================================================
+
+ENUNCIADO: The hardware logical architecture of GPUs differs from that of CPUs. New GPU designs aim to enable transistors to run as execution units rather than as complex control units and caches, which is typical with CPUs.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO: Nothing.

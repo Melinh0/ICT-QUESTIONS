@@ -1,0 +1,20 @@
+RESPOSTA DA QUESTÃO 47
+==================================================
+
+ENUNCIADO:  
+58. To grant the user 'jack' permission to create tables in myschema, which of the following statements must be executed?
+
+ITENS:  
+A) GRANT USAGE ON schema myschema TO jack  
+B) GRANT ALTER ON schema myschema TO jack  
+C) GRANT DROP ON schema myschema TO jack  
+D) GRANT CREATE ON schema myschema TO jack  
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO:  
+Answer Explanation:  
+- Option A: This statement only grants the permissions required for a user to create a table in a schema. Typically, this must include the USAGE permission on the schema (which allows the user to access the schema), and the permission to create objects in the schema (CREATE permission).  
+- Option B: This statement grants the 'ALTER' permission on the 'myschema' schema to the user 'jack'. This allows the user to modify existing objects within the schema. This permission is not necessary for creating a table. Therefore, this is false.  
+- Option C: This statement grants the user 'jack' the 'DROP' permission on 'myschema', thus allowing the user to remove existing objects. This permission is not necessary for creating a table. Therefore, this is false.  
+- Option D: This statement grants the user 'jack' the 'CREATE' permission on 'myschema'. This is required to create tables in the schema. Therefore, this is true.

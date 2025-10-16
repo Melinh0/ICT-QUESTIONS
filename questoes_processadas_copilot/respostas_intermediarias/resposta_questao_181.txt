@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 181
+==================================================
+
+ENUNCIADO: Which of the following BIOS tab pages of Atlas 800 contains the option for changing the iBMC management IP address?
+
+ITENS:  
+A) Main  
+B) Advanced  
+C) Boot  
+D) Security
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: Nothing

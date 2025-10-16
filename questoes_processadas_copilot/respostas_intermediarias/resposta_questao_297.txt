@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 297
+==================================================
+
+ENUNCIADO: What is the purpose of plan hints in OpenGauss?
+
+ITENS:  
+A) To optimize query plans.  
+B) To control the transaction isolation level.  
+C) To control the size of a database connection pool.  
+D) To enable SQL statement tracing and analysis.
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO: Plan hints, provided by OpenGauss, allow users to directly affect the generation of execution plans. Users can optimize the execution plan by specifying the join sequence, join method, scan method, and number of results in more appropriate ways. Plan hints provide additional information to the optimizer for better execution plan generation. They can be used to control the behavior of SQL statements, including join methods, scan methods, and parallel execution. Plan hints are managed by database configuration parameters and can be used for performance tuning and troubleshooting.

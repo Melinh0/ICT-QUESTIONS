@@ -1,0 +1,29 @@
+RESPOSTA DA QUESTÃO 319
+==================================================
+
+ENUNCIADO:  
+8. The openEuler administrator needs to set the permissions on a file as follows: the file owner has all permissions, the user group of the file owner has read and write permissions, and others have read permission. Which of the following is the correct permission value?
+
+ITENS:  
+A) 467  
+B) 674  
+C) 476  
+D) 764
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO:  
+Answer Explanation:  
+In a Linux OS, the permission value is the usually consists of three digits, representing the permissions of the file owner, user groups, and others (users outside the owner group) from left to right.  
+
+Each digit is a sum. The meanings are as follows:  
+- 7 = 4 (read) + 2 (write) + 1 (execute)  
+- 6 = 4 (read) + 2 (write)  
+- 4 = 4 (read)  
+
+So, 764 means:  
+- The file owner has permission 7 (read, write, and execute),  
+- The user group of the file owner has permission 6 (read and write),  
+- Others have permission 4 (read).  
+
+Therefore, the correct permission value is 764.

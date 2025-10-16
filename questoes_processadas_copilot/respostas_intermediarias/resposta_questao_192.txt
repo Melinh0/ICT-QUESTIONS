@@ -1,0 +1,20 @@
+RESPOSTA DA QUESTÃO 192
+==================================================
+
+ENUNCIADO:  
+79. When you access the Samba directory through "\\tsamba_IP\share", login authentication is not required, but you can only create folders or files.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+1. Login authentication is required if it depends on the Samba configuration. You can set the permissions as "shared" or "user" and set the "guest ok = yes" and "security = share". You can access shared directories without logging in.  
+2. You can only create folders or files. This also depends on the Samba configuration. You can set the permissions on shared directories as follows (for example in the smb.conf file): "access = yes" "writable=both" "create mask=0777", which allows users to read and create folders or files. For example, if "writable = yes", users can read and write, depending on the configured permissions.  
+3. When you access the Samba directory, you can create folders or files if permissions are set accordingly, depending on the configured permissions.
+
+More specifically:  
+- Whether login authentication is required depends on the Samba configuration (you may or may not need to perform login authentication).  
+- You can still create folders or files depending on the permissions and directives on the Samba configuration (not only limited to folder creation, also allowed to perform other operations).

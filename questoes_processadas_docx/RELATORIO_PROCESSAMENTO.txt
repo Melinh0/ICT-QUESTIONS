@@ -1,0 +1,3870 @@
+RELATÓRIO DE PROCESSAMENTO DE QUESTÕES (TEXTO DOCX)
+============================================================
+
+Total de questões identificadas: 495
+Questões com gabarito no documento: 443
+Questões sem gabarito (processadas pelo Copilot): 52
+Questões válidas para fixture: 416
+Total de objetos no fixture: 2271
+
+DETALHES DAS QUESTÕES:
+------------------------------
+
+Questão 1:
+  Enunciado: 79 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 829 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 96 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 907 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 78 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 832 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 87 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 994 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 87 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 1185 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 88 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 1271 caracteres
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 92 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 986 caracteres
+  Válida para fixture: Sim
+
+Questão 8:
+  Enunciado: 120 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 91 caracteres
+  Válida para fixture: Sim
+
+Questão 9:
+  Enunciado: 81 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 882 caracteres
+  Válida para fixture: Sim
+
+Questão 10:
+  Enunciado: 101 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 77 caracteres
+  Válida para fixture: Sim
+
+Questão 11:
+  Enunciado: 114 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 1312 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 87 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 105 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 70 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 104 caracteres
+  Válida para fixture: Sim
+
+Questão 14:
+  Enunciado: 65 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 871 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 237 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 129 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 226 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 115 caracteres
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 87 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 120 caracteres
+  Válida para fixture: Sim
+
+Questão 8:
+  Enunciado: 86 caracteres
+  Alternativas: 5
+  Tem gabarito: Sim
+  Item correto: E
+  Explicação: 126 caracteres
+  Válida para fixture: Sim
+
+Questão 9:
+  Enunciado: 66 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 125 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 116 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 121 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 43 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 136 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 129 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 124 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 60 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 122 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 69 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 70 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 84 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 129 caracteres
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 87 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 106 caracteres
+  Válida para fixture: Sim
+
+Questão 8:
+  Enunciado: 142 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 120 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 78 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 123 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 149 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 127 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 354 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 162 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 80 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 83 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 75 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 118 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 84 caracteres
+  Alternativas: 3
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 82 caracteres
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 127 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 118 caracteres
+  Válida para fixture: Sim
+
+Questão 8:
+  Enunciado: 87 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 92 caracteres
+  Válida para fixture: Sim
+
+Questão 9:
+  Enunciado: 247 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 182 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 120 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 41 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 136 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 53 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 91 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 39 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 86 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 154 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 114 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 120 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 59 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 94 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 67 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 109 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 128 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 95 caracteres
+  Válida para fixture: Não
+
+Questão 5:
+  Enunciado: 76 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 134 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 85 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 145 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 115 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 137 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 49 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 61 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 197 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 94 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 86 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 74 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 97 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 105 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 100 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 91 caracteres
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 102 caracteres
+  Alternativas: 3
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 95 caracteres
+  Válida para fixture: Sim
+
+Questão 8:
+  Enunciado: 70 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 39 caracteres
+  Válida para fixture: Sim
+
+Questão 9:
+  Enunciado: 85 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 64 caracteres
+  Válida para fixture: Sim
+
+Questão 10:
+  Enunciado: 128 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 80 caracteres
+  Válida para fixture: Sim
+
+Questão 11:
+  Enunciado: 127 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 100 caracteres
+  Válida para fixture: Sim
+
+Questão 12:
+  Enunciado: 61 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 53 caracteres
+  Válida para fixture: Sim
+
+Questão 13:
+  Enunciado: 39 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 68 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 110 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 106 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 97 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 91 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 98 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 157 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 124 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 81 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 115 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 32 caracteres
+  Válida para fixture: Não
+
+Questão 6:
+  Enunciado: 79 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 32 caracteres
+  Válida para fixture: Não
+
+Questão 7:
+  Enunciado: 92 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 32 caracteres
+  Válida para fixture: Não
+
+Questão 1:
+  Enunciado: 89 caracteres
+  Alternativas: 3
+  Tem gabarito: Não (Copilot)
+  Explicação: 13 caracteres
+  Válida para fixture: Não
+
+Questão 2:
+  Enunciado: 81 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 13 caracteres
+  Válida para fixture: Não
+
+Questão 3:
+  Enunciado: 63 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 13 caracteres
+  Válida para fixture: Não
+
+Questão 4:
+  Enunciado: 95 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 13 caracteres
+  Válida para fixture: Não
+
+Questão 5:
+  Enunciado: 72 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 13 caracteres
+  Válida para fixture: Não
+
+Questão 6:
+  Enunciado: 103 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 13 caracteres
+  Válida para fixture: Não
+
+Questão 7:
+  Enunciado: 180 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 10 caracteres
+  Válida para fixture: Sim
+
+Questão 8:
+  Enunciado: 172 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 10 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 165 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 108 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 97 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 75 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 96 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 100 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 232 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 99 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 73 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 74 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 92 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 65 caracteres
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 88 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 54 caracteres
+  Válida para fixture: Sim
+
+Questão 8:
+  Enunciado: 66 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 48 caracteres
+  Válida para fixture: Sim
+
+Questão 9:
+  Enunciado: 98 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 76 caracteres
+  Válida para fixture: Sim
+
+Questão 10:
+  Enunciado: 71 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 68 caracteres
+  Válida para fixture: Sim
+
+Questão 11:
+  Enunciado: 114 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 15 caracteres
+  Válida para fixture: Não
+
+Questão 1:
+  Enunciado: 89 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 113 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 52 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 59 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 235 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 91 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 97 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 110 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 91 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 87 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 59 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 84 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 70 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 71 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 125 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 107 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 118 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 91 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 94 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 129 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 84 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 142 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 50 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 50 caracteres
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 113 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 98 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 92 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 123 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 185 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 114 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 124 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 95 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 124 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 116 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 97 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 86 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 225 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 105 caracteres
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 114 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 126 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 194 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 143 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 84 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 63 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 87 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 102 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 72 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 62 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 85 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 73 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 99 caracteres
+  Alternativas: 3
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 109 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 113 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 126 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 63 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 125 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 104 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 138 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 52 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 85 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 78 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 73 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 105 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 93 caracteres
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 90 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 85 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 103 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 128 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 95 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 99 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 129 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 129 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 118 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 179 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 62 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 128 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 76 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 88 caracteres
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 132 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 157 caracteres
+  Válida para fixture: Sim
+
+Questão 8:
+  Enunciado: 102 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 159 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 119 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 161 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 210 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 129 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 192 caracteres
+  Alternativas: 5
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 183 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 82 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 134 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 226 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 180 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 53 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 145 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 87 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 142 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 184 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 109 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 52 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 104 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 67 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 124 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 140 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 116 caracteres
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 230 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 101 caracteres
+  Válida para fixture: Sim
+
+Questão 8:
+  Enunciado: 92 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 107 caracteres
+  Válida para fixture: Sim
+
+Questão 9:
+  Enunciado: 169 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 102 caracteres
+  Válida para fixture: Sim
+
+Questão 10:
+  Enunciado: 92 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 97 caracteres
+  Válida para fixture: Sim
+
+Questão 11:
+  Enunciado: 145 caracteres
+  Alternativas: 3
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 103 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 105 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: B
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 283 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 91 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 157 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 142 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: B
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 166 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 136 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Válida para fixture: Sim
+
+Questão 8:
+  Enunciado: 135 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Válida para fixture: Sim
+
+Questão 9:
+  Enunciado: 109 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: B
+  Válida para fixture: Sim
+
+Questão 10:
+  Enunciado: 113 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: B
+  Válida para fixture: Sim
+
+Questão 11:
+  Enunciado: 80 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Válida para fixture: Sim
+
+Questão 12:
+  Enunciado: 145 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: B
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 143 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 124 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 127 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 115 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 236 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 77 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 111 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 86 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 67 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 66 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 120 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 71 caracteres
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 63 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 95 caracteres
+  Válida para fixture: Sim
+
+Questão 8:
+  Enunciado: 95 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 86 caracteres
+  Válida para fixture: Sim
+
+Questão 9:
+  Enunciado: 94 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 82 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 55 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 72 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 119 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 81 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 87 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 85 caracteres
+  Válida para fixture: Não
+
+Questão 4:
+  Enunciado: 58 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 105 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 101 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 97 caracteres
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 90 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 81 caracteres
+  Válida para fixture: Sim
+
+Questão 8:
+  Enunciado: 90 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 60 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 176 caracteres
+  Alternativas: 2
+  Tem gabarito: Não (Copilot)
+  Explicação: 14 caracteres
+  Válida para fixture: Não
+
+Questão 2:
+  Enunciado: 27 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 43 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 57 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 96 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 135 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 104 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 75 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 93 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 284 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 111 caracteres
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 122 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 91 caracteres
+  Válida para fixture: Sim
+
+Questão 8:
+  Enunciado: 78 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 94 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 101 caracteres
+  Alternativas: 3
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 167 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 103 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 142 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 171 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 102 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 238 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 149 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 98 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 132 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 48 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 117 caracteres
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 45 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 98 caracteres
+  Válida para fixture: Sim
+
+Questão 8:
+  Enunciado: 79 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 145 caracteres
+  Válida para fixture: Sim
+
+Questão 9:
+  Enunciado: 165 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 114 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 59 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 13 caracteres
+  Válida para fixture: Não
+
+Questão 2:
+  Enunciado: 73 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 13 caracteres
+  Válida para fixture: Não
+
+Questão 3:
+  Enunciado: 84 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 13 caracteres
+  Válida para fixture: Não
+
+Questão 4:
+  Enunciado: 78 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 13 caracteres
+  Válida para fixture: Não
+
+Questão 5:
+  Enunciado: 96 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 13 caracteres
+  Válida para fixture: Não
+
+Questão 1:
+  Enunciado: 78 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 16 caracteres
+  Válida para fixture: Não
+
+Questão 2:
+  Enunciado: 64 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 16 caracteres
+  Válida para fixture: Não
+
+Questão 3:
+  Enunciado: 88 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 16 caracteres
+  Válida para fixture: Não
+
+Questão 4:
+  Enunciado: 79 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 16 caracteres
+  Válida para fixture: Não
+
+Questão 5:
+  Enunciado: 141 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 16 caracteres
+  Válida para fixture: Não
+
+Questão 6:
+  Enunciado: 158 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 16 caracteres
+  Válida para fixture: Não
+
+Questão 1:
+  Enunciado: 79 caracteres
+  Alternativas: 5
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 219 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 85 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 165 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 91 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 227 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 162 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 112 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 99 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 93 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 102 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 65 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 195 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 89 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 73 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 101 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 151 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 98 caracteres
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 92 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 94 caracteres
+  Válida para fixture: Sim
+
+Questão 8:
+  Enunciado: 94 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 64 caracteres
+  Válida para fixture: Sim
+
+Questão 9:
+  Enunciado: 163 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 71 caracteres
+  Válida para fixture: Sim
+
+Questão 10:
+  Enunciado: 108 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 81 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 210 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 108 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 125 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 137 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 175 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 154 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 89 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 102 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 121 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 92 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 74 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 97 caracteres
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 175 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 146 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 415 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 157 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 381 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 132 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 433 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 119 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 130 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 127 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 230 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 70 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 46 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 72 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 82 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 75 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 64 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 86 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 64 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 15 caracteres
+  Válida para fixture: Não
+
+Questão 1:
+  Enunciado: 56 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 71 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 54 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 54 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 49 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 54 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 72 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 83 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 79 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 61 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 148 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 60 caracteres
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 73 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 53 caracteres
+  Válida para fixture: Sim
+
+Questão 8:
+  Enunciado: 65 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 87 caracteres
+  Válida para fixture: Sim
+
+Questão 9:
+  Enunciado: 65 caracteres
+  Alternativas: 3
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 33 caracteres
+  Válida para fixture: Sim
+
+Questão 10:
+  Enunciado: 49 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 43 caracteres
+  Válida para fixture: Sim
+
+Questão 11:
+  Enunciado: 93 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 63 caracteres
+  Válida para fixture: Sim
+
+Questão 12:
+  Enunciado: 109 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 58 caracteres
+  Válida para fixture: Sim
+
+Questão 13:
+  Enunciado: 48 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 57 caracteres
+  Válida para fixture: Sim
+
+Questão 14:
+  Enunciado: 65 caracteres
+  Alternativas: 2
+  Tem gabarito: Não (Copilot)
+  Explicação: 93 caracteres
+  Válida para fixture: Não
+
+Questão 1:
+  Enunciado: 110 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 134 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 271 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 125 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 72 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 76 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 76 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 103 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 111 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 82 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 74 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 137 caracteres
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 207 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 123 caracteres
+  Válida para fixture: Sim
+
+Questão 8:
+  Enunciado: 54 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 129 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 50 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 159 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 84 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 114 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 81 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 112 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 69 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 120 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 66 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 94 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 88 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 134 caracteres
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 100 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 70 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 116 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 148 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 74 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 103 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 86 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 88 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 92 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 102 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 74 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 121 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 74 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 62 caracteres
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 110 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 127 caracteres
+  Válida para fixture: Sim
+
+Questão 8:
+  Enunciado: 63 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 232 caracteres
+  Válida para fixture: Sim
+
+Questão 9:
+  Enunciado: 46 caracteres
+  Alternativas: 3
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 110 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 61 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 84 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 75 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 112 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 77 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 70 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 65 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 92 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 65 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 70 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 194 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 81 caracteres
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 71 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 79 caracteres
+  Válida para fixture: Sim
+
+Questão 8:
+  Enunciado: 90 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 92 caracteres
+  Válida para fixture: Sim
+
+Questão 9:
+  Enunciado: 79 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 89 caracteres
+  Válida para fixture: Sim
+
+Questão 10:
+  Enunciado: 52 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 95 caracteres
+  Válida para fixture: Sim
+
+Questão 11:
+  Enunciado: 92 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 76 caracteres
+  Válida para fixture: Sim
+
+Questão 12:
+  Enunciado: 86 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 65 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 159 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 149 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 138 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 67 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 82 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 82 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 121 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 74 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 49 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 13 caracteres
+  Válida para fixture: Não
+
+Questão 6:
+  Enunciado: 80 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 218 caracteres
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 52 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 45 caracteres
+  Válida para fixture: Sim
+
+Questão 8:
+  Enunciado: 85 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 99 caracteres
+  Válida para fixture: Sim
+
+Questão 9:
+  Enunciado: 81 caracteres
+  Alternativas: 2
+  Tem gabarito: Não (Copilot)
+  Explicação: 13 caracteres
+  Válida para fixture: Não
+
+Questão 1:
+  Enunciado: 101 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 112 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 66 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 126 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 84 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 93 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 125 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 114 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 93 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 97 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 85 caracteres
+  Alternativas: 3
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 80 caracteres
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 69 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 105 caracteres
+  Válida para fixture: Sim
+
+Questão 8:
+  Enunciado: 127 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 95 caracteres
+  Válida para fixture: Sim
+
+Questão 9:
+  Enunciado: 88 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 93 caracteres
+  Válida para fixture: Sim
+
+Questão 10:
+  Enunciado: 120 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 103 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 64 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 56 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 70 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 35 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 71 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 13 caracteres
+  Válida para fixture: Não
+
+Questão 4:
+  Enunciado: 183 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 59 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 93 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 48 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 155 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 56 caracteres
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 76 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 44 caracteres
+  Válida para fixture: Sim
+
+Questão 8:
+  Enunciado: 77 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 59 caracteres
+  Válida para fixture: Sim
+
+Questão 9:
+  Enunciado: 117 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 64 caracteres
+  Válida para fixture: Sim
+
+Questão 10:
+  Enunciado: 78 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 39 caracteres
+  Válida para fixture: Sim
+
+Questão 11:
+  Enunciado: 78 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 58 caracteres
+  Válida para fixture: Sim
+
+Questão 12:
+  Enunciado: 134 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 66 caracteres
+  Válida para fixture: Sim
+
+Questão 13:
+  Enunciado: 83 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 67 caracteres
+  Válida para fixture: Sim
+
+Questão 14:
+  Enunciado: 148 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 72 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 81 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 107 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 43 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 96 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 50 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 63 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 99 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 68 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 92 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 88 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 77 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 87 caracteres
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 91 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 84 caracteres
+  Válida para fixture: Sim
+
+Questão 8:
+  Enunciado: 92 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 61 caracteres
+  Válida para fixture: Sim
+
+Questão 9:
+  Enunciado: 237 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 79 caracteres
+  Válida para fixture: Sim
+
+Questão 10:
+  Enunciado: 105 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 100 caracteres
+  Válida para fixture: Sim
+
+Questão 11:
+  Enunciado: 64 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 69 caracteres
+  Válida para fixture: Sim
+
+Questão 12:
+  Enunciado: 109 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 108 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 70 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 91 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 51 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 91 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 72 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 94 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 46 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 84 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 77 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 51 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 40 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 97 caracteres
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 128 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 55 caracteres
+  Válida para fixture: Sim
+
+Questão 8:
+  Enunciado: 124 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 104 caracteres
+  Válida para fixture: Sim
+
+Questão 9:
+  Enunciado: 75 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 45 caracteres
+  Válida para fixture: Sim
+
+Questão 10:
+  Enunciado: 249 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 86 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 112 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: E
+  Válida para fixture: Não
+
+Questão 2:
+  Enunciado: 82 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: E
+  Válida para fixture: Não
+
+Questão 3:
+  Enunciado: 81 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: E
+  Válida para fixture: Não
+
+Questão 4:
+  Enunciado: 110 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: E
+  Válida para fixture: Não
+
+Questão 5:
+  Enunciado: 72 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: E
+  Válida para fixture: Não
+
+Questão 6:
+  Enunciado: 79 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: E
+  Válida para fixture: Não
+
+Questão 7:
+  Enunciado: 80 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: E
+  Válida para fixture: Não
+
+Questão 8:
+  Enunciado: 82 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: E
+  Válida para fixture: Não
+
+Questão 9:
+  Enunciado: 168 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: E
+  Válida para fixture: Não
+
+Questão 10:
+  Enunciado: 70 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: E
+  Válida para fixture: Não
+
+Questão 11:
+  Enunciado: 89 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: E
+  Válida para fixture: Não
+
+Questão 12:
+  Enunciado: 151 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: E
+  Válida para fixture: Não
+
+Questão 13:
+  Enunciado: 93 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: E
+  Válida para fixture: Não
+
+Questão 14:
+  Enunciado: 96 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: E
+  Válida para fixture: Não
+
+Questão 15:
+  Enunciado: 153 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: E
+  Válida para fixture: Não
+
+Questão 1:
+  Enunciado: 59 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 166 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 59 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 77 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 104 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 93 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 45 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Válida para fixture: Sim
+
+Questão 8:
+  Enunciado: 50 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Válida para fixture: Sim
+
+Questão 9:
+  Enunciado: 79 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Válida para fixture: Sim
+
+Questão 10:
+  Enunciado: 115 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Válida para fixture: Sim
+
+Questão 11:
+  Enunciado: 124 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Válida para fixture: Sim
+
+Questão 12:
+  Enunciado: 125 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: E
+  Válida para fixture: Não
+
+Questão 1:
+  Enunciado: 31 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: E
+  Válida para fixture: Não
+
+Questão 2:
+  Enunciado: 149 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: E
+  Válida para fixture: Não
+
+Questão 3:
+  Enunciado: 94 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: E
+  Válida para fixture: Não
+
+Questão 4:
+  Enunciado: 175 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: E
+  Válida para fixture: Não
+
+Questão 5:
+  Enunciado: 87 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: E
+  Válida para fixture: Não
+
+Questão 6:
+  Enunciado: 99 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: E
+  Válida para fixture: Não
+
+Questão 7:
+  Enunciado: 127 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: E
+  Válida para fixture: Não
+
+Questão 8:
+  Enunciado: 73 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: E
+  Válida para fixture: Não
+
+Questão 9:
+  Enunciado: 74 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: E
+  Válida para fixture: Não
+
+Questão 1:
+  Enunciado: 324 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 162 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 130 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 126 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 136 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 95 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 231 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 66 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 109 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 16 caracteres
+  Válida para fixture: Não
+
+Questão 1:
+  Enunciado: 90 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 136 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 84 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 135 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 72 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 145 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 60 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 36 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 78 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 36 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 84 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 36 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 46 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 77 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 64 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 78 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 49 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 54 caracteres
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 117 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 70 caracteres
+  Válida para fixture: Sim
+
+Questão 8:
+  Enunciado: 125 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 70 caracteres
+  Válida para fixture: Sim
+
+Questão 9:
+  Enunciado: 153 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 80 caracteres
+  Válida para fixture: Sim
+
+Questão 10:
+  Enunciado: 67 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 88 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 238 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 130 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 237 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 93 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 552 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 64 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 142 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 93 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 234 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 79 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 228 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 95 caracteres
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 92 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 89 caracteres
+  Válida para fixture: Sim
+
+Questão 8:
+  Enunciado: 102 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 84 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 88 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 93 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 189 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 81 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 140 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 77 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 91 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 65 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 80 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 94 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 86 caracteres
+  Alternativas: 5
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 94 caracteres
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 73 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 75 caracteres
+  Válida para fixture: Sim
+
+Questão 8:
+  Enunciado: 176 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 63 caracteres
+  Válida para fixture: Sim
+
+Questão 9:
+  Enunciado: 73 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 37 caracteres
+  Válida para fixture: Sim
+
+Questão 10:
+  Enunciado: 68 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 59 caracteres
+  Válida para fixture: Sim
+
+Questão 11:
+  Enunciado: 117 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 72 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 104 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 13 caracteres
+  Válida para fixture: Não
+
+Questão 2:
+  Enunciado: 175 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 13 caracteres
+  Válida para fixture: Não
+
+Questão 3:
+  Enunciado: 80 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 13 caracteres
+  Válida para fixture: Não
+
+Questão 4:
+  Enunciado: 87 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 13 caracteres
+  Válida para fixture: Não
+
+Questão 1:
+  Enunciado: 94 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 16 caracteres
+  Válida para fixture: Não
+
+Questão 2:
+  Enunciado: 101 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 16 caracteres
+  Válida para fixture: Não
+
+Questão 3:
+  Enunciado: 106 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 16 caracteres
+  Válida para fixture: Não
+
+Questão 4:
+  Enunciado: 101 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 16 caracteres
+  Válida para fixture: Não
+
+Questão 5:
+  Enunciado: 79 caracteres
+  Alternativas: 2
+  Tem gabarito: Não (Copilot)
+  Explicação: 16 caracteres
+  Válida para fixture: Não
+
+Questão 1:
+  Enunciado: 171 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 15 caracteres
+  Válida para fixture: Não
+
+Questão 2:
+  Enunciado: 59 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 15 caracteres
+  Válida para fixture: Não
+
+Questão 3:
+  Enunciado: 73 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 15 caracteres
+  Válida para fixture: Não
+
+Questão 4:
+  Enunciado: 78 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 15 caracteres
+  Válida para fixture: Não
+
+Questão 5:
+  Enunciado: 78 caracteres
+  Alternativas: 2
+  Tem gabarito: Não (Copilot)
+  Explicação: 15 caracteres
+  Válida para fixture: Não
+
+Questão 1:
+  Enunciado: 86 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 126 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 113 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 135 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 239 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 93 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 148 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 80 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 85 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 69 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 121 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 124 caracteres
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 147 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 108 caracteres
+  Válida para fixture: Sim
+
+Questão 9:
+  Enunciado: 56 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 96 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 136 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 151 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 347 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 127 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 231 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 116 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 90 caracteres
+  Alternativas: 3
+  Tem gabarito: Não (Copilot)
+  Explicação: 126 caracteres
+  Válida para fixture: Não
+
+Questão 5:
+  Enunciado: 70 caracteres
+  Alternativas: 3
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 89 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 140 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: E
+  Válida para fixture: Não
+
+Questão 2:
+  Enunciado: 84 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 123 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 43 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 71 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 72 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 139 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 60 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 89 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 62 caracteres
+  Alternativas: 3
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 59 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 69 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 86 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 78 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 88 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 46 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 80 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 46 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 91 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 83 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 52 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 66 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 75 caracteres
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 63 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 62 caracteres
+  Válida para fixture: Sim
+
+Questão 8:
+  Enunciado: 59 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 56 caracteres
+  Válida para fixture: Sim
+
+Questão 9:
+  Enunciado: 123 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 57 caracteres
+  Válida para fixture: Sim
+
+Questão 10:
+  Enunciado: 134 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 48 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 120 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 92 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 90 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 79 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 116 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 119 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 85 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 109 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 131 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 106 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 128 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 118 caracteres
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 210 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 124 caracteres
+  Válida para fixture: Sim
+
+Questão 8:
+  Enunciado: 237 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 132 caracteres
+  Válida para fixture: Sim
+
+Questão 9:
+  Enunciado: 596 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 112 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 228 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 90 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 288 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 75 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 102 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 86 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 88 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 57 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 69 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 113 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 82 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 125 caracteres
+  Válida para fixture: Sim
+
+Questão 7:
+  Enunciado: 73 caracteres
+  Alternativas: 3
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 119 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 79 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 16 caracteres
+  Válida para fixture: Não
+
+Questão 2:
+  Enunciado: 96 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 16 caracteres
+  Válida para fixture: Não
+
+Questão 3:
+  Enunciado: 78 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 16 caracteres
+  Válida para fixture: Não
+
+Questão 4:
+  Enunciado: 87 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 16 caracteres
+  Válida para fixture: Não
+
+Questão 5:
+  Enunciado: 87 caracteres
+  Alternativas: 4
+  Tem gabarito: Não (Copilot)
+  Explicação: 16 caracteres
+  Válida para fixture: Não
+
+Questão 6:
+  Enunciado: 66 caracteres
+  Alternativas: 3
+  Tem gabarito: Não (Copilot)
+  Explicação: 16 caracteres
+  Válida para fixture: Não
+
+Questão 1:
+  Enunciado: 42 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 14 caracteres
+  Válida para fixture: Não
+
+Questão 2:
+  Enunciado: 79 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 14 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 467 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 14 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 101 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 14 caracteres
+  Válida para fixture: Sim
+
+Questão 5:
+  Enunciado: 160 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 14 caracteres
+  Válida para fixture: Sim
+
+Questão 6:
+  Enunciado: 88 caracteres
+  Alternativas: 2
+  Tem gabarito: Não (Copilot)
+  Explicação: 14 caracteres
+  Válida para fixture: Não
+
+Questão 1:
+  Enunciado: 55 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 213 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 46 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 266 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 93 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 265 caracteres
+  Válida para fixture: Sim
+
+Questão 4:
+  Enunciado: 72 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 143 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 103 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: D
+  Explicação: 248 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 61 caracteres
+  Alternativas: 3
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 466 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 86 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 180 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 102 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 99 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 76 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 246 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 91 caracteres
+  Alternativas: 2
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 125 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 95 caracteres
+  Alternativas: 3
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 99 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 62 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 150 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 68 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 133 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 77 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: B
+  Explicação: 202 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 88 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 446 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 88 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: A
+  Explicação: 892 caracteres
+  Válida para fixture: Sim
+
+Questão 1:
+  Enunciado: 142 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 139 caracteres
+  Válida para fixture: Sim
+
+Questão 2:
+  Enunciado: 107 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 159 caracteres
+  Válida para fixture: Sim
+
+Questão 3:
+  Enunciado: 95 caracteres
+  Alternativas: 4
+  Tem gabarito: Sim
+  Item correto: C
+  Explicação: 135 caracteres
+  Válida para fixture: Sim

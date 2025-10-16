@@ -1,0 +1,15 @@
+RESPOSTA DA QUESTÃO 123
+==================================================
+
+ENUNCIADO: You do not need to create an XML file before using the installation package to install openGauss.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+Before installing openGauss, the "cluster_config.xml" file must be created. The XML file contains key information about the server where openGauss will be deployed, including the installation path, IP address, and port. The guide is the deployment of openGauss.  
+The "cluster_config.xml" file must be created with server information, release installation path, IP address, and port number. The configuration information is essential to install openGauss.  
+In the openGauss installation process, the installation path as well as much more information is required in the configuration of XML file creation. Without creating an XML file, the installation cannot be done, so it is a necessary step before the openGauss installation. Therefore, the XML file need to be created before installing openGauss using the installation package. The XML file is an indispensable configuration file during openGauss installation. It contains the key information required for installing openGauss. Therefore, the answer is: False.

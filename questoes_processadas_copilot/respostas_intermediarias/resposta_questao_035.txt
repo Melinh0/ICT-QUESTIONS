@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 35
+==================================================
+
+ENUNCIADO:  
+21. Which of the following tools is used to help users understand the database workload of openGauss?
+
+ITENS:  
+A) gs_checkos  
+B) gs_check  
+C) gs_checkperf  
+D) gs_collector  
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO:  
+gs_checkos: provides multiple tools to help users manage and maintain databases.  
+gs_check: is used to check the OS, control parameters, and disk configurations. It does not directly check the workload of openGauss.  
+gs_checkperf: is a comprehensive check tool used to check multiple environment parameters and configurations during the time of installing openGauss. It does not focus on workload monitoring.  
+gs_collector: is a tool used to collect and extract data from multiple nodes. Although it monitors the I/O and CPU usage, helping users understand the database workload, gs_checkperf is the highly reliable tool for that.

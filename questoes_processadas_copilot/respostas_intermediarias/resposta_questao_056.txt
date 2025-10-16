@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 56
+==================================================
+
+ENUNCIADO:  
+Q9. How do we clear the connection status if the connection pool mechanism is used during app development?
+
+ITENS:  
+A) Restart the application.  
+B) If GUI parameters are set up in the connection, use "SET SESSION AUTHORIZATION DEFAULT;RESET ALL;" to clear the connection status before you return the connection to the connection pool.  
+C) If a temporary table is used, delete the temporary table before you return the connection to the connection pool.
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO:  
+Sorry, your answer was wrong. My Score: 0 Point(s) Answer: C(D)  
+- Option A: Restarting the application is not a good solution as it does not help with user database authorization switches or potential issues related to temporary tables.  
+- Option B: Using "SET SESSION AUTHORIZATION DEFAULT;RESET ALL;" is not a common method and may not be effective in all cases.  
+- Option C: Deleting the temporary table before returning the connection to the pool is a reliable method to ensure the connection status is cleared.

@@ -1,0 +1,16 @@
+RESPOSTA DA QUESTÃO 318
+==================================================
+
+ENUNCIADO:  
+2. Which of the following can be used to view current system drive usage?
+
+ITENS:  
+A) df  
+B) du /  
+C) du .  
+D) df /
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+Congratulations, you got it! My Score: 5score Correct answer A

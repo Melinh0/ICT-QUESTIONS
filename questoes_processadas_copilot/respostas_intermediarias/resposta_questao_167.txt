@@ -1,0 +1,23 @@
+RESPOSTA DA QUESTÃO 167
+==================================================
+
+ENUNCIADO:  
+Which of the following tools can be used to implement logical backup of the openGauss database?
+
+ITENS:  
+A) LVM snapshot  
+B) PITR  
+C) gs_dump  
+D) gs_dumpall  
+
+ITEM CORRETO: CD
+
+EXPLICAÇÃO:  
+Which of the following tools can be used to implement logical backup of the openGauss database?
+
+- Option A: LVM snapshot. This is false. Logical Volume Manager (LVM) snapshots are useful for physical backup instead of logical backup. Logical backup is to export the database structure and data as SQL scripts or archive files. LVM snapshots are used to save the system itself for physical backup.  
+- Option B: PITR. This is false. Point-In-Time Recovery (PITR) is a method used to restore the database to a specific point of time. PITR allows a database to be restored to any point in time after a physical backup. Instead, it is used for physical backup. The tools used for logical backup are gs_dump and gs_dumpall.  
+- Option C: gs_dump. This is true. gs_dump is a logical backup tool used to export database objects and data definitions. It generates SQL statements that can be used to recreate the database.  
+- Option D: gs_dumpall. This is true. gs_dumpall is a logical backup tool used to export all databases from an openGauss instance. It generates SQL statements that can be used to reinitialize the openGauss instance.
+
+Therefore, the answers are C and D.

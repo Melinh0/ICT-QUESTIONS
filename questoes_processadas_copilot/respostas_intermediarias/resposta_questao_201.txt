@@ -1,0 +1,13 @@
+RESPOSTA DA QUESTÃO 201
+==================================================
+
+ENUNCIADO:  
+17. For a cloud platform with over 100 servers, OEM engineers can install OSs on the servers using any of SmartKit, Smart Provisioning, BMC, or iBMA.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: Nothing.

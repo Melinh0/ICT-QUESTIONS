@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 62
+==================================================
+
+ENUNCIADO:  
+23. After an application is started in openEuler, which of the following commands can be used to set a priority for the corresponding process?
+
+ITENS:  
+A) priority  
+B) nice  
+C) renice  
+D) setpri  
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+The "priority" command does not exist in openEuler.  
+The "nice" command can be used to change the priority of a running process, not set the initial priority of a newly started process.  
+The "renice" command can be used to change the priority of an already running process.  
+Note: The "nice" command can only be used to increase the priority (unless executed with root privileges). This is a security measure to prevent regular users from affecting the operation of critical system processes.

@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 235
+==================================================
+
+ENUNCIADO:  
+46. After logging in to the database as the initial user created during installation, you must create a new user. The initial user cannot be used again.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+An initial user is automatically generated during database installation. This account has the highest level of permissions in the system and can perform all operations. It is recommended that the initial user be used only as a database administrator for administering the installed system or service or application. While this initial user will always be required in order to manage the database, it may be recommended that other users be created for different services or application requirements or for benefits of security and management.
+
+This initial user has the highest level of permissions in the system and can perform all operations. This means that if the initial user is reused for a different service or application, the usage may be limited, considering the permissions and security requirements.
+
+In practice, it is recommended that a new user based on different service with limited range or another user can be created for the service based on specific service requirements and management policies. Therefore, the answer is: F.

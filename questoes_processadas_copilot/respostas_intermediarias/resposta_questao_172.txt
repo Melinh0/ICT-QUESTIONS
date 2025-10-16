@@ -1,0 +1,26 @@
+RESPOSTA DA QUESTÃO 172
+==================================================
+
+ENUNCIADO:  
+22. Which of the following is not an SSH client tool?
+
+ITENS:  
+A) ssh  
+B) scp  
+C) rsync  
+D) sftp
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO:  
+Answer Explanations -  
+rsync is not an SSH client tool.  
+The other options are:  
+- Option A: ssh, remote login and command execution between hosts  
+- Option B: scp, secure file copy between local and remote hosts  
+- Option D: sftp, secure file transfer between hosts  
+
+While rsync can utilize SSH for secure data transfer, it is not inherently an SSH tool. It is primarily a tool focused on file transfer itself.  
+rsync is a method of synchronizing files between local and remote systems by efficiently transferring only the differences between files. Its compression and recursive transfer features make it a popular choice for backups and mirroring tasks.  
+Even when rsync uses SSH for secure data transfer, it remains distinct from SSH clients and protocols designed for remote login, independent of SSH.  
+Therefore, C. rsync is the correct answer.

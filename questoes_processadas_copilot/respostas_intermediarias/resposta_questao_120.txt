@@ -1,0 +1,22 @@
+RESPOSTA DA QUESTÃO 120
+==================================================
+
+ENUNCIADO:  
+42. OpenStack consists of the control, compute, network, and storage node types. Which of the following statements about the node types are correct?
+
+ITENS:  
+A) A compute node requires only one network port to communicate with the control node.  
+B) A compute node runs Nova to support VM creation and running, and provides APIs to interconnect with the control node.  
+C) A network node contains at least two network ports for communication with the control node and storage node, respectively.  
+D) A storage node runs Swift to provide the object storage service. Swift stores and formats files and converts file systems in a virtualized drive space.
+
+ITEM CORRETO: BD
+
+EXPLICAÇÃO:  
+Answer Explanation:  
+This is a multiple-choice test. In an OpenStack environment, a control node typically requires one network port to communicate with other nodes. The control node is used for managing and controlling OpenStack services (e.g., Horizon dashboard, Neutron network, and Cinder block storage). The compute node runs Nova to support VM creation and running, and provides APIs to interconnect with the control node. The entire OpenStack environment architecture includes control nodes, compute nodes, network nodes, and storage nodes.  
+The network node contains at least two network ports for communication with the control node and storage node, respectively.  
+The storage node runs Swift to provide the object storage service. Swift stores and formats files and converts file systems in a virtualized drive space.  
+In this case, the correct answer is BD.  
+Option A is incorrect because a compute node typically runs the Neutron service exclusively for network communication with the control node, and it may not necessarily use a separate port for each of its services.  
+Option C is incorrect because a network node typically requires multiple network ports to communicate with other nodes. Some of the communication is with the control node, and some is with the storage node, but not necessarily one port for each.

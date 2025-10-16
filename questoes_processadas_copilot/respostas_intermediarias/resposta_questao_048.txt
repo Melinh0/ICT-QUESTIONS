@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 48
+==================================================
+
+ENUNCIADO: 2. How often is a version of openEuler released?
+
+ITENS:  
+A) Every 3 months  
+B) Every 6 months  
+C) Every year  
+D) Every 2 years
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: Congratulations, you got it! My Score:5score Correct answer:B

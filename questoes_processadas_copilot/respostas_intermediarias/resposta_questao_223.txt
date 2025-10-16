@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 223
+==================================================
+
+ENUNCIADO: Which of the following statements about index design is false?
+
+ITENS:  
+A) The number of indexes of a table involving frequent DML operations is recommended to be less than or equal to 5.  
+B) Indexes are built for columns with a large number of identical values.  
+C) Indexes are built for columns that are often used for query selection.  
+D) Indexes are built for attributes that are often used as table joins.
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+- Option A: This is true. A guideline provided by openGauss, allows users to directly affect the generation of execution plans.  
+- Option B: This is false. Indexes are built on columns with a large number of different values to improve efficiency.  
+- Option C: This is true. Indexes are built for columns that are often used for query selection.  
+- Option D: This is true. Indexes are built for attributes that are often used as table joins.

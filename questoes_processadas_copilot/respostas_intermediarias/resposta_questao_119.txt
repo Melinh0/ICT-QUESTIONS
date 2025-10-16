@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 119
+==================================================
+
+ENUNCIADO:  
+10. Which of the following locks need to be held by openGauss during VACUUM?
+
+ITENS:  
+A) EXCLUSIVE  
+B) ShareUpdateExclusiveLock  
+C) SHARE  
+D) ROW EXCLUSIVE  
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+- Option A: EXCLUSIVE lock allows concurrent queries on the target table, but prohibits modification. VACUUM operation modifies table metadata. Therefore, the VACUUM operation does not hold the EXCLUSIVE lock, which prevents other queries from accessing the table.  
+- Option B: ShareUpdateExclusiveLock is required for the VACUUM operation. It is used to protect the table from being modified by other operations while the VACUUM operation is running.  
+- Option C: SHARE lock allows concurrent queries but prohibits modification. VACUUM modifies table metadata and therefore does not hold the SHARE lock.  
+- Option D: ROW EXCLUSIVE lock allows concurrent queries and modification. VACUUM modifies table metadata and therefore does not hold the ROW EXCLUSIVE lock.

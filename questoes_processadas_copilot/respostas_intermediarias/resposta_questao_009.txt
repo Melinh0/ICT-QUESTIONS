@@ -1,0 +1,20 @@
+RESPOSTA DA QUESTÃO 9
+==================================================
+
+ENUNCIADO:  
+Which of the following commands can be used to save all lines in a text file to another file in reverse order?
+
+ITENS:  
+A) `cat input.txt | sort -r > output.txt`  
+B) `cat input.txt | tac > output.txt`  
+C) `cat input.txt | rev > output.txt`  
+D) `cat input.txt | awk 'BEGIN{OFS=ORS=""} {for(i=NF;i>0;i--)print $i}' > output.txt`
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+Option A: The sort command sorts input and determines which command can be used to reverse all lines in a text file. It doesn't retain the semantics unaltered, and though it reverses the order of the lines, it reverses each line's content.  
+Option B: The tac command concatenates and prints files in reverse. It retains the semantics of the input file, hence it is correct as it is an input/output-oriented tool. This option answers the question because the order of the lines, not the order of the characters in the lines, is to be reversed.  
+Option C: The rev command reverses the characters in each line. It doesn't reverse the order of the lines. This option is incorrect as it only outputs the data in the standard output in reverse line content.  
+Option D: The awk command is used to reverse the fields. The "rev" command was used to reverse the character order in a line, but it does not accept the input name as a parameter. The command can be used in the output redirection properly with the correct input file. However, even if the syntax is correct, this option is incorrect as it reverses the fields, not the lines.  
+Option D: The awk command attempts to reverse the fields using arrays and loops. However, it is not the correct answer to the question. In addition, `OFS=ORS=""` is invalid/unwanted and can cause unpredictable behavior because it doesn't separate the output fields.

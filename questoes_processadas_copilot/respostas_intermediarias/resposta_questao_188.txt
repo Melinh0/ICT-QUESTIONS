@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 188
+==================================================
+
+ENUNCIADO: Uninstalling the database is a major operation. Therefore, you need to run the uninstallation script as the user root.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: This is false. You do not need to run the uninstallation script as the 'root' user to uninstall the openGauss database. Generally, the database installation and uninstallation are performed by a database administrator (DBA) or a specific user (such as the 'gauss' user) created during database installation, not the 'root' user. Using a specific database user to manage and uninstall the database ensures that only authorized users have access and avoids unnecessary security issues. Permissions should be restricted and secure.
+
+Security and permission: The operations for the openGauss database are usually performed by a specific user (for example, user 'gauss'). This user has sufficient permissions to install, uninstall, and manage the database.
+
+Misconfiguration and risks: Performing these operations with 'root' user brings security risks. Especially when the database is uninstalled, the 'root' user has the highest level of system priority and permission misoperations or other simple errors can affect the configurations. Therefore, it is recommended that you perform these operations as a database administrator or specific database user.
+
+Appropriate permissions: Ensure that the database uninstallation script be executed by those truly authorized users and ensure the execution script. This would ensure the security of the overall system and database.

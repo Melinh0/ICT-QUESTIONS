@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 228
+==================================================
+
+ENUNCIADO: Q49. The difference between the primary/secondary mode and the primary/standby mode is that the standby node provides services for external systems in the primary/secondary mode.
+
+ITENS:
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: In primary/standby mode, the primary node is responsible for all read and write operations, and the standby node is responsible for backup, it synchronizes data from the primary node and does not provide services when the primary node is running properly.
+
+In primary/secondary mode, the primary node is responsible for write operations (such as insertion, update, and deletion), and the secondary node is responsible for read operations. In addition to synchronizing data from the primary node, the secondary node provides read services.
+
+The main difference between primary/standby mode and primary/secondary mode lies in whether the standby or secondary node provides services. In primary/secondary mode, the secondary node synchronizes data from the primary node and provides read services. In primary/standby mode, the standby node will serve services only when the primary node is not running properly, and it does not provide services when the primary node is running properly.
+
+Therefore, this is a false statement.

@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 150
+==================================================
+
+ENUNCIADO: To install the OS using the "openEuler-22.03-LTS-aarch64-dvd.iso" file, which of the following boot options needs to be used?
+
+ITENS:  
+A) Hard disk drive  
+B) CD/DVD drive  
+C) Floppy drive  
+D) PXE
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: Nothing.

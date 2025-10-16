@@ -1,0 +1,23 @@
+RESPOSTA DA QUESTÃO 99
+==================================================
+
+ENUNCIADO:  
+21. Which of the following directories or files determines the boot mode of openEuler?
+
+ITENS:  
+A) /boot/efi/EFI/openEuler/  
+B) /etc/grub2/  
+C) /sys/firmware/efi  
+D) /etc/default/grub
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO:  
+Answer Explanation:  
+The presence or absence of "/sys/firmware/efi/" (option C) determines whether openEuler is booted using UEFI or the traditional BIOS.  
+If "/sys/firmware/efi/" exists, then UEFI mode is supported and enabled in the current system.  
+If not, the system uses the BIOS boot mode.  
+Option A: "/boot/efi/EFI/openEuler/" stores the files required by UEFI, but does not determine the boot mode.  
+Option B: "/etc/grub2/" is the GRUB2 configuration directory. It is used to specify the default settings of GRUB but does not determine the boot mode.  
+Option D: "/etc/default/grub" is a GRUB2 configuration file. It is used to specify the default settings of GRUB and does not determine the boot mode.  
+Therefore, the correct answer is C. The existence of "/sys/firmware/efi/" is used to specify whether the system is booted using UEFI and the hardware supports UEFI.

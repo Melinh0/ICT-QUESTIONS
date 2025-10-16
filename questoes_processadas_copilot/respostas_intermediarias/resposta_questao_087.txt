@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 87
+==================================================
+
+ENUNCIADO:  
+6. In the openGauss fully-encrypted database, which of the following methods can be used to create an encrypted table?
+
+ITENS:  
+A) Use the CREATE TABLE statement to specify the encryption algorithm and key.  
+B) Use the ALTER TABLE statement to specify the encryption algorithm and key.  
+C) Use the CREATE TABLESPACE statement to specify the encryption algorithm and key.  
+D) Run the exp_dump command to back up the existing encrypted table and specify the encryption algorithm and key.
+
+ITEM CORRETO: AB
+
+EXPLICAÇÃO:  
+- Option A: This method is supported. You can create an encrypted table using the CREATE TABLE statement, and specify an encryption algorithm and key to create an encrypted table.  
+- Option B: This method is supported. You can use the ALTER TABLE statement to specify an encryption algorithm and key to convert a common table into an encrypted table.  
+- Option C: The CREATE TABLESPACE statement is not used to create tables or encrypted tables. Tablespaces configurations are related to storage, not encryption.  
+- Option D: The exp_dump command is used to back up existing tables. It does not create tables, and the encryption algorithm and key are used for backup and restore, not to create new encrypted tables.

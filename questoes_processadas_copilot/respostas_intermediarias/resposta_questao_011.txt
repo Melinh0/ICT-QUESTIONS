@@ -1,0 +1,15 @@
+RESPOSTA DA QUESTÃO 11
+==================================================
+
+ENUNCIADO:  
+60. After the administrator installs the BIMA, which of the following shell scripts are displayed in the "/opt/huawei/bima/" directory?
+
+ITENS:  
+A) BIMA.sh  
+B) b.sh  
+C) uninstall.sh  
+D) install.sh  
+
+ITEM CORRETO: ABC
+
+EXPLICAÇÃO: Nothing

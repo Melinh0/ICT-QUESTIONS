@@ -1,0 +1,24 @@
+RESPOSTA DA QUESTÃO 198
+==================================================
+
+ENUNCIADO:  
+54. The file system structure of Linux is a directory tree.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+In Linux, file systems are organized into hierarchical structures of directory trees.  
+The root directory (/) is the top-level or base of the system, the starting point of the entire hierarchy.  
+Subdirectories can be created as branches under the directory tree. Each directory can further contain subdirectories or files.  
+Each directory is uniquely defined by the location of a file or directory in the system.  
+Partitioned locations or partitions can be mounted at different root points in the directory tree to form a unified hierarchy.  
+The hierarchical organization of Linux file systems provides several advantages:  
+- Unity: Multiple physical devices are represented through mounting, creating a single, logically unified namespace.  
+- Flexibility: Mount points can be adjusted as needed.  
+- Clear structure: The clear hierarchical layout allows users to easily locate and access files.  
+Organizing the file system into hierarchical structures aligns well with its table of classification and also facilitates the organization and management of system resources. Linux inherited this design concept from the Unix file system.  
+Therefore, the statement in the question is true.

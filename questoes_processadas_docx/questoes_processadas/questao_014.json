@@ -1,0 +1,14 @@
+{
+  "numero": 14,
+  "texto_completo": "ENUNCIADO: Which command can be used to extract content from specified columns of each line of a text file?\nITENS:\nA) cp  \nB) dd  \nC) fmt  \nD) cut  \nITEM CORRETO:  \nEXPLICAÇÃO:",
+  "enunciado": "Which command can be used to extract content from specified columns of each line of a text file?",
+  "itens": {
+    "A": "cp",
+    "B": "dd",
+    "C": "fmt",
+    "D": "cut"
+  },
+  "item_correto": "E",
+  "tem_gabarito": true,
+  "explicacao": ""
+}

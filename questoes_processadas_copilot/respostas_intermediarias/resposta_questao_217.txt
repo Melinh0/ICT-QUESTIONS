@@ -1,0 +1,24 @@
+RESPOSTA DA QUESTÃO 217
+==================================================
+
+ENUNCIADO:  
+60. It is a significant challenge for application developers to ensure data security when data grows rapidly.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+As data grows rapidly, ensuring data security becomes a significant challenge for application developers. This is due to several reasons:
+
+1. **Challenges brought by data growth**: The rapid growth of data volume means that larger storage space, higher processing capability, and more complex management tools are required. This can make data systems more intricate, thus harder to secure.
+
+2. **Importance of data security**: Data security is the key to preventing data misuse, unauthorized access, and breaches, which can have legal and reputational consequences.
+
+3. **Challenges faced by application developers**: Advanced technologies such as encryption, access controls, and audit logs are required to ensure data confidentiality and integrity. In addition, ensuring data security requires continuous monitoring, updates, and compliance with regulations.
+
+4. **Risk of data breaches**: As data grows, the risk of breaches increases due to the complexity of managing and securing large volumes of data.
+
+5. **Ensuring data security is a critical challenge**: Application developers must implement robust security measures and improve management processes to prevent data loss and leakage.

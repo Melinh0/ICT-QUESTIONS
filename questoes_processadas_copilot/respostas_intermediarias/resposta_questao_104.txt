@@ -1,0 +1,22 @@
+RESPOSTA DA QUESTÃO 104
+==================================================
+
+ENUNCIADO: Which of the following commands can be used to collect OS and log information to locate faults when openGauss is faulty?
+
+ITENS:  
+A) gs_collector  
+B) gs_restore  
+C) gs_checkperf  
+D) gs_check  
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO: gs_collector is used to collect various openGauss information, including but not limited to OS logs and database run logs. This information can be used to locate faults and fault diagnosis. This tool can be used to collect OS and DSS logs in the presence of openGauss-related faults, and collect related information to locate the fault. For example, run the "gs_collector -f fault --begin-time=1 --end-time=2" command to specify a time range for log collection. When openGauss is running in a primary/standby server, gs_collector can be used to collect relevant logs and information to locate the fault.
+
+gs_restore is used to restore the database from the backup. It is irrelevant to fault diagnosis.
+
+gs_checkperf is used to collect CPU usage, I/O usage, memory usage, SSD performance of openGauss database. Although it helps determine the performance status of the system, it is not directly related to fault diagnosis.
+
+gs_check is a shell command in openGauss. It is used to perform system check or configuration verification, but it is not directly related to fault-related log collection.
+
+In conclusion, the answer is A.

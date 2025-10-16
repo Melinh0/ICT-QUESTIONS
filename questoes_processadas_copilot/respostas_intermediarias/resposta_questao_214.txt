@@ -1,0 +1,16 @@
+RESPOSTA DA QUESTÃO 214
+==================================================
+
+ENUNCIADO:  
+Which of the following commands can be used to find the software package to which the /etc/my.conf file belongs?
+
+ITENS:  
+A) rpm -q /etc/my.conf  
+B) rpm --requires /etc/my.conf  
+C) rpm -qf /etc/my.conf  
+D) rpm -q  
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO:  
+Congratulations, you got it! My Score: 5score Correct answer: C

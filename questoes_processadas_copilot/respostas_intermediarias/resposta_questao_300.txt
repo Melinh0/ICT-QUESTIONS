@@ -1,0 +1,15 @@
+RESPOSTA DA QUESTÃO 300
+==================================================
+
+ENUNCIADO:  
+2. The files of Linux file systems are stored in different directories according to their functions. Which of the following directories stores files of external devices?
+
+ITENS:  
+A) /bin  
+B) /etc  
+C) /dev  
+D) /lib  
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO: Congratulations, you got it!!! My Score: 5score Correct answer: C

@@ -1,0 +1,14 @@
+{
+  "numero": 4,
+  "texto_completo": "ENUNCIADO: Which of the following items is not included in the site survey process?\nITENS:\nA) On-site preparation coordination meeting  \nB) Survey report preparation  \nC) Site survey preparation  \nD) Software installation planning  \nITEM CORRETO: D  \nEXPLICAÇÃO: O planejamento de instalação de software não faz parte do processo de levantamento de site, que foca em aspectos físicos e logísticos do local.",
+  "enunciado": "Which of the following items is not included in the site survey process?",
+  "itens": {
+    "A": "On-site preparation coordination meeting",
+    "B": "Survey report preparation",
+    "C": "Site survey preparation",
+    "D": "Software installation planning"
+  },
+  "item_correto": "D",
+  "tem_gabarito": true,
+  "explicacao": "O planejamento de instalação de software não faz parte do processo de levantamento de site, que foca em aspectos físicos e logísticos do local."
+}

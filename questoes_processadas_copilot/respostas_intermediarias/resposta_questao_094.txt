@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 94
+==================================================
+
+ENUNCIADO: In the instr(string1, string2, int1, int2) function, int2 indicates the position where a string ends to be matched.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+Note: This instr function is usually used to find the position of a string in another string. The parameter meanings may vary depending on the database implementation. In a common database system (such as Oracle or MySQL), the parameters of the instr function are described as below:  
+'string1': character string to be searched.  
+'string2': character string to be searched for.  
+'int1': start position of the search.  
+'int2': search direction or occurrence times.  
+Therefore, 'int2' does not indicate the position where the match ends, but specifies the position of the specified occurrence.

@@ -1,0 +1,17 @@
+RESPOSTA DA QUESTÃO 294
+==================================================
+
+ENUNCIADO:  
+1) This statement is incorrect. Swift is a distributed, highly scalable object storage service in OpenStack designed for storing and retrieving unstructured data efficiently. It does not format files or control file systems or storage nodes. In OpenStack, storage nodes usually run either Cinder or Swift. The difference between the two is obvious: Cinder provides block storage, such as for VM ware, while Swift provides object storage.
+
+ITENS:  
+A) [não consta na imagem]  
+B) [não consta na imagem]  
+C) [não consta na imagem]  
+D) [não consta na imagem]  
+E) [não consta na imagem]
+
+ITEM CORRETO: 2 e 3
+
+EXPLICAÇÃO:  
+In conclusion, the correct answers are 2 and 3.

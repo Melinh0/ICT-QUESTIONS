@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 177
+==================================================
+
+ENUNCIADO:  
+4. Assume that the current directory of the root user is /usr/local. After you run the cd command, which of the following directories is the current directory of the user?
+
+ITENS:  
+A) /home  
+B) /root  
+C) /home/root  
+D) /usr/local  
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+Congratulations, you got it!  
+My Score: 5score  
+Correct answer: B

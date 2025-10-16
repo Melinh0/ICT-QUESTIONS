@@ -1,0 +1,20 @@
+RESPOSTA DA QUESTÃO 258
+==================================================
+
+ENUNCIADO:  
+7. When the gs_checkperf tool is used to check system performance, which of the following can be viewed only by user root?
+
+ITENS:  
+A) openGauss level  
+B) Host level  
+C) Session-Process level  
+D) SSD performance
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO:  
+The gs_checkperf tool checks CPU usage, openGauss CPU usage, and I/O usage. However, not all information is available to non-root users.  
+Host level is similar to openGauss level and includes checks of CPU, memory, and I/O usage, but not all are available to non-root users.  
+Session-Process level checks openGauss session and process information, and is not only available to the root user.  
+SSD performance checks are restricted to the root user due to permission issues in some systems.  
+Therefore, the correct answer is D. SSD performance.

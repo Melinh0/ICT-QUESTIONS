@@ -1,0 +1,27 @@
+RESPOSTA DA QUESTÃO 232
+==================================================
+
+ENUNCIADO:  
+Which of the following commands can be used to query the list of files provided by a software package?
+
+ITENS:  
+A) rpm -Uvh <package_name>  
+B) rpm -iKh <package_name>  
+C) rpm -ql <package_name>  
+D) rpm -qf <package_name>
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO:  
+This command attempts to upgrade a package to the latest version, but does not actually perform the installation or upgrade operation. This is because the "-U" option is used to display the installation progress. Without the "-i" or "-U" option, the command will execute the operation when used with rpm. It is often used in conjunction with the list option.
+
+The "-i" option is used to install the package, and the "-K" option is used to verify the package. The "-q" option indicates installation, the "-l" option indicates the list of files, and the "-f" option displays the installation progress.
+
+The correct command is:  
+rpm -ql <package_name>  
+
+This command lists all files installed by the specified software package "<package_name>".
+
+In this command, the "-q" option is used to query the package, and the "-l" option is used to list all files in a software package, to verify every software package to which a file belongs.
+
+The command lists all files in the package.

@@ -1,0 +1,14 @@
+{
+  "numero": 2,
+  "texto_completo": "ENUNCIADO: A representação das opções de compilação e macros na arquitetura x86 difere daquela na arquitetura Kunpeng.\nITENS:\nA) As opções de compilação são idênticas entre x86 e Kunpeng.\nB) As macros são universais e não precisam ser alteradas.\nC) As opções e macros devem ser adaptadas para ARM/Kunpeng.\nD) O código assembly embutido é compatível entre as arquiteturas.\nITEM CORRETO: C\nEXPLICAÇÃO: Sinalizadores de compilação e macros específicas da arquitetura x86 devem ser modificados ou substituídos por equivalentes ARM/Kunpeng durante a portabilidade.",
+  "enunciado": "A representação das opções de compilação e macros na arquitetura x86 difere daquela na arquitetura Kunpeng.",
+  "itens": {
+    "A": "As opções de compilação são idênticas entre x86 e Kunpeng.",
+    "B": "As macros são universais e não precisam ser alteradas.",
+    "C": "As opções e macros devem ser adaptadas para ARM/Kunpeng.",
+    "D": "O código assembly embutido é compatível entre as arquiteturas."
+  },
+  "item_correto": "C",
+  "tem_gabarito": true,
+  "explicacao": "Sinalizadores de compilação e macros específicas da arquitetura x86 devem ser modificados ou substituídos por equivalentes ARM/Kunpeng durante a portabilidade."
+}

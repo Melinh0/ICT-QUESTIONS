@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 157
+==================================================
+
+ENUNCIADO:  
+58. Security-Enhanced Linux (SELinux) provides fine-grained access control, including role-based access control (RBAC).
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+SELinux, a security module in the Linux kernel, enforces mandatory access control (MAC), distinguishing it from the traditional discretionary access control (DAC) based on user and group IDs. Administrators can define policies in SELinux to precisely regulate process access to resources like files, directories, and ports. Role-Based Access Control (RBAC) limits permissions to roles, not users directly. Users acquire permissions by assuming one or more roles. This greatly simplifies permission management by enabling the sharing and role-level permission management. SELinux does provide detailed access control and supports role-based access control. The statement in the question is true.

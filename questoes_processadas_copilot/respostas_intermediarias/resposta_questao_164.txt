@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 164
+==================================================
+
+ENUNCIADO:  
+38. In Vim, which of the following commands is used to search for occurrences of '2023' backwards?
+
+ITENS:  
+A) /2023  
+B) ?2023  
+C) f2023  
+D) %2023
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+- "/" is used to search for a string forward (downward) starting from the current position.  
+- "?" is used to search for a string backward (upwards) starting from the current position.  
+- "f" searches for the character string forward (downward) from the current position.  
+- "%" searches for the matching character, typically used for brackets.

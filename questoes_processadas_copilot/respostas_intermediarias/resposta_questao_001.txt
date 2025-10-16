@@ -1,0 +1,20 @@
+RESPOSTA DA QUESTÃO 1
+==================================================
+
+ENUNCIADO: Q32. Which of the following scenarios is most suitable for distributed striped volumes of GlusterFS?
+
+ITENS:  
+A) Scenario that involves a great number of large files and requires high read and write performance.  
+B) Scenario that involves a great number of large files and requires high read performance and reliability.  
+C) Scenario that requires flexible data access control.  
+D) Scenario that requires fast data recovery.
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO: In GlusterFS distributed striped volumes, multiple files are stored on multiple nodes in hash-based order, and each file is striped and stored on multiple bricks. These volumes inherit the advantages of distributed volumes and striped volumes and provide high read/write performance. However, they do not offer data redundancy, fault tolerance, or flexible data access control.
+
+The detailed analysis is as follows:  
+Option A describes the scenario that involves a great number of large files and requires high read and write performance.  
+Option B describes the scenario that involves a great number of large files and requires high read performance and reliability, but does not meet application scenarios of distributed striped volumes.  
+Option C describes the scenario that requires flexible data access control, which is not suitable for distributed striped volumes.  
+Option D describes the scenario that requires fast data recovery, which is not suitable for the efficient and fast read/write application scenario of distributed striped volumes.

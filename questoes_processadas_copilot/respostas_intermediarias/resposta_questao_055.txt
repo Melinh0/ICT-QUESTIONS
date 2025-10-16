@@ -1,0 +1,21 @@
+RESPOSTA DA QUESTÃO 55
+==================================================
+
+ENUNCIADO:  
+27. The gs_check tool that openGauss provides can check the database health status. Which of the following statements about the precautions for using the gs_check tool are true?
+
+ITENS:  
+A) Only the user root is authorized to check new nodes. Other checks can only be performed by user omm.  
+B) The parameter -i or --item must be specified. It is used to check a specific item and to be used with -e and -x to specify a scenario where multiple items will be checked.  
+C) You can run --skip-root-items to skip root check items to avoid entering the password of user root.  
+D) When checking the consistency between new and existing nodes, run the gs_check command on an existing node and specify the --hosts parameter. The IP address of the new node needs to be written into the hosts file.  
+E) The gs_check tool is not authorized to check new nodes.
+
+ITEM CORRETO: ABCD
+
+EXPLICAÇÃO:  
+A. This is true. Only the user "root" is authorized to check new nodes. Other checks can only be performed by the "omm" user.  
+B. This is true. The parameter "-i" or "--item" must be specified. It is used to check a specific item and to be used with the "-e" and "-x" parameters to check multiple items in specific scenarios.  
+C. This is true. You can run "--skip-root-items" to skip root check items to avoid entering the password of user "root".  
+D. This is true. To check the consistency between the new and existing nodes, run the gs_check command on an existing node and specify the "--hosts" parameter. The IP address of the new node needs to be written into the hosts file.  
+E. This is incorrect. The correct answers are A, B, C, and D.

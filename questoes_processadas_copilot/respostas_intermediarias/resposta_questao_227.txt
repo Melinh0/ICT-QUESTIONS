@@ -1,0 +1,20 @@
+RESPOSTA DA QUESTÃO 227
+==================================================
+
+ENUNCIADO:  
+6. Which of the following commands can be used to uninstall the openGauss database and delete the data directory?
+
+ITENS:  
+A) gs_uninstall  
+B) gs_preinstall  
+C) gs_uninstall --delete-data  
+D) gs_postinstall  
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO:  
+This command can start the uninstallation process, but does not specify the option to delete the data directory.  
+This command is used to prepare the cluster environment and is irrelevant to the uninstallation of openGauss.  
+This command can uninstall openGauss and delete the data directory: gs_uninstall --delete-data deletes the data directory. This is the correct command for uninstalling openGauss and deleting the data directory.  
+This command is used to perform post-installation operations after openGauss database is uninstalled. It does not uninstall the openGauss database or directly delete the data directory.  
+In conclusion, the answer is C.

@@ -1,0 +1,12 @@
+{
+  "numero": 6,
+  "texto_completo": "ENUNCIADO: In drive I/O subsystem tuning, which of the following options are key tuning strategies?\nITENS:\nA)  \nB)  \nC)  \nD)  \nITEM CORRETO: Não fornecida.\nEXPLICAÇÃO: Não fornecida.",
+  "enunciado": "In drive I/O subsystem tuning, which of the following options are key tuning strategies?",
+  "itens": {
+    "A": "B)",
+    "C": "D)"
+  },
+  "item_correto": "",
+  "tem_gabarito": false,
+  "explicacao": "Não fornecida."
+}

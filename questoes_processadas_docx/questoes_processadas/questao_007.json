@@ -1,0 +1,13 @@
+{
+  "numero": 7,
+  "texto_completo": "ENUNCIADO: Which of the following statements are true about special shell variables?\nITENS:\nA) \"$$\" indicates all arguments passed to the script or function.  \nB) \"0\" indicates the file name of the current script.  \nD) \"$?\" indicates the exit status of the previous command, or the return value of a function.  \nITEM CORRETO: B, D  \nEXPLICAÇÃO: \"$$\" representa o PID do processo atual, não os argumentos. \"$0\" e \"$?\" têm os significados corretos conforme descrito.",
+  "enunciado": "Which of the following statements are true about special shell variables?",
+  "itens": {
+    "A": "\"$$\" indicates all arguments passed to the script or function.",
+    "B": "\"0\" indicates the file name of the current script.",
+    "D": "\"$?\" indicates the exit status of the previous command, or the return value of a function."
+  },
+  "item_correto": "B",
+  "tem_gabarito": true,
+  "explicacao": "\"$$\" representa o PID do processo atual, não os argumentos. \"$0\" e \"$?\" têm os significados corretos conforme descrito."
+}

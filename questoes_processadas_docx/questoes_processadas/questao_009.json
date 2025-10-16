@@ -1,0 +1,12 @@
+{
+  "numero": 9,
+  "texto_completo": "ENUNCIADO: The Kunpeng community provides developers with a comprehensive support platform, including software porting guides, performance tuning tools, technical support, and open source collaboration opportunities. These resources empower developers to smoothly port and optimize existing applications on Kunpeng processor-based platforms and participate in the development of the Kunpeng ecosystem, jointly driving technological advancements. However, all resources and services offered by the Kunpeng community are limited to software-level support and do not extend to hardware-level technical support.\nITENS:\nA) True  \nB) False  \nITEM CORRETO: A  \nEXPLICAÇÃO: A comunidade Kunpeng oferece suporte abrangente em nível de software, mas não cobre suporte técnico de hardware.",
+  "enunciado": "The Kunpeng community provides developers with a comprehensive support platform, including software porting guides, performance tuning tools, technical support, and open source collaboration opportunities. These resources empower developers to smoothly port and optimize existing applications on Kunpeng processor-based platforms and participate in the development of the Kunpeng ecosystem, jointly driving technological advancements. However, all resources and services offered by the Kunpeng community are limited to software-level support and do not extend to hardware-level technical support.",
+  "itens": {
+    "A": "True",
+    "B": "False"
+  },
+  "item_correto": "A",
+  "tem_gabarito": true,
+  "explicacao": "A comunidade Kunpeng oferece suporte abrangente em nível de software, mas não cobre suporte técnico de hardware."
+}

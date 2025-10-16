@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 131
+==================================================
+
+ENUNCIADO: What is the command for displaying the home directory of a user?
+
+ITENS:  
+A) echo $HOME  
+B) echo $USERDIR  
+C) echo $ENV  
+D) echo $ECHO  
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO: ✔️ Congratulations, you got it! My Score: Score Correct answer: A

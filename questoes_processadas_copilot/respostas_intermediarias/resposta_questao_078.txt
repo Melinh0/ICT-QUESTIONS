@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 78
+==================================================
+
+ENUNCIADO: Which of the following statements is true about the separation of duties of openGauss?
+
+ITENS:  
+A) Database administrators (DBAs), application developers, and system administrators have the same responsibilities and responsibilities.  
+B) The responsibilities of database management, data security, and database audit log viewing and management are assigned to different roles or users.  
+C) The responsibilities between database instances, operating systems, and applications are not separated.  
+D) Database read, write, and management operations are performed by different roles or users.
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+- Option A: Incorrect. DBAs, application developers, and system administrators have different responsibilities.  
+- Option B: Correct. The separation of duties in openGauss clearly assigns roles: system administrators manage OS resources, DBAs manage database resources, and security administrators manage security policies and audit logs.  
+- Option C: Incorrect. The separation of duties involves separating responsibilities between database instances, operating systems, and applications.  
+- Option D: Incorrect. Database read, write, and management operations are not necessarily performed by different roles or users.

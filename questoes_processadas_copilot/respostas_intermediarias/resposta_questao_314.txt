@@ -1,0 +1,16 @@
+RESPOSTA DA QUESTÃO 314
+==================================================
+
+ENUNCIADO: Which of the following command combinations can be used to count the number of users who log in to the system?
+
+ITENS:  
+A) who  
+B) wc -w  
+C) whoami  
+D) wc -l  
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO: Congratulations, you got it!  
+My Score: 5score  
+Correct answer: C

@@ -1,0 +1,21 @@
+RESPOSTA DA QUESTÃO 132
+==================================================
+
+ENUNCIADO:  
+12. Which of the following statements about periodic tasks is correct?
+
+ITENS:  
+A) The "at" command can be used to set periodic tasks.  
+B) The "cron" command can be used to set periodic tasks.  
+C) The "kill" command can be used to set periodic tasks.  
+D) The "job" command can be used to set periodic tasks.
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+Answer Explanations:  
+- In Linux/Unix OSs, the "cron" command is widely used to schedule periodic tasks. It enables users to schedule commands or scripts to run automatically at specific times or intervals on set jobs.  
+- Option "A": The "at" command is used to schedule periodic tasks in micro-manageable intervals such as backup frequency or file cleanup. However, it is not used for scheduling periodic tasks.  
+- Option "C": The "kill" command is used to terminate processes and is not used for scheduling periodic tasks.  
+- Option "D": The "job" command is not used for scheduling periodic tasks. It is used to manage tasks within the Linux shell (e.g., list/switch between shell tasks).  
+- Therefore, the correct answer is "B": The "cron" command is the appropriate choice for setting periodic tasks in Linux/Unix OSs. It is the most well-known of the scheduling task commands.

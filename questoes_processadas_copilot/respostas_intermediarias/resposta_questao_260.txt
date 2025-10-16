@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 260
+==================================================
+
+ENUNCIADO:  
+"ps -ef | grep -i '192.168.1.100:8' or '192.168.1.101:80' -m" is a Linux virtual server administration command. What is the packet-forwarding method of this server, and what is the IP address of this server?
+
+ITENS:  
+A) Network address translation  
+B) Direct routing  
+C) 192.168.1.100  
+D) 192.168.1.101  
+
+ITEM CORRETO: AD
+
+EXPLICAÇÃO:  
+The command "ps -ef | grep -i" is used to find processes related to the Linux virtual server (LVS).  
+The "ipvsadm" command is used for configuring and managing IP Virtual Server (IPVS) in the Linux kernel.  
+The NAT mode is identified by the use of different forwarding methods.  
+The IP address 192.168.1.101 is used in NAT mode as the server IP.

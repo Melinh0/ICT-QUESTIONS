@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 221
+==================================================
+
+ENUNCIADO: 3. Which of the following commands is used to paste the content in the buffer before the cursor?
+
+ITENS:  
+A) a  
+B) i  
+C) p  
+D) P  
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO: ✅ Congratulations, you got it! My Score: Escore Correct answer: D

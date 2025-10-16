@@ -1,0 +1,12 @@
+RESPOSTA DA QUESTÃO 59
+==================================================
+
+ENUNCIADO: 55. The 'cat 1.txt > 2.txt' command copies '1.txt' as '2.txt'.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO: This command essentially copies the contents of '1.txt' to '2.txt'. If '2.txt' already exists, its contents are replaced with the contents of '1.txt'. If '2.txt' does not exist, it is created and populated with the contents of '1.txt'. Therefore, the statement in the question is true.

@@ -1,0 +1,13 @@
+RESPOSTA DA QUESTÃO 24
+==================================================
+
+ENUNCIADO: A system catalog stores openGauss metadata and is the core part of a database. Users cannot manually edit the system catalog data.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO: System catalogs store structured metadata of openGauss. They are the source of information used by openGauss to control system running and are a core part of the database system. System catalogs, also called data dictionaries, store definitions of database objects; openGauss manages multiple database instances. In these instances, system catalogs are classified into instance-level and database-level system catalogs.  
+In normal cases, system catalogs or system views must not be manually modified by users. The system catalog information is automatically maintained by SQL-related system operations during database running. In special scenarios, some system catalogs can be modified by users, but it is advised not to modify them.

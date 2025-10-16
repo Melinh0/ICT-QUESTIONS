@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 18
+==================================================
+
+ENUNCIADO: When is openEuler 22.03 LTS planned for end-of-life?
+
+ITENS:  
+A) 4596/6  
+B) 2027/03  
+C) 4570/2  
+D) 4601/7  
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: The openEuler 22.03 LTS version follows the naming convention of openEuler YY.MM, where YY is the year and MM is the month. The LTS version is supported for around 5 years. Since openEuler 22.03 LTS was released in March 2022, its end-of-life is planned for March 2027.

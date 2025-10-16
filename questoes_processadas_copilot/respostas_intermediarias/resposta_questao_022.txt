@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 22
+==================================================
+
+ENUNCIADO:  
+41. Which of the following statements about software and service management are true?
+
+ITENS:  
+A) The RPM database files are stored in the "/var/lib/rpm" directory. You can run the "rpm --rebuilddb" command to rebuild the database.  
+B) The "dnf autoremove" command can be used to uninstall software packages that are not needed on the system.  
+C) After the "systemd enable firewalld" command is executed, a soft link pointing to the "firewalld.service" file is created in the "/etc/systemd/system".  
+D) You can run the "rpm -qc glibc" command to view the configuration files contained in the "glibc" software package.
+
+ITEM CORRETO: ABD
+
+EXPLICAÇÃO:  
+A: Correct. The RPM database files are stored in the "/var/lib/rpm" directory. You can run the "rpm --rebuilddb" command to rebuild the database.  
+B: Correct. The "dnf autoremove" command can be used to uninstall software packages that are not needed on the system.  
+C: Incorrect. After the "systemd enable firewalld" command is executed, a soft link pointing to the "firewalld.service" file is created in the "/etc/systemd/system/multi-user.target.wants" directory.  
+D: Correct. You can run the "rpm -qc glibc" command to view the configuration files contained in the "glibc" software package.

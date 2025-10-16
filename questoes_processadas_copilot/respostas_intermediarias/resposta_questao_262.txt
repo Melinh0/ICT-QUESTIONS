@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 262
+==================================================
+
+ENUNCIADO: *(O enunciado completo não está presente na imagem fornecida. Apenas os itens da questão estão visíveis.)*
+
+ITENS:  
+A) Although it’s uncertain whether this is the actual movie title (e.g., The Matrix), movie is cached based on the “.avi” option.  
+B) It cannot be determined from the command what the title movie is used.  
+C) This is the IP address of the video server, not the IP address of the local backend server.  
+D) This is the IP address of the local backend server.
+
+ITEM CORRETO: *(Não especificado na imagem.)*
+
+EXPLICAÇÃO: *(Não há explicação visível na imagem.)*

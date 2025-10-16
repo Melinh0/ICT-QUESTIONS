@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 293
+==================================================
+
+ENUNCIADO:  
+Which of the following commands can be used to list all tasks that are defined to be executed at a specified time in the future?
+
+ITENS:  
+A) atq  
+B) cron  
+C) batch  
+D) at  
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+Congratulations, you got it!  
+Correct answer A  
+My Score: 5score

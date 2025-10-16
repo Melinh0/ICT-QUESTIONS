@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 80
+==================================================
+
+ENUNCIADO:  
+50. If you find that a database instance has stopped responding, what steps should you take?
+
+ITENS:  
+A) Restart the database server.  
+B) Check server resources, such as memory and disk space.  
+C) Restore the data backup.  
+D) Check the error logs for useful information.
+
+ITEM CORRETO: B e D
+
+EXPLICAÇÃO:  
+- Option A: Although restart will solve the problem temporarily, but that does not solve it in general. The problem can recur in a short while. Causes can be of various kinds and affect service continuity.  
+- Option B: This is a correct answer. The instance may be caused by an insufficient disk space or less memory available to the database for responding correctly. Check the server resources and ensure that the server has sufficient memory and disk space.  
+- Option C: This is incorrect, as data corruption does not lead to backup as the current time lead. This step is performed only when the data is damaged and the restore method is used.  
+- Option D: This is also a correct answer. Error logs contain information about the issue that is preventing the instance from responding. This information can be used to determine the root cause of the problem and take corresponding measures to rectify the fault.

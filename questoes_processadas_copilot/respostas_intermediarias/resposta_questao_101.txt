@@ -1,0 +1,15 @@
+RESPOSTA DA QUESTÃO 101
+==================================================
+
+ENUNCIADO: Which of the following statements are true about eSight external interfaces?
+
+ITENS:  
+A) Southbound interfaces connect to and manage devices.  
+B) Northbound interfaces integrate eSight with upper-layer management systems.  
+C) For interfaces used to send notifications, eSight connects to private mail servers and SMS gateways.  
+D) Interfaces used to integrate external authentication servers, and interconnect with private authentication servers.
+
+ITEM CORRETO: ABCD
+
+EXPLICAÇÃO: Sorry, your answer was wrong. Your score: 0 Point(s)  
+Answer: - ABCD

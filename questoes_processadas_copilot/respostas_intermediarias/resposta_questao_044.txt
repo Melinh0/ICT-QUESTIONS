@@ -1,0 +1,15 @@
+RESPOSTA DA QUESTÃO 44
+==================================================
+
+ENUNCIADO:  
+40. The administrator runs the './install.sh -c' command to install the IBMA. Which of the following statements is true about this command?
+
+ITENS:  
+A) IBMA quiet installation command  
+B) IBMA customized installation command  
+C) IBMA forcible installation command  
+D) IBMA upgrade and installation command
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: Nothing

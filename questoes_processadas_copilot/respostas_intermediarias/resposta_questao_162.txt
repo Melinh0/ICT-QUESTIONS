@@ -1,0 +1,21 @@
+RESPOSTA DA QUESTÃO 162
+==================================================
+
+ENUNCIADO:  
+71. ms_dump is used to export database information. During the export, ms_dump suspends normal access to the database so that complete and consistent data can be exported.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+ms_dump is used to export information about the Sybase database. During the export, access to the database is not blocked. Instead, it is usually restricted when the database is running, ensuring that the database can still be accessed and used during the backup. The following describes the two short-term key requirements:  
+- Snapshot:  
+  - ms_dump uses snapshot to ensure that the exported data is consistent. When the export starts, a snapshot is created. All exported data is based on the snapshot to ensure data consistency.  
+- Unblocked access:  
+  - ms_dump does not block the database for export and real-time operation. Because snapshots are used, ms_dump can ensure that the database is always consistently viewed by the export.  
+- Concurrent access:  
+  - ms_dump is designed to be executed when the database is running properly. This means that users and applications can still access and use the database without being interrupted by the export operation.  
+  - Therefore, ms_dump is a useful tool for exporting database information in real time, where there are several checks and internal processes used to ensure the integrity and consistency of the exported data.

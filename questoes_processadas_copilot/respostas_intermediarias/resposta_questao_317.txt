@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 317
+==================================================
+
+ENUNCIADO:  
+36. If a user wants to install a custom driver on an Atlas 800 (model 3010) server that already has an NPU driver and firmware installed, which of the following operations is correct?
+
+ITENS:  
+A) Installing the firmware, reconstructing the driver package, and then installing the driver  
+B) Installing the firmware and then installing the driver from source code  
+C) Installing the driver and then installing the firmware from source code  
+D) Reconstructing the driver package, installing the driver, and then install the firmware
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+Sorry, your answer was wrong.  
+Your score: 0 Point(s)  
+Answer: A

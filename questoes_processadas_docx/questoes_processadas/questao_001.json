@@ -1,0 +1,14 @@
+{
+  "numero": 1,
+  "texto_completo": "ENUNCIADO: O código-fonte (por exemplo, C/C++) deve ser recompilado especificamente para a plataforma Kunpeng gerar código de máquina compatível com ARM.\nITENS:\nA) O software pode ser executado em Kunpeng sem recompilação.\nB) A recompilação é opcional, dependendo da linguagem usada.\nC) A recompilação é necessária para gerar código compatível com ARM.\nD) O código-fonte não precisa ser alterado para Kunpeng.\nITEM CORRETO: C\nEXPLICAÇÃO: Sem recompilação, o software não pode ser executado em processadores Kunpeng, pois é necessário gerar código de máquina compatível com ARM.",
+  "enunciado": "O código-fonte (por exemplo, C/C++) deve ser recompilado especificamente para a plataforma Kunpeng gerar código de máquina compatível com ARM.",
+  "itens": {
+    "A": "O software pode ser executado em Kunpeng sem recompilação.",
+    "B": "A recompilação é opcional, dependendo da linguagem usada.",
+    "C": "A recompilação é necessária para gerar código compatível com ARM.",
+    "D": "O código-fonte não precisa ser alterado para Kunpeng."
+  },
+  "item_correto": "C",
+  "tem_gabarito": true,
+  "explicacao": "Sem recompilação, o software não pode ser executado em processadores Kunpeng, pois é necessário gerar código de máquina compatível com ARM."
+}

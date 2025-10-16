@@ -1,0 +1,20 @@
+RESPOSTA DA QUESTÃO 310
+==================================================
+
+ENUNCIADO:  
+35. When a host accesses domain name www.huawei.com, how many DNS queries may be performed to resolve the domain name in iterative query mode?
+
+ITENS:  
+A) 2  
+B) 4  
+C) 6  
+D) 6
+
+ITEM CORRETO: ABC
+
+EXPLICAÇÃO:  
+Answer Explanations:  
+In iterative query mode, when a host accesses domain name 'www.huawei.com', the number of DNS queries will be determined by the number of levels of domain resolution.  
+The host first sends a query request to the locally configured name server (usually provided by the ISP) to query the IP address of 'www.huawei.com'. If the local name server has a cached record of 'www.huawei.com', it returns the result, resulting in one query. If the local name server does not have a cached record of the name, it proceeds to the next phase of the query. In iterative query mode, the local name server sends a query to the root name server, then to the top-level domain name server (.com), and authoritative name server (huawei.com) in sequence.  
+If the local name server has no cache, the host needs to make queries to the local name server, root name server, '.com' domain name server, and authoritative name server, and finally the local name server returns the result to the host. Therefore, four DNS queries are required.  
+If the local name server has cached records of the domain name, fewer DNS queries are required to resolve the domain name. This assumes that the local name server can cache and hold the record of the domain name, which reduces the number of DNS queries. If there is cache on any server in the process, the number of DNS queries will decrease accordingly.

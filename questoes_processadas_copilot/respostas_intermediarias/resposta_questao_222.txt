@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 222
+==================================================
+
+ENUNCIADO:  
+48. OSs can be classified into various types, but their internal components are generally similar. Which of the following are the components of an OS?
+
+ITENS:  
+A) Application and shell  
+B) Function library  
+C) Kernel  
+D) Operation library
+
+ITEM CORRETO: ABC
+
+EXPLICAÇÃO:  
+Sorry, your answer was wrong.  
+My Score: 0 Point(s)  
+Answer: - ABC

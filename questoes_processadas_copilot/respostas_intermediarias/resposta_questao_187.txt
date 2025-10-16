@@ -1,0 +1,13 @@
+RESPOSTA DA QUESTÃO 187
+==================================================
+
+ENUNCIADO:  
+14. During openGauss installation, the password of database administrator 'omm' can be set arbitrarily. However, a password with high complexity is recommended for security purposes.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: Nothing

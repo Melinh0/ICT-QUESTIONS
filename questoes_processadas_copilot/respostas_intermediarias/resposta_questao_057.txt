@@ -1,0 +1,23 @@
+RESPOSTA DA QUESTÃO 57
+==================================================
+
+ENUNCIADO:  
+33. Which of the following commands cannot be used to format the '/dev/nvdb6' partition?
+
+ITENS:  
+A) mkfs -t ext4 /dev/nvdb6  
+B) format -t ext4 /dev/nvdb6  
+C) mount -t ext4 /dev/nvdb6  
+D) mke2fs -t ext4 /dev/nvdb6
+
+ITEM CORRETO: BCD
+
+EXPLICAÇÃO:  
+Answer Explanations:  
+In Linux, mkfs (short for "make filesystem") is the standard command for formatting partitions. It is typically used with syntax "mkfs -t <file system type> <device name>".  
+
+The command:  
+* "t" specifies the type of file system to be created, such as "ext4", "ext3", and "xfs".  
+* "mkfs -t ext4 /dev/nvdb6" creates an ext4 file system on the specified device "/dev/nvdb6". You cannot use "mount -t ext4 /dev/nvdb6" or "format -t ext4 /dev/nvdb6" to format the "/dev/nvdb6" partition as one is used to mount the file system and one is not a valid command.  
+* "mke2fs -t ext4 /dev/nvdb6" is another command that can be used to format the partition.  
+* Therefore, the correct answer is BCD, as mount is not a formatting command and format is not a valid command in Linux.

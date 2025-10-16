@@ -1,0 +1,16 @@
+RESPOSTA DA QUESTÃO 64
+==================================================
+
+ENUNCIADO:  
+28. Which of the following is the major difference between TaiShan 200 (model 2280) and TaiShan 200 (model 5280) servers?
+
+ITENS:  
+A) Number of cores provided by a CPU  
+B) Number of memory slots  
+C) Number of drive slots  
+D) Whether it supports the Huawei Atlas 300 AI Accelerator Card
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO:  
+Sorry, your answer was wrong. My Score: 0 Point(s) Answer: C

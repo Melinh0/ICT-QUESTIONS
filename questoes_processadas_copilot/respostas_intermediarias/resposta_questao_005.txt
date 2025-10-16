@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 5
+==================================================
+
+ENUNCIADO:  
+86. The rwx mechanism of Linux controls file access permissions.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+In the Linux operating system, file permissions determine which users or user groups can read (r), write (w), and execute (x) operations on a file. These permissions are usually represented by symbols (rwx) or numbers (421).  
+1. The read permission (r) allows the file content to be read. If you have the read permission on a directory, you can see the list of subdirectories in the directory.  
+2. The write permission (w) allows the content to be modified. If you have the write permission on a directory, you can create files in or delete files from the directory.  
+3. The execute permission (x) allows the file to be executed as a program. If you have the execute permission on a directory, you can access the directory (that is, the 'cd' command to access the directory).  
+File permissions are classified into three groups. Each group contains three types of permissions (rwx) for the owner, group, and others, respectively. For example: "rwx---x--" indicates that the owner has full access, the group has no access, and others have only execute permission (they may not read the permission).

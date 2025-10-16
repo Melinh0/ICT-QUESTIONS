@@ -1,0 +1,22 @@
+RESPOSTA DA QUESTÃO 54
+==================================================
+
+ENUNCIADO: Which of the following is the default value of search_path in openGauss?
+
+ITENS:  
+A) "postgres",public  
+B) "user",public  
+C) "template1",public  
+D) "schema",public  
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+Answer Explanations:  
+- In PostgreSQL, from which openGauss derives, "search_path" specifies the location of the query object (such as tables, views, and functions) without schema specified. The default value of "search_path" usually includes the public schema, which is the default schema for all users, and the default schema of the current user, expressed as "user".  
+- openGauss is based on PostgreSQL, and the default value of "search_path" is inherited from PostgreSQL.  
+- If the current user is "user", then the default schema is "user", and "public" is the default schema. Therefore, the "search_path" is "user",public, which is likely to be the default value of "search_path" in openGauss.  
+- In PostgreSQL 9.5 and later versions, the default value of "search_path" is set to "$user",public. In openGauss, the default value is also "$user",public. Here, "$user" is actually a placeholder, indicating the schema of the current user. Therefore, the option is B.  
+- Option C: "template1" is a default template database of PostgreSQL and openGauss and is used to create databases. It is not a schema. Therefore, it is false.  
+- Option D: "schema" is not a default schema. Therefore, it is false.  
+- Option A: "postgres" is a default database, not a schema. Therefore, it is false.

@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 284
+==================================================
+
+ENUNCIADO: Which of the following statements is false about the traditional enterprise IT architecture?
+
+ITENS:  
+A) It consumes more power than other infrastructures.  
+B) It requires more physical space than modern options.  
+C) Its data privacy and security are inferior to those of modern options.  
+D) Its hardware resource utilization is lower than that of modern options.
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO: (sem conteúdo exibido na imagem)

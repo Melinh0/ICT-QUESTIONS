@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 51
+==================================================
+
+Preciso que transcreva TODO o texto da imagem da questão de forma COMPLETA e organize EXATAMENTE neste formato:
+
+ENUNCIADO: [todo o texto do enunciado aqui]
+
+ITENS:
+A) [texto completo do item A]
+B) [texto completo do item B]
+C) [texto completo do item C]
+D) [texto completo do item D]
+E) [texto completo do item E] (se houver)
+
+ITEM CORRETO: [letra do item correto]
+
+EXPLICAÇÃO: [texto completo da explicação se houver na imagem]
+
+Seja DIRETO e copie APENAS a transcrição fiel do texto da imagem. Não interprete, não explique, apenas transcreva. Se tiver questões que na verdade são Verdadeiro ou Falso, os itens da questão são esses.

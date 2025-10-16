@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 229
+==================================================
+
+ENUNCIADO:  
+58. A transaction is atomic and is an inseparable whole. Its status can only be success or failure.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+A transaction can be rolled back, contain subtransactions, and have rollback points set.

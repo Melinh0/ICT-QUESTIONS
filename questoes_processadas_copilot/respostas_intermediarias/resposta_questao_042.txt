@@ -1,0 +1,22 @@
+RESPOSTA DA QUESTÃO 42
+==================================================
+
+ENUNCIADO: Which of the following statements is true about the logical replication feature of openGauss?
+
+ITENS:  
+A) It supports primary-primary deployment and table-level replication.  
+B) It converts binary logs to logical SQL statements and supports table-level replication.  
+C) It supports primary-primary deployment and converts binary logs to logical SQL statements.  
+D) It supports primary-secondary deployment and table-level replication, and converts binary logs to logical SQL statements.
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO: The logical replication feature of openGauss can be described as follows:
+
+Primary-secondary deployment is supported. Logical replication allows two-way synchronization between primary and standby instances. You can read data from the primary node to provide services or function as the standby node to receive data from the primary node.
+
+Table-level replication is supported. You can select specific tables for replication. This is useful when you want to replicate only a subset of the data.
+
+The replication data is converted to logical SQL statements. This allows for more flexibility in replication, as the data can be interpreted and modified during the replication process.
+
+Based on the above features, the correct answer is D: It supports primary-secondary deployment and table-level replication, and converts binary logs to logical SQL statements.

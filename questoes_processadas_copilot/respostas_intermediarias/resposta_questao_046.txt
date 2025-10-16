@@ -1,0 +1,13 @@
+RESPOSTA DA QUESTÃO 46
+==================================================
+
+ENUNCIADO:  
+RAID uses storage virtualization technologies to combine multiple hard disks into one or more arrays. RAID is classified into multiple levels. RAID 0 offers high reliability and read/write performance, but has low disk utilization.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: Nothing

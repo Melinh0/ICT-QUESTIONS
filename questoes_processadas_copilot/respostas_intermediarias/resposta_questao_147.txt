@@ -1,0 +1,20 @@
+RESPOSTA DA QUESTÃO 147
+==================================================
+
+ENUNCIADO:  
+87. If you specify the PARTITION parameter when running the CREATE TABLE statement, the table will be partitioned.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+In a database management system, partitioning is a technique that divides the data of a table into smaller, manageable parts. This can improve query performance and management efficiency. In openGauss, you can use the 'PARTITION' parameter to enable partitioning when creating a table.
+
+The benefits of partitioning include:  
+- Performance optimization: Query insert, delete, and update operations can be faster because these operations only need to be performed on related partitions rather than the entire table.  
+- Management efficiency: Improved management operations, such as backup and restoration, can be performed more efficiently.  
+- Data archiving: Old data can be moved to cheaper storage devices, saving costs and increasing performance.  
+Therefore, adding the 'PARTITION' parameter to the CREATE TABLE statement indicates that the partitioning function is applied to the table.

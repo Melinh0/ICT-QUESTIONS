@@ -1,0 +1,15 @@
+RESPOSTA DA QUESTÃO 41
+==================================================
+
+ENUNCIADO:  
+55. Which of the following login user combinations are supported by the Java integrated remote console (shared)?
+
+ITENS:  
+A) One local user and one VNC user  
+B) Two local users  
+C) Two VNC users  
+D) Five VNC users  
+
+ITEM CORRETO: B, C
+
+EXPLICAÇÃO: Nothing.

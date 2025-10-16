@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 206
+==================================================
+
+ENUNCIADO: Which of the following openGauss database processes are not responsible for flushing dirty page data from the memory to disks?
+
+ITENS:  
+A) pagewriter  
+B) bgwriter  
+C) walwriter  
+D) checkpoint  
+
+ITEM CORRETO: B e C
+
+EXPLICAÇÃO:  
+- Option A: A pagewriter, consisting of a main pagewriter thread and a group of pagewriter worker threads, writes dirty page data in the memory to disks. The main pagewriter thread obtains dirty page data from the global dirty page queue in batches, writes the obtained data to the doublewrite area in batches, updates the obtained data to disks in batches, and clears the dirty page data in batches.  
+- Option B: A bgwriter writes dirty page data to disks in different cycles depending on the database workload. The bgwriter writes dirty page data to disks in different cycles depending on the database workload. The bgwriter writes data only when the system is idle.  
+- Option C: A walwriter writes WAL logs to disks. It is not involved in the actual transaction data and is not concerned about dirty page data.  
+- Option D: A checkpoint flushes dirty page data to disks but works differently depending on the database workload. It does not flush dirty page data from memory to disks during normal operations using query open..

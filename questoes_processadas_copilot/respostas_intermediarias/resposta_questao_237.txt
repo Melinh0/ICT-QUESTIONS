@@ -1,0 +1,15 @@
+RESPOSTA DA QUESTÃO 237
+==================================================
+
+ENUNCIADO: 4. Which of the following keys can be pressed to stop the current running command?
+
+ITENS:  
+A) Ctrl+C  
+B) Ctrl+F  
+C) Ctrl+B  
+D) Ctrl+D
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO: Congratulations, you got it! My Score: 5score  
+Correct answer: A

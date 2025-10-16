@@ -1,0 +1,21 @@
+RESPOSTA DA QUESTÃO 264
+==================================================
+
+ENUNCIADO:  
+Which of the following statements is false about the ACID feature of database transactions?
+
+ITENS:  
+A) A refers to atomicity. Operations in a transaction can either be successful or all failed.  
+B) C refers to consistency. The system status can only be either before the transaction or after the transaction is successful. No inconsistent intermediate status can occur.  
+C) I refers to isolation. The system must provide the highest availability for database execution to ensure the most transactions can be successfully executed.  
+D) D refers to durability. The status of a successful transaction can be maintained even if the system crashes after the transaction is successful.
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO:  
+The ACID feature of database transactions are explained as follows:  
+A refers to Atomicity. Operations in a transaction can either be successful or all failed. This is true. Atomicity ensures that all operations within a transaction are completed; if not, the transaction is aborted.  
+B refers to Consistency. The system status can only be either before the transaction or after the transaction is successful. No inconsistent intermediate status can occur. This is also true. Consistency requires that a transaction bring the database from one valid state to another.  
+C refers to Isolation. The system must provide the highest availability for database execution to ensure the most transactions can be successfully executed. This is false. Isolation ensures that the concurrent execution of transactions results in a system state that would be obtained if transactions were executed serially. It does not relate to availability.  
+D refers to Durability. The status of a successful transaction can be maintained even if the system crashes after the transaction is successful. This is true. Durability ensures that once a transaction has been committed, it will remain so, even in the event of a system failure.  
+Therefore, the correct answer is C. Actually, in the ACID feature, Isolation represents the concurrent execution of transactions.

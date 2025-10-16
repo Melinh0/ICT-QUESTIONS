@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 239
+==================================================
+
+ENUNCIADO: Which of the following join types are supported by the openGauss join operator?
+
+ITENS:  
+A) Hash join  
+B) Merge join  
+C) Nested loops  
+D) All of the above
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO:  
+Answer Explanations:  
+- Option A: In openGauss, hash join is used as a join operation for join operations between big data sets. Hash join keys are stored in the memory and operated in the hash table to reduce I/O operations and improve performance.  
+- Option B: In openGauss, merge join is also used as a join operation for join sorted tables. It compares the key values in two join tables and outputs the matched rows in order, avoiding a complete scan on the entire data set.  
+- Option C: In openGauss, nested loop join is also used in the database system. openGauss uses nested loop method. This method joins two input rows one by one from the inner table and compares it with every row in the outer table and joins the row with the outer table if no match is found. Although this method is inefficient for processing big data sets, it is still used in some specific scenarios such as a small table.  
+- Option D: openGauss supports three join operations: hash join, merge join, and nested loops.

@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 305
+==================================================
+
+ENUNCIADO: Which of the following drivers is used by Data Studio to communicate with openGauss?
+
+ITENS:  
+A) JDBC  
+B) ODBC  
+C) Libpq  
+D) Psycopg  
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+Option A: Java Database Connectivity (JDBC) is a standard Java API used to connect to databases. It allows Java programs to interact with databases. Therefore, when Data Studio is used to communicate with the openGauss database, the JDBC driver is often used when it is implemented in Java.  
+Option B: Open Database Connectivity (ODBC) is an API used to connect to databases. It is mainly used in the Windows OS and not dedicated to Java.  
+Option C: Libpq is a C API library of the PostgreSQL database. Although openGauss is similar to the PostgreSQL, Libpq is not used for communication with openGauss.  
+Option D: Psycopg is a wrapper adapter of Python for communication with PostgreSQL. Since openGauss is similar to PostgreSQL, Psycopg is not used directly for communication with openGauss.

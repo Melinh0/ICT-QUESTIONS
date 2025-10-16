@@ -1,0 +1,17 @@
+RESPOSTA DA QUESTÃO 274
+==================================================
+
+ENUNCIADO:  
+Which of the following is the default configuration file of Keepalived?
+
+ITENS:  
+A) /usr/keepalived/keepalived.conf  
+B) /var/keepalived/keepalived.conf  
+C) /usr/etc/keepalived/keepalived.conf  
+D) /etc/keepalived/keepalived.conf  
+
+ITEM CORRETO: D
+
+EXPLICAÇÃO:  
+Answer Explanations:  
+The default configuration file of Keepalived is located at "/etc/keepalived/keepalived.conf". This file is used to define the configuration of Keepalived, including global definitions, VRRP instances, and virtual server definitions.

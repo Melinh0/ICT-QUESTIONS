@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 277
+==================================================
+
+ENUNCIADO: Qual das seguintes afirmações sobre os módulos funcionais do Ansible é verdadeira?
+
+ITENS:  
+A) O módulo "copy" pode puxar arquivos de um nó remoto para o nó de controle.  
+B) Os módulos "raw", "shell" e "command" podem todos comandar um arquivo executável no host de destino, mas apenas o módulo "shell" suporta pipes.  
+C) O módulo "fetch" só pode puxar arquivos e não pode empurrar arquivos.  
+D) Quando o módulo script é usado para executar scripts remotamente, os scripts correspondentes devem existir no host remoto.
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO:  
+A) Incorreto. O módulo "copy" copia arquivos do nó de controle para um nó remoto, não o contrário.  
+B) Incorreto. O módulo "command" tem limitações e não suporta sintaxe específica do shell como pipes.  
+C) Correto. O módulo "fetch" é usado para recuperar arquivos de um nó remoto para o nó de controle e não pode empurrar arquivos.  
+D) Incorreto. O módulo "script" executa scripts que residem no nó de controle, não no nó remoto.

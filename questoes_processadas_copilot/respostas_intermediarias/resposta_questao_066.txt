@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 66
+==================================================
+
+ENUNCIADO:  
+29. Sobre a configuração do HAProxy, quais das seguintes afirmações estão erradas?
+
+ITENS:  
+A) A maioria dos ataques de Challenge Collapsar (CC) pode ser defendida por meio de configurações relacionadas.  
+B) Os nomes nas ACLs são insensíveis a maiúsculas e minúsculas.  
+C) Quando atua como proxy de camada 7, o HAProxy pode analisar e modificar as solicitações.  
+D) Quando atua como proxy de camada 4, o HAProxy pode realizar encaminhamento inteligente.
+
+ITEM CORRETO: A, B
+
+EXPLICAÇÃO:  
+A está errada: HAProxy é um balanceador de carga e proxy reverso usado para processar tráfego de rede e não possui proteção contra negação de serviço na camada de aplicação.  
+B está errada: Os nomes das ACLs diferenciam maiúsculas de minúsculas.  
+C está correta: Quando atua como proxy de camada 7, o HAProxy pode analisar e modificar as solicitações.  
+D está correta: Quando atua como proxy de camada 4, o HAProxy pode realizar encaminhamento inteligente com base nas informações da pilha TCP/IP.

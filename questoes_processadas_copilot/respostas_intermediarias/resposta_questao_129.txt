@@ -1,0 +1,17 @@
+RESPOSTA DA QUESTÃO 129
+==================================================
+
+ENUNCIADO:  
+31. After openEuler is installed on a server and IP address is configured, the server cannot be pinged. Which of the following is not a possible cause?
+
+ITENS:  
+A) When the IP address is configured through the configuration file, "BOOTPROTO" is set to "none".  
+B) When the IP address is configured through the configuration file, "ONBOOT" is set to "no".  
+C) The computer that pings the server is not in the same local area network (LAN) as the server, and no gateway address is configured in openEuler.  
+D) After the IP address is configured through the configuration file, the configuration file is not reloaded.
+
+ITEM CORRETO: A
+
+EXPLICAÇÃO:  
+Sorry, your answer was wrong. Your score: 0 Point(s)  
+Answer: A

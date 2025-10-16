@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 271
+==================================================
+
+ENUNCIADO: Qual das seguintes afirmações sobre o processador Kunpeng 920 são verdadeiras?
+
+ITENS:  
+A) O processador utiliza o processo de fabricação de 7 nm.  
+B) Um único processador suporta até 128 núcleos.  
+C) O processador utiliza a arquitetura Armv8.2.  
+D) O processador utiliza o modelo de memória forte.
+
+ITEM CORRETO: AC
+
+EXPLICAÇÃO:  
+- A afirmação A está correta: Kunpeng 920 utiliza o processo de fabricação de 7 nm.  
+- A afirmação B está incorreta: Kunpeng 920 suporta até 64 núcleos, e não 128 núcleos.  
+- A afirmação C está correta: Kunpeng 920 utiliza a arquitetura Armv8.2.  
+- A afirmação D está incorreta: Embora algumas famílias de processadores Arm tenham modelos de memória otimizados, não há indicação direta de que o Kunpeng 920 utiliza o "modelo de memória forte". Portanto, a precisão dessa afirmação é incerta.

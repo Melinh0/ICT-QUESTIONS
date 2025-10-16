@@ -1,0 +1,16 @@
+RESPOSTA DA QUESTÃO 266
+==================================================
+
+ENUNCIADO:  
+6. Which of the following commands is used to delete a user and the home directory of the user?
+
+ITENS:  
+A) rmuser -r  
+B) deluser -r  
+C) userdel -r  
+D) usermgr -r
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO:  
+Congratulations, you got it in. My Score: 5score. Correct answer: C

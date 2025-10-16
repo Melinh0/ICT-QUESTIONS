@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 309
+==================================================
+
+ENUNCIADO:  
+17. Which of the following commands is used to log out the 'iqn.2023-01.com.test:raid' node during iSCSI client configuration?
+
+ITENS:  
+A) iscsiadm -m node -T iqn.2023-01.com.test:raid -p 192.168.1.236:0 -l  
+B) iscsiadm -m node -u -T iqn.2023-01.com.test:raid -p 192.168.1.236:0  
+C) iscsiadm -m node -o delete -T iqn.2023-01.com.test:raid -p 192.168.1.236:0  
+D) iscsiadm -m node -o update -T iqn.2023-01.com.test:raid -p 192.168.1.236:0  
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+- Option A: This command is used to log into the specified iSCSI target.  
+- Option B: This command is used to log out of the specified iSCSI target.  
+- Option C: This command is used to delete the configuration of the iSCSI node.  
+- Option D: This command is used to update the configuration of the iSCSI node.

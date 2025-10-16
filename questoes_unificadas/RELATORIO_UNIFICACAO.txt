@@ -1,0 +1,28 @@
+RELATÓRIO DE UNIFICAÇÃO DE QUESTÕES
+==================================================
+
+Questões do primeiro arquivo (imagens): 326
+Questões do segundo arquivo (DOCX): 416
+Questões unificadas (sem duplicatas): 695
+Duplicatas removidas: 47
+
+ESTATÍSTICAS DETALHADAS:
+------------------------------
+
+PRIMEIRO ARQUIVO (IMAGENS):
+  - Com gabarito: 326
+  - Sem gabarito: 0
+
+SEGUNDO ARQUIVO (DOCX):
+  - Com gabarito: 416
+  - Sem gabarito: 0
+
+ARQUIVO UNIFICADO:
+  - Com gabarito: 695
+  - Sem gabarito: 0
+
+DISTRIBUIÇÃO DAS FONTES:
+  - https://support.huaweicloud.com/hcs-introduction/index.html: 320 questões
+  - None: 5 questões
+  - Resposta fornecida pelo Copilot (não oficial): 10 questões
+  - Documento oficial: 360 questões

@@ -1,0 +1,18 @@
+RESPOSTA DA QUESTÃO 17
+==================================================
+
+ENUNCIADO: Qual das seguintes afirmações sobre a instrução FOR_LOOP em procedimentos armazenados do openGauss é verdadeira?
+
+ITENS:  
+A) FOR_LOOP suporta loops de variáveis inteiras.  
+B) FOR_LOOP suporta instruções de consulta.  
+C) A variável de destino em FOR_LOOP não precisa ser declarada ou definida com antecedência.  
+D) Deve ser usada junto com EXIT. Caso contrário, pode ocorrer um loop infinito.
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+- Opção A: Esta opção descreve uma estrutura de loop comum, ou seja, uma variável inteira é usada para controlar o número de loops. No entanto, em procedimentos armazenados do openGauss, devido à implementação das instruções de loop ser diferente dos bancos de dados tradicionais, esta opção está incorreta.  
+- Opção B: Esta opção está correta. A instrução FOR_LOOP em procedimentos armazenados do openGauss suporta instruções de consulta em um loop. No entanto, se instruções de consulta podem ser escritas diretamente em loops depende da implementação das instruções de controle de loop e do suporte do banco de dados.  
+- Opção C: Na maioria das linguagens de programação, variáveis usadas em um loop devem ser declaradas e definidas antes de serem usadas. Esta opção está incorreta e não se aplica à sintaxe do banco de dados para procedimentos armazenados.  
+- Opção D: Esta opção está incorreta. A instrução FOR_LOOP possui um mecanismo de EXIT. Caso contrário, não haveria como sair do loop. Procedimentos armazenados são executados de acordo com as regras de sintaxe e estrutura de controle do procedimento.

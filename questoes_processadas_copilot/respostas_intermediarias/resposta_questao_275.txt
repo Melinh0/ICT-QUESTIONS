@@ -1,0 +1,15 @@
+RESPOSTA DA QUESTÃO 275
+==================================================
+
+ENUNCIADO:  
+4. Which of the following commands can be used to mount all file systems defined in /etc/fstab?
+
+ITENS:  
+A) amount  
+B) mount -a  
+C) fmount  
+D) mount -f
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: Congratulations, you got it! My Score: 5score Correct answer: B

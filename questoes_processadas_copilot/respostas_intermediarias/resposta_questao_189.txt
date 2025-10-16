@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 189
+==================================================
+
+ENUNCIADO: SmartKit is an O&M tool for Huawei hardware products to improve onsite delivery and maintenance efficiency. Which of the following statements are true about SmartKit?
+
+ITENS:  
+A) SmartKit hardware configuration can be used to configure the BMC, BIOS, and RAID for a server.  
+B) SmartKit OS deployment can be used to deploy OSs on servers in batches.  
+C) SmartKit firmware upgrade can be used to upgrade multiple parts concurrently.  
+D) SmartKit troubleshooting includes log collection, hardware diagnosis, device repair, and burn-in tests.
+
+ITEM CORRETO: ABCD
+
+EXPLICAÇÃO: Congratulations! Your Answer is Correct.

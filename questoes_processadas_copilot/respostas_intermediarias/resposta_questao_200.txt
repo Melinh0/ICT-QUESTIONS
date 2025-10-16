@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 200
+==================================================
+
+ENUNCIADO:  
+6. Which of the following tools is used to help users understand the database workload of openGauss?
+
+ITENS:  
+A) gs_checkos  
+B) gs_check  
+C) gs_checkperf  
+D) gs_collector
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO:  
+Option A: gs_checkos checks whether the OS configuration meets the openGauss deployment requirements.  
+Option B: gs_check checks the overall status of the database and OS.  
+Option C: gs_checkperf is a performance diagnosis tool provided by openGauss. It evaluates database performance metrics, including CPU, memory, I/O, sessions, and lock, helping users comprehensively understand the real-time workload of the database.  
+Option D: gs_collector collects and manages logs of an openGauss instance for fault locating and analysis.

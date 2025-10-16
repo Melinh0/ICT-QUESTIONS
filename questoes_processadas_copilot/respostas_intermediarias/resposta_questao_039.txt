@@ -1,0 +1,19 @@
+RESPOSTA DA QUESTÃO 39
+==================================================
+
+ENUNCIADO:  
+57. In primary/standby deployment mode, all database nodes share the postgresql.conf configuration file.
+
+ITENS:  
+A) True  
+B) False
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO:  
+Answer Explanations:  
+The primary/standby deployment mode is a widely used HA solution. In this mode, one primary node performs update data reads and writes, and one or more standby nodes synchronize data from the primary node in real time and take over services from the primary node when the primary node is faulty.  
+PostgreSQL is a core configuration file of the PostgreSQL database. It has a set of various parameters and options for database operations. There is usually a local dedicated file directory of PostgreSQL, and each database instance (either the primary or standby node) has a "postgresql.conf" file.  
+In primary/standby deployment mode, although the primary node and standby nodes are configured with the same parameters (such as network connection settings and memory management), they are still physically independent database instances.  
+The configuration files may be similar in content because they need to be configured with some of the same parameters such as network connection settings and memory management, but they are different files, each belonging to a different database instance.  
+It is incorrect to state that in primary/standby deployment mode, all database nodes share the same "postgresql.conf" configuration file. Each node has its own configuration file, and the configuration files are set separately. This applies to replication, backup, and restoration.

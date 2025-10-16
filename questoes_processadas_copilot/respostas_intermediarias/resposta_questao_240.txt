@@ -1,0 +1,16 @@
+RESPOSTA DA QUESTÃO 240
+==================================================
+
+ENUNCIADO:  
+5. If you run the useradd jerry command to add a user, what is the home directory of the user?
+
+ITENS:  
+A) /etc/jerry  
+B) /var/jerry  
+C) /home/jerry  
+D) /root/jerry
+
+ITEM CORRETO: C
+
+EXPLICAÇÃO:  
+Congratulations, you got it! My Score: 5score Correct answer: C

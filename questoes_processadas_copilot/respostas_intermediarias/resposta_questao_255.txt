@@ -1,0 +1,21 @@
+RESPOSTA DA QUESTÃO 255
+==================================================
+
+ENUNCIADO:  
+Which of the following are configuration files of the SSH client?
+
+ITENS:  
+A) /etc/ssh/sshd_config  
+B) /etc/ssh/ssh_config  
+C) ~/.ssh/config  
+D) Configuration files whose names end with ".conf" in "/etc/ssh/sshd_config.d/"
+
+ITEM CORRETO: B, C
+
+EXPLICAÇÃO:  
+Answer Explanations:  
+- The main configuration file for the SSH server includes those that directly control server behavior and settings.  
+- Option "A" (/etc/ssh/sshd_config) is the main configuration file for the SSH server, not the SSH client. So this is incorrect.  
+- Option "B" (/etc/ssh/ssh_config) is the system-wide configuration file for the SSH client. So this is correct.  
+- Option "C" (~/.ssh/config) is a per-user SSH configuration file for the SSH client. So this is correct.  
+- Option "D" is not a valid option as it is not a configuration option or a configuration file for the SSH client. Specifically speaking, the "/etc/ssh/sshd_config.d/" directory contains configuration files for the SSH server configuration. These files are included in the SSH server configuration and are not used for SSH client configuration or settings in the main configuration.

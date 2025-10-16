@@ -1,0 +1,14 @@
+RESPOSTA DA QUESTÃO 103
+==================================================
+
+ENUNCIADO: How many standby nodes does openGauss support?
+
+ITENS:  
+A) 3  
+B) 8  
+C) 10  
+D) No limit
+
+ITEM CORRETO: B
+
+EXPLICAÇÃO: openGauss supports the HA deployment of one primary node and up to eight standby nodes. In addition, openGauss can be scaled from a standalone or HA system to one primary node with eight standby nodes. This further proves that openGauss supports a maximum of eight standby nodes.

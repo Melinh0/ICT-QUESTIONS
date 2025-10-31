@@ -1,0 +1,87 @@
+PROMPT:
+Para cada uma das 5 questões abaixo, forneça APENAS a EXPLICAÇÃO do porquê o ITEM CORRETO está correto.
+
+QUESTÃO 1:
+ENUNCIADO:
+37. If the garbage system is the "invariantly" distribution, which of the following algorithms can we use for sampling correctly?
+
+ITENS:
+A) hard
+B) varied
+C) Invariantly Randomization
+D) select-r
+E) gsample-r  
+F) varied-r  
+G) Invariant Distribution  
+H) select-r  
+I) gsample-r  
+J) varied-r  
+K) gsample-r  
+L) varied  
+M) hard-r  
+N) Invariantly Randomization  
+O) select-r  
+P) varied-r  
+Q) gsample-r
+ITEM CORRETO: N/A
+
+---
+
+QUESTÃO 2:
+ENUNCIADO:
+Which of the following statements are true about the openGauss database auxiliary thread?
+
+ITENS:
+A) WAL writer is responsible for writing permanent records of committed transactions to WAL files.
+B) WAL writer is responsible for copying the dirty data in the doublewrite area and then flushing the data to disks.
+C) Checkpointer is used to periodically check the points at which dirty pages are flushed to disks to ensure database consistency.
+D) Autovacuum is used to collect statistics on objects, SQL statements, sessions, and locks and store the statistics in the pgstat.stat file.
+ITEM CORRETO: A
+
+---
+
+QUESTÃO 3:
+ENUNCIADO:
+2. What open-source protocol does openGauss use?
+
+ITENS:
+A) MIT License
+B) GNU General Public License
+C) BSD License
+D) Mulan PSL
+ITEM CORRETO: D
+
+---
+
+QUESTÃO 4:
+ENUNCIADO:
+17. For a cloud platform with over 100 servers, OEM engineers can install OSs on the servers using any of SmartKit, Smart Provisioning, BMC, or iBMA.
+
+ITENS:
+A) True
+B) False
+ITEM CORRETO: B
+
+---
+
+QUESTÃO 5:
+ENUNCIADO:
+Uninstalling the database is a major operation. Therefore, you need to run the uninstallation script as the user root.
+
+ITENS:
+A) True
+B) False
+ITEM CORRETO: B
+
+---
+
+FORMATO DE RESPOSTA EXATO (obrigatório):
+Para cada questão, use exatamente:
+##### EXPLICAÇÃO QUESTÃO X #####
+[sua explicação completa aqui]
+##### FIM EXPLICAÇÃO QUESTÃO X #####
+
+Substitua X pelo número da questão (1 a 5).
+
+RESPOSTA:
+TRIO 1: Coleta de Dados e Estrutura Inicial

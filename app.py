@@ -31,7 +31,7 @@ class StudyApp:
     def load_questions(self):
         """Carrega as questões do arquivo JSON"""
         try:
-            json_path = "/home/yago/ICT-QUESTIONS/questoes_explicadas/explicacoes_completas.json"
+            json_path = r"questoes_explicadas\explicacoes_completas.json"
             
             if not os.path.exists(json_path):
                 messagebox.showerror("Erro", f"Arquivo não encontrado: {json_path}")

@@ -14,13 +14,13 @@ import xml.etree.ElementTree as ET
 class ExtratorQuestoesDOCX:
     def __init__(self):
         self.coordenadas = {
-            'campo_prompt': (3218, 559),
-            'enviar_mensagem': (3790, 717),
-            'copiar_resposta': (3319, 892),
-            'icone_chat': (3149, 441),
-            'excluir_chat': (3172, 518),
-            'confirmar_exclusao': (3358, 625),
-            'ver_mais_resposta': (3500, 895)
+            "campo_prompt": (3218, 559),
+            "enviar_mensagem": (3790, 717),
+            "copiar_resposta": (3318, 897),
+            "ver_mais_resposta": (3500, 895),
+            "icone_chat": (3144, 535),
+            "excluir_chat": (3203, 690),
+            "confirmar_exclusao": (3368, 622)
         }
         
         # Prompt para organizar as questões - MAIS ESPECÍFICO

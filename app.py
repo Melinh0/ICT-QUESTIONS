@@ -3,7 +3,7 @@
 
 import json
 import tkinter as tk
-from tkinter import ttk, messagebox
+from tkinter import ttk, messagebox, simpledialog
 import os
 from deep_translator import GoogleTranslator
 
@@ -20,6 +20,8 @@ class StudyApp:
         self.current_language = "english"  # Começa em inglês por padrão
         self.translated_questions = {}  # Cache para questões traduzidas
         self.translator = GoogleTranslator(source='auto', target='en')
+        self.user_answers = {}  # Armazenar respostas do usuário
+        self.performance = {'correct': 0, 'incorrect': 0}  # Estatísticas de desempenho
         
         # Carregar questões
         self.load_questions()
@@ -31,7 +33,7 @@ class StudyApp:
     def load_questions(self):
         """Carrega as questões do arquivo JSON"""
         try:
-            json_path = r"questoes_explicadas\explicacoes_completas.json"
+            json_path = f"questoes_explicadas/explicacoes_completas.json"
             
             if not os.path.exists(json_path):
                 messagebox.showerror("Erro", f"Arquivo não encontrado: {json_path}")
@@ -88,9 +90,13 @@ class StudyApp:
                         'is_correct': item['fields']['is_correct']
                     }
                     
-                    # Marcar como correta
+                    # Marcar como correta - APENAS UMA pode ser correta
                     if item['fields']['is_correct']:
-                        questions_dict[question_id]['correct_answer'] = letter
+                        if questions_dict[question_id]['correct_answer'] is None:
+                            questions_dict[question_id]['correct_answer'] = letter
+                        else:
+                            # Se já existe uma correta, mostrar aviso
+                            print(f"AVISO: Questão {question_id} tem múltiplas alternativas corretas. Usando a primeira encontrada: {questions_dict[question_id]['correct_answer']}")
         
         # Converter para lista ordenada por ID
         questions_list = [questions_dict[key] for key in sorted(questions_dict.keys())]
@@ -111,7 +117,7 @@ class StudyApp:
         controls_frame = ttk.Frame(main_frame)
         controls_frame.grid(row=0, column=0, columnspan=2, sticky=(tk.W, tk.E), pady=(0, 10))
         
-        # Botão de idioma - Inicia em "Português" pois o idioma atual é inglês
+        # Botão de idioma
         self.language_btn = ttk.Button(
             controls_frame, 
             text="Português", 
@@ -140,7 +146,15 @@ class StudyApp:
         )
         self.question_info.grid(row=0, column=0)
         
-        # Área da questão - armazenar referência
+        # Estatísticas de desempenho
+        self.performance_label = ttk.Label(
+            controls_frame,
+            text="Correct: 0 | Incorrect: 0 | Score: 0%",
+            font=('Arial', 9)
+        )
+        self.performance_label.grid(row=0, column=3, padx=(20, 0))
+        
+        # Área da questão
         self.question_frame = ttk.LabelFrame(main_frame, text="QUESTION", padding="10")
         self.question_frame.grid(row=1, column=0, columnspan=2, sticky=(tk.W, tk.E, tk.N, tk.S), pady=(0, 10))
         self.question_frame.columnconfigure(0, weight=1)
@@ -160,21 +174,34 @@ class StudyApp:
         scrollbar.grid(row=0, column=1, sticky=(tk.N, tk.S))
         self.question_text.configure(yscrollcommand=scrollbar.set)
         
-        # Alternativas - armazenar referência
+        # Alternativas
         self.alternatives_frame = ttk.LabelFrame(main_frame, text="ALTERNATIVES", padding="10")
         self.alternatives_frame.grid(row=2, column=0, columnspan=2, sticky=(tk.W, tk.E), pady=(0, 10))
         self.alternatives_frame.columnconfigure(0, weight=1)
         
         self.alternative_widgets = []
+        self.alternative_vars = []  # Variáveis para os RadioButtons
+        
+        # Variável para grupo de RadioButtons (garante que apenas um seja selecionado)
+        self.selected_alternative = tk.StringVar()
         
         for i in range(4):  # Apenas 4 alternativas (A, B, C, D)
             frame = ttk.Frame(self.alternatives_frame)
             frame.grid(row=i, column=0, sticky=(tk.W, tk.E), pady=2)
             frame.columnconfigure(1, weight=1)
             
+            # RadioButton para seleção - TODOS usam a mesma variável
+            radio = ttk.Radiobutton(
+                frame, 
+                variable=self.selected_alternative, 
+                value=chr(65+i),
+                command=lambda idx=i: self.select_alternative(chr(65+idx))
+            )
+            radio.grid(row=0, column=0, padx=(0, 5))
+            
             # Label com a letra da alternativa
             label = ttk.Label(frame, text=f"{chr(65+i)})", font=('Arial', 10, 'bold'))
-            label.grid(row=0, column=0, padx=(0, 10), sticky=tk.W)
+            label.grid(row=0, column=1, padx=(0, 10), sticky=tk.W)
             
             text_widget = tk.Text(
                 frame, 
@@ -184,19 +211,47 @@ class StudyApp:
                 bg='white',
                 width=60
             )
-            text_widget.grid(row=0, column=1, sticky=(tk.W, tk.E))
+            text_widget.grid(row=0, column=2, sticky=(tk.W, tk.E))
             
             self.alternative_widgets.append(text_widget)
         
+        # Frame para botões de ação
+        action_frame = ttk.Frame(main_frame)
+        action_frame.grid(row=3, column=0, columnspan=2, pady=(10, 5))
+        
         # Botão de ver resposta
         self.answer_btn = ttk.Button(
-            main_frame, 
+            action_frame, 
             text="Show Answer", 
             command=self.show_answer
         )
-        self.answer_btn.grid(row=3, column=0, columnspan=2, pady=(10, 5))
+        self.answer_btn.grid(row=0, column=0, padx=(0, 10))
         
-        # Área de resposta - armazenar referência
+        # Botão para editar gabarito
+        self.edit_answer_btn = ttk.Button(
+            action_frame,
+            text="Edit Correct Answer",
+            command=self.edit_correct_answer
+        )
+        self.edit_answer_btn.grid(row=0, column=1, padx=(0, 10))
+        
+        # Botão para editar explicação
+        self.edit_explanation_btn = ttk.Button(
+            action_frame,
+            text="Edit Explanation",
+            command=self.edit_explanation
+        )
+        self.edit_explanation_btn.grid(row=0, column=2)
+        
+        # Botão para limpar seleção
+        self.clear_btn = ttk.Button(
+            action_frame,
+            text="Clear Selection",
+            command=self.clear_selection
+        )
+        self.clear_btn.grid(row=0, column=3, padx=(10, 0))
+        
+        # Área de resposta
         self.answer_frame = ttk.LabelFrame(main_frame, text="ANSWER AND EXPLANATION", padding="10")
         self.answer_frame.grid(row=4, column=0, columnspan=2, sticky=(tk.W, tk.E, tk.N, tk.S))
         self.answer_frame.columnconfigure(0, weight=1)
@@ -218,6 +273,68 @@ class StudyApp:
         
         # Configurar expansão
         main_frame.rowconfigure(4, weight=1)
+    
+    def select_alternative(self, alternative):
+        """Marca uma alternativa como resposta do usuário"""
+        question_id = self.current_question_index
+        self.user_answers[question_id] = alternative
+        
+        # Verificar se a resposta está correta
+        current_question = self.questions[question_id]
+        is_correct = (alternative == current_question['correct_answer'])
+        
+        # Atualizar estatísticas se ainda não foi verificada esta questão
+        if 'checked' not in current_question:
+            if is_correct:
+                self.performance['correct'] += 1
+            else:
+                self.performance['incorrect'] += 1
+            current_question['checked'] = True
+            current_question['was_correct'] = is_correct
+        
+        self.update_performance_display()
+    
+    def clear_selection(self):
+        """Limpa a seleção atual da questão"""
+        self.selected_alternative.set('')
+        question_id = self.current_question_index
+        
+        # Remover resposta do usuário se existir
+        if question_id in self.user_answers:
+            # Reverter estatísticas se a questão já foi verificada
+            current_question = self.questions[question_id]
+            if 'checked' in current_question and current_question['checked']:
+                if current_question['was_correct']:
+                    self.performance['correct'] -= 1
+                else:
+                    self.performance['incorrect'] -= 1
+                
+                # Marcar como não verificada
+                current_question['checked'] = False
+                del current_question['was_correct']
+            
+            # Remover resposta
+            del self.user_answers[question_id]
+        
+        self.update_performance_display()
+        
+        if self.current_language == "portuguese":
+            messagebox.showinfo("Sucesso", "Seleção limpa!")
+        else:
+            messagebox.showinfo("Success", "Selection cleared!")
+    
+    def update_performance_display(self):
+        """Atualiza o display de estatísticas de desempenho"""
+        total = self.performance['correct'] + self.performance['incorrect']
+        if total > 0:
+            score = (self.performance['correct'] / total) * 100
+            self.performance_label.config(
+                text=f"Correct: {self.performance['correct']} | Incorrect: {self.performance['incorrect']} | Score: {score:.1f}%"
+            )
+        else:
+            self.performance_label.config(
+                text=f"Correct: {self.performance['correct']} | Incorrect: {self.performance['incorrect']} | Score: 0%"
+            )
     
     def show_question(self):
         """Exibe a questão atual"""
@@ -266,6 +383,12 @@ class StudyApp:
                 text_widget.insert(1.0, "")
                 text_widget.config(state=tk.DISABLED)
         
+        # Restaurar seleção do usuário se existir
+        if self.current_question_index in self.user_answers:
+            self.selected_alternative.set(self.user_answers[self.current_question_index])
+        else:
+            self.selected_alternative.set('')
+        
         # Limpar área de resposta
         self.answer_text.config(state=tk.NORMAL)
         self.answer_text.delete(1.0, tk.END)
@@ -278,7 +401,7 @@ class StudyApp:
         
         question = self.questions[self.current_question_index]
         
-        if not question['has_answer']:
+        if not question['has_answer'] or question['correct_answer'] is None:
             self.answer_text.config(state=tk.NORMAL)
             self.answer_text.delete(1.0, tk.END)
             if self.current_language == "portuguese":
@@ -291,14 +414,34 @@ class StudyApp:
         # Construir o texto da resposta baseado no idioma
         resposta_texto = ""
         
+        # Verificar se o usuário respondeu e se acertou
+        user_answer = self.user_answers.get(self.current_question_index)
+        is_correct = (user_answer == question['correct_answer'])
+        
         if self.current_language == "portuguese":
             resposta_texto = f"RESPOSTA CORRETA: {question['correct_answer']}\n\n"
+            
+            if user_answer:
+                if is_correct:
+                    resposta_texto += f"SUA RESPOSTA: {user_answer} ✓ CORRETA\n\n"
+                else:
+                    resposta_texto += f"SUA RESPOSTA: {user_answer} ✗ ERRADA\n\n"
+            else:
+                resposta_texto += "Você ainda não respondeu esta questão.\n\n"
             
             # Explicação em português (original)
             if question['explanation_pt']:
                 resposta_texto += f"EXPLICAÇÃO:\n{question['explanation_pt']}\n\n"
         else:
             resposta_texto = f"CORRECT ANSWER: {question['correct_answer']}\n\n"
+            
+            if user_answer:
+                if is_correct:
+                    resposta_texto += f"YOUR ANSWER: {user_answer} ✓ CORRECT\n\n"
+                else:
+                    resposta_texto += f"YOUR ANSWER: {user_answer} ✗ INCORRECT\n\n"
+            else:
+                resposta_texto += "You haven't answered this question yet.\n\n"
             
             # Explicação em inglês (traduzida)
             if question['explanation_pt']:
@@ -320,6 +463,104 @@ class StudyApp:
         self.answer_text.delete(1.0, tk.END)
         self.answer_text.insert(1.0, resposta_texto)
         self.answer_text.config(state=tk.DISABLED)
+    
+    def edit_correct_answer(self):
+        """Permite editar a resposta correta da questão"""
+        if not self.questions:
+            return
+        
+        question = self.questions[self.current_question_index]
+        
+        # Diálogo para selecionar nova resposta correta
+        new_answer = simpledialog.askstring(
+            "Edit Correct Answer",
+            f"Current correct answer: {question['correct_answer']}\n\nEnter new correct answer (A, B, C, or D):",
+            initialvalue=question['correct_answer'] or "A"
+        )
+        
+        if new_answer and new_answer.upper() in ['A', 'B', 'C', 'D']:
+            old_answer = question['correct_answer']
+            question['correct_answer'] = new_answer.upper()
+            question['has_answer'] = True
+            
+            # Atualizar estatísticas se o usuário já respondeu
+            if self.current_question_index in self.user_answers:
+                user_answer = self.user_answers[self.current_question_index]
+                was_correct = (user_answer == old_answer) if old_answer else False
+                is_correct_now = (user_answer == new_answer.upper())
+                
+                # Ajustar estatísticas se necessário
+                if 'checked' in question and question['checked']:
+                    if was_correct and not is_correct_now:
+                        self.performance['correct'] -= 1
+                        self.performance['incorrect'] += 1
+                    elif not was_correct and is_correct_now:
+                        self.performance['correct'] += 1
+                        self.performance['incorrect'] -= 1
+                    
+                    question['was_correct'] = is_correct_now
+            
+            self.update_performance_display()
+            messagebox.showinfo("Success", f"Correct answer updated to: {new_answer.upper()}")
+            self.show_question()  # Atualizar display
+        elif new_answer:  # Usuário digitou algo inválido
+            messagebox.showerror("Error", "Please enter a valid answer (A, B, C, or D)")
+    
+    def edit_explanation(self):
+        """Permite editar a explicação da questão"""
+        if not self.questions:
+            return
+        
+        question = self.questions[self.current_question_index]
+        
+        # Criar janela de edição
+        edit_window = tk.Toplevel(self.root)
+        edit_window.title("Edit Explanation")
+        edit_window.geometry("600x400")
+        edit_window.transient(self.root)
+        edit_window.grab_set()
+        
+        # Frame principal
+        main_frame = ttk.Frame(edit_window, padding="10")
+        main_frame.pack(fill=tk.BOTH, expand=True)
+        
+        # Texto da explicação atual
+        ttk.Label(main_frame, text="Current Explanation:").pack(anchor=tk.W)
+        
+        explanation_text = tk.Text(
+            main_frame, 
+            height=15, 
+            wrap=tk.WORD,
+            font=('Arial', 10)
+        )
+        explanation_text.pack(fill=tk.BOTH, expand=True, pady=(5, 10))
+        explanation_text.insert(1.0, question['explanation_pt'] or "")
+        
+        # Frame para botões
+        button_frame = ttk.Frame(main_frame)
+        button_frame.pack(fill=tk.X)
+        
+        def save_explanation():
+            new_explanation = explanation_text.get(1.0, tk.END).strip()
+            question['explanation_pt'] = new_explanation
+            
+            # Limpar cache de tradução
+            if self.current_question_index in self.translated_questions:
+                if 'explanation_en' in self.translated_questions[self.current_question_index]:
+                    del self.translated_questions[self.current_question_index]['explanation_en']
+            
+            messagebox.showinfo("Success", "Explanation updated successfully")
+            edit_window.destroy()
+            
+            # Atualizar display se estiver mostrando a resposta
+            if self.answer_text.get(1.0, tk.END).strip():
+                self.show_answer()
+        
+        def cancel_edit():
+            edit_window.destroy()
+        
+        ttk.Button(button_frame, text="Save", command=save_explanation).pack(side=tk.RIGHT, padx=(5, 0))
+        ttk.Button(button_frame, text="Cancel", command=cancel_edit).pack(side=tk.RIGHT)
     
     def next_question(self):
         """Vai para a próxima questão"""
@@ -347,6 +588,9 @@ class StudyApp:
             self.answer_btn.config(text="Mostrar Resposta")
             self.prev_btn.config(text="← Anterior")
             self.next_btn.config(text="Próximo →")
+            self.edit_answer_btn.config(text="Editar Gabarito")
+            self.edit_explanation_btn.config(text="Editar Explicação")
+            self.clear_btn.config(text="Limpar Seleção")
             
             # Traduzir a questão atual para português
             self.translate_current_question_to_portuguese()
@@ -363,6 +607,9 @@ class StudyApp:
             self.answer_btn.config(text="Show Answer")
             self.prev_btn.config(text="← Previous")
             self.next_btn.config(text="Next →")
+            self.edit_answer_btn.config(text="Edit Correct Answer")
+            self.edit_explanation_btn.config(text="Edit Explanation")
+            self.clear_btn.config(text="Clear Selection")
         
         # Atualizar a questão atual
         self.show_question()

@@ -135,9 +135,22 @@ class StudyApp:
         self.next_btn = ttk.Button(nav_frame, text="Next →", command=self.next_question)
         self.next_btn.grid(row=0, column=1, padx=(5, 0))
         
+        # Busca
+        search_frame = ttk.Frame(controls_frame)
+        search_frame.grid(row=0, column=2, padx=(20, 0))
+        
+        ttk.Label(search_frame, text="Search:").grid(row=0, column=0, padx=(0, 5))
+        self.search_var = tk.StringVar()
+        self.search_entry = ttk.Entry(search_frame, textvariable=self.search_var, width=20)
+        self.search_entry.grid(row=0, column=1, padx=(0, 5))
+        self.search_entry.bind('<Return>', lambda e: self.search_questions())
+        
+        self.search_btn = ttk.Button(search_frame, text="Go", command=self.search_questions)
+        self.search_btn.grid(row=0, column=2)
+        
         # Informações da questão
         info_frame = ttk.Frame(controls_frame)
-        info_frame.grid(row=0, column=2, padx=(20, 0))
+        info_frame.grid(row=0, column=3, padx=(20, 0))
         
         self.question_info = ttk.Label(
             info_frame, 
@@ -152,7 +165,7 @@ class StudyApp:
             text="Correct: 0 | Incorrect: 0 | Score: 0%",
             font=('Arial', 9)
         )
-        self.performance_label.grid(row=0, column=3, padx=(20, 0))
+        self.performance_label.grid(row=0, column=4, padx=(20, 0))
         
         # Área da questão
         self.question_frame = ttk.LabelFrame(main_frame, text="QUESTION", padding="10")
@@ -273,6 +286,145 @@ class StudyApp:
         
         # Configurar expansão
         main_frame.rowconfigure(4, weight=1)
+    
+    def search_questions(self):
+        """Busca questões pelo texto do enunciado (case-insensitive)"""
+        search_term = self.search_var.get().strip().lower()
+        
+        if not search_term:
+            if self.current_language == "portuguese":
+                messagebox.showinfo("Busca", "Digite um termo para buscar.")
+            else:
+                messagebox.showinfo("Search", "Please enter a search term.")
+            return
+        
+        found_indices = []
+        
+        for i, question in enumerate(self.questions):
+            # Buscar no texto original em inglês
+            if search_term in question['text_en'].lower():
+                found_indices.append(i)
+                continue
+            
+            # Buscar no texto traduzido se disponível
+            if (i in self.translated_questions and 
+                'text_pt' in self.translated_questions[i] and
+                search_term in self.translated_questions[i]['text_pt'].lower()):
+                found_indices.append(i)
+                continue
+            
+            # Buscar nas alternativas (inglês)
+            for alt in question['alternatives'].values():
+                if search_term in alt['text'].lower():
+                    found_indices.append(i)
+                    break
+        
+        if not found_indices:
+            if self.current_language == "portuguese":
+                messagebox.showinfo("Busca", f"Nenhuma questão encontrada com: '{search_term}'")
+            else:
+                messagebox.showinfo("Search", f"No questions found with: '{search_term}'")
+            return
+        
+        # Se encontrou apenas uma questão, ir para ela
+        if len(found_indices) == 1:
+            self.current_question_index = found_indices[0]
+            self.show_question()
+            if self.current_language == "portuguese":
+                messagebox.showinfo("Busca", f"Questão {found_indices[0] + 1} encontrada.")
+            else:
+                messagebox.showinfo("Search", f"Question {found_indices[0] + 1} found.")
+        else:
+            # Se encontrou múltiplas, mostrar diálogo de seleção
+            self.show_search_results_dialog(found_indices, search_term)
+    
+    def show_search_results_dialog(self, indices, search_term):
+        """Mostra diálogo com resultados da busca para seleção"""
+        results_window = tk.Toplevel(self.root)
+        results_window.title("Search Results")
+        results_window.geometry("600x400")
+        results_window.transient(self.root)
+        results_window.grab_set()
+        
+        # Frame principal
+        main_frame = ttk.Frame(results_window, padding="10")
+        main_frame.pack(fill=tk.BOTH, expand=True)
+        
+        # Título
+        if self.current_language == "portuguese":
+            title_text = f"Resultados da busca por: '{search_term}' - {len(indices)} questões encontradas"
+        else:
+            title_text = f"Search results for: '{search_term}' - {len(indices)} questions found"
+        
+        ttk.Label(main_frame, text=title_text, font=('Arial', 11, 'bold')).pack(anchor=tk.W, pady=(0, 10))
+        
+        # Frame para lista de resultados
+        tree_frame = ttk.Frame(main_frame)
+        tree_frame.pack(fill=tk.BOTH, expand=True)
+        
+        # Treeview para mostrar resultados
+        columns = ('id', 'question_preview')
+        tree = ttk.Treeview(tree_frame, columns=columns, show='headings', height=15)
+        
+        # Configurar colunas
+        if self.current_language == "portuguese":
+            tree.heading('id', text='ID')
+            tree.heading('question_preview', text='Prévia da Questão')
+        else:
+            tree.heading('id', text='ID')
+            tree.heading('question_preview', text='Question Preview')
+        
+        tree.column('id', width=50)
+        tree.column('question_preview', width=500)
+        
+        # Scrollbar para a treeview
+        scrollbar = ttk.Scrollbar(tree_frame, orient=tk.VERTICAL, command=tree.yview)
+        tree.configure(yscrollcommand=scrollbar.set)
+        
+        tree.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+        
+        # Preencher com resultados
+        for idx in indices:
+            question = self.questions[idx]
+            
+            # Obter prévia do texto da questão
+            if self.current_language == "portuguese" and idx in self.translated_questions and 'text_pt' in self.translated_questions[idx]:
+                preview_text = self.translated_questions[idx]['text_pt']
+            else:
+                preview_text = question['text_en']
+            
+            # Limitar tamanho da prévia
+            if len(preview_text) > 100:
+                preview_text = preview_text[:100] + "..."
+            
+            tree.insert('', tk.END, values=(idx + 1, preview_text), tags=(str(idx),))
+        
+        # Botão para ir para questão selecionada
+        def go_to_selected():
+            selection = tree.selection()
+            if not selection:
+                if self.current_language == "portuguese":
+                    messagebox.showwarning("Seleção", "Selecione uma questão da lista.")
+                else:
+                    messagebox.showwarning("Selection", "Please select a question from the list.")
+                return
+            
+            selected_item = selection[0]
+            question_idx = int(tree.item(selected_item, 'tags')[0])
+            self.current_question_index = question_idx
+            results_window.destroy()
+            self.show_question()
+        
+        button_frame = ttk.Frame(main_frame)
+        button_frame.pack(fill=tk.X, pady=(10, 0))
+        
+        if self.current_language == "portuguese":
+            ttk.Button(button_frame, text="Ir para Questão Selecionada", command=go_to_selected).pack(side=tk.RIGHT)
+            ttk.Button(button_frame, text="Cancelar", command=results_window.destroy).pack(side=tk.RIGHT, padx=(0, 10))
+        else:
+            ttk.Button(button_frame, text="Go to Selected Question", command=go_to_selected).pack(side=tk.RIGHT)
+            ttk.Button(button_frame, text="Cancel", command=results_window.destroy).pack(side=tk.RIGHT, padx=(0, 10))
     
     def select_alternative(self, alternative):
         """Marca uma alternativa como resposta do usuário"""
@@ -591,6 +743,7 @@ class StudyApp:
             self.edit_answer_btn.config(text="Editar Gabarito")
             self.edit_explanation_btn.config(text="Editar Explicação")
             self.clear_btn.config(text="Limpar Seleção")
+            self.search_btn.config(text="Buscar")
             
             # Traduzir a questão atual para português
             self.translate_current_question_to_portuguese()
@@ -610,6 +763,7 @@ class StudyApp:
             self.edit_answer_btn.config(text="Edit Correct Answer")
             self.edit_explanation_btn.config(text="Edit Explanation")
             self.clear_btn.config(text="Clear Selection")
+            self.search_btn.config(text="Search")
         
         # Atualizar a questão atual
         self.show_question()

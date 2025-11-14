@@ -5,6 +5,7 @@ import json
 import tkinter as tk
 from tkinter import ttk, messagebox, simpledialog
 import os
+from datetime import datetime
 from deep_translator import GoogleTranslator
 
 class StudyApp:
@@ -26,9 +27,115 @@ class StudyApp:
         # Carregar questões
         self.load_questions()
         
+        # Carregar backup se existir
+        self.load_backup()
+        
         # Criar interface
         self.create_widgets()
         self.show_question()
+    
+    def get_backup_filename(self):
+        """Retorna o nome do arquivo de backup baseado na data atual"""
+        today = datetime.now().strftime("%Y%m%d")
+        return f"backup/study_backup_{today}.json"
+    
+    def ensure_backup_dir(self):
+        """Garante que a pasta backup existe"""
+        if not os.path.exists("backup"):
+            os.makedirs("backup")
+    
+    def save_backup(self):
+        """Salva o estado atual das questões, respostas e alterações"""
+        try:
+            self.ensure_backup_dir()
+            backup_file = self.get_backup_filename()
+            
+            # Preparar dados para backup
+            backup_data = {
+                'timestamp': datetime.now().isoformat(),
+                'user_answers': self.user_answers,
+                'performance': self.performance,
+                'questions_modified': []
+            }
+            
+            # Incluir apenas questões que foram modificadas
+            for i, question in enumerate(self.questions):
+                modified_question = {
+                    'id': question['id'],
+                    'original_correct_answer': None,  # Seria o original do JSON
+                    'current_correct_answer': question['correct_answer'],
+                    'explanation_pt': question['explanation_pt'],
+                    'user_answered': i in self.user_answers,
+                    'was_checked': 'checked' in question
+                }
+                
+                # Verificar se houve modificação
+                original_question = next((q for q in self.original_questions if q['id'] == question['id']), None)
+                if original_question:
+                    modified_question['original_correct_answer'] = original_question['correct_answer']
+                    modified_question['original_explanation'] = original_question['explanation_pt']
+                
+                # Adicionar apenas se houve modificação
+                if (modified_question['current_correct_answer'] != modified_question['original_correct_answer'] or
+                    modified_question['explanation_pt'] != modified_question.get('original_explanation', '') or
+                    modified_question['user_answered']):
+                    backup_data['questions_modified'].append(modified_question)
+            
+            # Salvar arquivo de backup
+            with open(backup_file, 'w', encoding='utf-8') as f:
+                json.dump(backup_data, f, ensure_ascii=False, indent=2)
+            
+            print(f"Backup salvo: {backup_file}")
+            
+        except Exception as e:
+            print(f"Erro ao salvar backup: {str(e)}")
+    
+    def load_backup(self):
+        """Carrega backup anterior se existir"""
+        try:
+            backup_file = self.get_backup_filename()
+            
+            if not os.path.exists(backup_file):
+                print("Nenhum backup encontrado para hoje.")
+                return
+            
+            with open(backup_file, 'r', encoding='utf-8') as f:
+                backup_data = json.load(f)
+            
+            # Restaurar respostas do usuário
+            self.user_answers = backup_data.get('user_answers', {})
+            
+            # Restaurar desempenho
+            self.performance = backup_data.get('performance', {'correct': 0, 'incorrect': 0})
+            
+            # Restaurar modificações nas questões
+            for modified_question in backup_data.get('questions_modified', []):
+                question_id = modified_question['id']
+                
+                # Encontrar a questão correspondente
+                for i, question in enumerate(self.questions):
+                    if question['id'] == question_id:
+                        # Restaurar gabarito modificado
+                        if modified_question['current_correct_answer']:
+                            question['correct_answer'] = modified_question['current_correct_answer']
+                            question['has_answer'] = True
+                        
+                        # Restaurar explicação modificada
+                        if 'explanation_pt' in modified_question:
+                            question['explanation_pt'] = modified_question['explanation_pt']
+                        
+                        # Marcar como verificada se necessário
+                        if modified_question.get('was_checked'):
+                            question['checked'] = True
+                            question['was_correct'] = (self.user_answers.get(i) == question['correct_answer'])
+                        
+                        break
+            
+            print(f"Backup carregado: {backup_file}")
+            self.update_performance_display()
+            
+        except Exception as e:
+            print(f"Erro ao carregar backup: {str(e)}")
     
     def load_questions(self):
         """Carrega as questões do arquivo JSON"""
@@ -44,6 +151,8 @@ class StudyApp:
             
             # Extrair questões do formato
             self.questions = self.extract_questions_from_json(data)
+            # Guardar uma cópia das questões originais para comparação
+            self.original_questions = self.extract_questions_from_json(data)
             
             if not self.questions:
                 messagebox.showerror("Erro", "Nenhuma questão encontrada no arquivo")
@@ -125,9 +234,17 @@ class StudyApp:
         )
         self.language_btn.grid(row=0, column=0, padx=(0, 10))
         
+        # Botão de backup manual
+        self.backup_btn = ttk.Button(
+            controls_frame,
+            text="Backup Now",
+            command=self.manual_backup
+        )
+        self.backup_btn.grid(row=0, column=1, padx=(10, 10))
+        
         # Navegação
         nav_frame = ttk.Frame(controls_frame)
-        nav_frame.grid(row=0, column=1)
+        nav_frame.grid(row=0, column=2)
         
         self.prev_btn = ttk.Button(nav_frame, text="← Previous", command=self.previous_question)
         self.prev_btn.grid(row=0, column=0, padx=(0, 5))
@@ -137,7 +254,7 @@ class StudyApp:
         
         # Busca
         search_frame = ttk.Frame(controls_frame)
-        search_frame.grid(row=0, column=2, padx=(20, 0))
+        search_frame.grid(row=0, column=3, padx=(20, 0))
         
         ttk.Label(search_frame, text="Search:").grid(row=0, column=0, padx=(0, 5))
         self.search_var = tk.StringVar()
@@ -150,7 +267,7 @@ class StudyApp:
         
         # Informações da questão
         info_frame = ttk.Frame(controls_frame)
-        info_frame.grid(row=0, column=3, padx=(20, 0))
+        info_frame.grid(row=0, column=4, padx=(20, 0))
         
         self.question_info = ttk.Label(
             info_frame, 
@@ -165,7 +282,7 @@ class StudyApp:
             text="Correct: 0 | Incorrect: 0 | Score: 0%",
             font=('Arial', 9)
         )
-        self.performance_label.grid(row=0, column=4, padx=(20, 0))
+        self.performance_label.grid(row=0, column=5, padx=(20, 0))
         
         # Área da questão
         self.question_frame = ttk.LabelFrame(main_frame, text="QUESTION", padding="10")
@@ -286,6 +403,14 @@ class StudyApp:
         
         # Configurar expansão
         main_frame.rowconfigure(4, weight=1)
+    
+    def manual_backup(self):
+        """Backup manual acionado pelo usuário"""
+        self.save_backup()
+        if self.current_language == "portuguese":
+            messagebox.showinfo("Backup", "Backup realizado com sucesso!")
+        else:
+            messagebox.showinfo("Backup", "Backup completed successfully!")
     
     def search_questions(self):
         """Busca questões pelo texto do enunciado (case-insensitive)"""
@@ -427,7 +552,7 @@ class StudyApp:
             ttk.Button(button_frame, text="Cancel", command=results_window.destroy).pack(side=tk.RIGHT, padx=(0, 10))
     
     def select_alternative(self, alternative):
-        """Marca uma alternativa como resposta do usuário"""
+        """Marca uma alternativa como resposta do usuário e salva backup"""
         question_id = self.current_question_index
         self.user_answers[question_id] = alternative
         
@@ -445,6 +570,7 @@ class StudyApp:
             current_question['was_correct'] = is_correct
         
         self.update_performance_display()
+        self.save_backup()  # Salvar backup automaticamente
     
     def clear_selection(self):
         """Limpa a seleção atual da questão"""
@@ -469,6 +595,7 @@ class StudyApp:
             del self.user_answers[question_id]
         
         self.update_performance_display()
+        self.save_backup()  # Salvar backup automaticamente
         
         if self.current_language == "portuguese":
             messagebox.showinfo("Sucesso", "Seleção limpa!")
@@ -617,7 +744,7 @@ class StudyApp:
         self.answer_text.config(state=tk.DISABLED)
     
     def edit_correct_answer(self):
-        """Permite editar a resposta correta da questão"""
+        """Permite editar a resposta correta da questão e salva backup"""
         if not self.questions:
             return
         
@@ -653,13 +780,14 @@ class StudyApp:
                     question['was_correct'] = is_correct_now
             
             self.update_performance_display()
+            self.save_backup()  # Salvar backup automaticamente
             messagebox.showinfo("Success", f"Correct answer updated to: {new_answer.upper()}")
             self.show_question()  # Atualizar display
         elif new_answer:  # Usuário digitou algo inválido
             messagebox.showerror("Error", "Please enter a valid answer (A, B, C, or D)")
     
     def edit_explanation(self):
-        """Permite editar a explicação da questão"""
+        """Permite editar a explicação da questão e salva backup"""
         if not self.questions:
             return
         
@@ -701,6 +829,7 @@ class StudyApp:
                 if 'explanation_en' in self.translated_questions[self.current_question_index]:
                     del self.translated_questions[self.current_question_index]['explanation_en']
             
+            self.save_backup()  # Salvar backup automaticamente
             messagebox.showinfo("Success", "Explanation updated successfully")
             edit_window.destroy()
             
@@ -744,6 +873,7 @@ class StudyApp:
             self.edit_explanation_btn.config(text="Editar Explicação")
             self.clear_btn.config(text="Limpar Seleção")
             self.search_btn.config(text="Buscar")
+            self.backup_btn.config(text="Backup Agora")
             
             # Traduzir a questão atual para português
             self.translate_current_question_to_portuguese()
@@ -764,6 +894,7 @@ class StudyApp:
             self.edit_explanation_btn.config(text="Edit Explanation")
             self.clear_btn.config(text="Clear Selection")
             self.search_btn.config(text="Search")
+            self.backup_btn.config(text="Backup Now")
         
         # Atualizar a questão atual
         self.show_question()
@@ -814,6 +945,13 @@ class StudyApp:
 def main():
     root = tk.Tk()
     app = StudyApp(root)
+    
+    # Salvar backup quando o aplicativo fechar
+    def on_closing():
+        app.save_backup()
+        root.destroy()
+    
+    root.protocol("WM_DELETE_WINDOW", on_closing)
     root.mainloop()
 
 if __name__ == "__main__":

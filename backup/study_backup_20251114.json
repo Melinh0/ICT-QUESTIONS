@@ -1,0 +1,311 @@
+{
+  "timestamp": "2025-11-14T16:14:48.237786",
+  "user_answers": {
+    "0": "B",
+    "1": "A",
+    "2": "B",
+    "3": "B",
+    "4": "C",
+    "5": "C",
+    "6": "B",
+    "7": "A",
+    "8": "B",
+    "9": "A",
+    "10": "B",
+    "11": "B",
+    "12": "D",
+    "13": "A",
+    "14": "B",
+    "15": "C",
+    "16": "B",
+    "17": "B",
+    "18": "B",
+    "19": "B",
+    "20": "A",
+    "21": "D",
+    "22": "D",
+    "23": "C",
+    "24": "B",
+    "25": "B",
+    "26": "A",
+    "27": "C",
+    "28": "A",
+    "29": "A"
+  },
+  "performance": {
+    "correct": 29,
+    "incorrect": 1
+  },
+  "questions_modified": [
+    {
+      "id": 1,
+      "original_correct_answer": "B",
+      "current_correct_answer": "B",
+      "explanation_pt": "O pacote `openssh-askpass` fornece uma interface gráfica para inserção de senhas em ambientes com interface gráfica (GUI), o que não é necessário para o funcionamento básico do serviço SSH em servidores ou ambientes de linha de comando. Já os pacotes `openssh`, `openssh-server` e `openssh-clients` são essenciais para estabelecer conexões SSH, hospedar o serviço e permitir conexões a partir do cliente.",
+      "user_answered": true,
+      "was_checked": true,
+      "original_explanation": "O pacote `openssh-askpass` fornece uma interface gráfica para inserção de senhas em ambientes com interface gráfica (GUI), o que não é necessário para o funcionamento básico do serviço SSH em servidores ou ambientes de linha de comando. Já os pacotes `openssh`, `openssh-server` e `openssh-clients` são essenciais para estabelecer conexões SSH, hospedar o serviço e permitir conexões a partir do cliente."
+    },
+    {
+      "id": 2,
+      "original_correct_answer": "A",
+      "current_correct_answer": "A",
+      "explanation_pt": "O SELinux (Security-Enhanced Linux) é um módulo de segurança do kernel do Linux que implementa controle de acesso obrigatório (MAC). Ele oferece controle de acesso refinado, incluindo o modelo de controle baseado em papéis (RBAC), que permite definir permissões com base nas funções atribuídas aos usuários, aumentando a segurança do sistema.",
+      "user_answered": true,
+      "was_checked": true,
+      "original_explanation": "O SELinux (Security-Enhanced Linux) é um módulo de segurança do kernel do Linux que implementa controle de acesso obrigatório (MAC). Ele oferece controle de acesso refinado, incluindo o modelo de controle baseado em papéis (RBAC), que permite definir permissões com base nas funções atribuídas aos usuários, aumentando a segurança do sistema."
+    },
+    {
+      "id": 3,
+      "original_correct_answer": "B",
+      "current_correct_answer": "B",
+      "explanation_pt": "Para instalar o sistema operacional a partir de um arquivo ISO como o \"openEuler-22.03-LTS-aarch64-dvd.iso\", é necessário inicializar o sistema a partir de uma unidade de CD/DVD, pois esse é o meio onde a imagem ISO está gravada ou montada. As outras opções (disco rígido, disquete ou PXE) não são compatíveis com esse tipo específico de instalação direta.",
+      "user_answered": true,
+      "was_checked": true,
+      "original_explanation": "Para instalar o sistema operacional a partir de um arquivo ISO como o \"openEuler-22.03-LTS-aarch64-dvd.iso\", é necessário inicializar o sistema a partir de uma unidade de CD/DVD, pois esse é o meio onde a imagem ISO está gravada ou montada. As outras opções (disco rígido, disquete ou PXE) não são compatíveis com esse tipo específico de instalação direta."
+    },
+    {
+      "id": 4,
+      "original_correct_answer": "B",
+      "current_correct_answer": "B",
+      "explanation_pt": "O utilitário `gs_check` é a ferramenta oficial fornecida pelo openGauss para verificar se o ambiente atende aos pré-requisitos necessários para a instalação do banco de dados. Ele realiza uma série de verificações no sistema, como configurações de kernel, permissões e dependências, garantindo que o ambiente esteja adequado.",
+      "user_answered": true,
+      "was_checked": true,
+      "original_explanation": "O utilitário `gs_check` é a ferramenta oficial fornecida pelo openGauss para verificar se o ambiente atende aos pré-requisitos necessários para a instalação do banco de dados. Ele realiza uma série de verificações no sistema, como configurações de kernel, permissões e dependências, garantindo que o ambiente esteja adequado."
+    },
+    {
+      "id": 5,
+      "original_correct_answer": "C",
+      "current_correct_answer": "C",
+      "explanation_pt": "O comando `ls -a` lista todos os arquivos de um diretório, incluindo os arquivos ocultos (aqueles cujo nome começa com um ponto). As outras opções listam arquivos com detalhes (`-l`), apenas os visíveis (sem opções), ou mostram o próprio diretório (`-d`), mas não todos os arquivos.",
+      "user_answered": true,
+      "was_checked": true,
+      "original_explanation": "O comando `ls -a` lista todos os arquivos de um diretório, incluindo os arquivos ocultos (aqueles cujo nome começa com um ponto). As outras opções listam arquivos com detalhes (`-l`), apenas os visíveis (sem opções), ou mostram o próprio diretório (`-d`), mas não todos os arquivos."
+    },
+    {
+      "id": 6,
+      "original_correct_answer": "C",
+      "current_correct_answer": "C",
+      "explanation_pt": "Se o host consegue se comunicar com outros dispositivos dentro da LAN, isso indica que o endereço IP está configurado corretamente e que a comunicação local está funcionando. No entanto, a incapacidade de acessar a rede pública (como a internet) geralmente está relacionada à configuração do gateway. O gateway é o dispositivo que encaminha o tráfego da rede local para redes externas. Se o gateway do host ou da LAN estiver configurado incorretamente, o tráfego não será roteado para fora da LAN, impedindo o acesso à rede pública. Por isso, a alternativa C está correta.",
+      "user_answered": true,
+      "was_checked": true,
+      "original_explanation": "Se o host consegue se comunicar com outros dispositivos dentro da LAN, isso indica que o endereço IP está configurado corretamente e que a comunicação local está funcionando. No entanto, a incapacidade de acessar a rede pública (como a internet) geralmente está relacionada à configuração do gateway. O gateway é o dispositivo que encaminha o tráfego da rede local para redes externas. Se o gateway do host ou da LAN estiver configurado incorretamente, o tráfego não será roteado para fora da LAN, impedindo o acesso à rede pública. Por isso, a alternativa C está correta."
+    },
+    {
+      "id": 7,
+      "original_correct_answer": "B",
+      "current_correct_answer": "B",
+      "explanation_pt": "Em sistemas Linux, dispositivos de armazenamento como discos rígidos e SSDs são classificados como dispositivos de bloco (block devices), pois permitem acesso aos dados em blocos de tamanho fixo. Esses dispositivos são representados em `/dev` com nomes como `/dev/sda`. Ao contrário de dispositivos de caractere, que transmitem dados byte a byte (como portas seriais), os block devices permitem leitura e escrita em blocos, sendo ideais para sistemas de arquivos. Portanto, a alternativa B está correta.",
+      "user_answered": true,
+      "was_checked": true,
+      "original_explanation": "Em sistemas Linux, dispositivos de armazenamento como discos rígidos e SSDs são classificados como dispositivos de bloco (block devices), pois permitem acesso aos dados em blocos de tamanho fixo. Esses dispositivos são representados em `/dev` com nomes como `/dev/sda`. Ao contrário de dispositivos de caractere, que transmitem dados byte a byte (como portas seriais), os block devices permitem leitura e escrita em blocos, sendo ideais para sistemas de arquivos. Portanto, a alternativa B está correta."
+    },
+    {
+      "id": 8,
+      "original_correct_answer": "A",
+      "current_correct_answer": "A",
+      "explanation_pt": "No openEuler, o comando `route` por si só é suficiente para exibir a tabela de roteamento atual, funcionando como uma forma válida de uso. As outras opções incluem sintaxes que não são compatíveis ou não reconhecidas diretamente pelo sistema, como `route print`, que é típico do Windows. Assim, a alternativa A está correta por representar um uso válido e reconhecido do comando `route` no openEuler.",
+      "user_answered": true,
+      "was_checked": true,
+      "original_explanation": "No openEuler, o comando `route` por si só é suficiente para exibir a tabela de roteamento atual, funcionando como uma forma válida de uso. As outras opções incluem sintaxes que não são compatíveis ou não reconhecidas diretamente pelo sistema, como `route print`, que é típico do Windows. Assim, a alternativa A está correta por representar um uso válido e reconhecido do comando `route` no openEuler."
+    },
+    {
+      "id": 9,
+      "original_correct_answer": "B",
+      "current_correct_answer": "B",
+      "explanation_pt": "O openGauss não oferece suporte à decodificação lógica em nós standby em cascata. Esse tipo de nó é uma réplica de outro nó standby e não possui os recursos necessários para realizar a decodificação lógica diretamente. A funcionalidade de decodificação lógica está restrita ao nó primário e, em alguns casos, ao nó standby direto, mas não ao cascaded standby. Por isso, a alternativa B está correta como afirmação falsa.",
+      "user_answered": true,
+      "was_checked": true,
+      "original_explanation": "O openGauss não oferece suporte à decodificação lógica em nós standby em cascata. Esse tipo de nó é uma réplica de outro nó standby e não possui os recursos necessários para realizar a decodificação lógica diretamente. A funcionalidade de decodificação lógica está restrita ao nó primário e, em alguns casos, ao nó standby direto, mas não ao cascaded standby. Por isso, a alternativa B está correta como afirmação falsa."
+    },
+    {
+      "id": 10,
+      "original_correct_answer": "A",
+      "current_correct_answer": "A",
+      "explanation_pt": "O openEuler é um sistema operacional baseado em Linux desenvolvido para atender às necessidades de alto desempenho e confiabilidade da arquitetura Kunpeng. Ele serve como base para outras aplicações e serviços, oferecendo suporte otimizado para hardware Kunpeng. Por ser parte fundamental da infraestrutura de software dessa arquitetura, a alternativa A está correta.",
+      "user_answered": true,
+      "was_checked": true,
+      "original_explanation": "O openEuler é um sistema operacional baseado em Linux desenvolvido para atender às necessidades de alto desempenho e confiabilidade da arquitetura Kunpeng. Ele serve como base para outras aplicações e serviços, oferecendo suporte otimizado para hardware Kunpeng. Por ser parte fundamental da infraestrutura de software dessa arquitetura, a alternativa A está correta."
+    },
+    {
+      "id": 11,
+      "original_correct_answer": "B",
+      "current_correct_answer": "B",
+      "explanation_pt": "O item B está correto porque, no shell do Linux (incluindo distribuições como openEuler), as variáveis posicionais `$n` (onde n varia de 1 a 9) representam os parâmetros passados para um script ou função. Por exemplo, `$1` acessa o primeiro argumento, `$2` o segundo, e assim por diante até `$9`. Essa é uma funcionalidade padrão do shell que permite manipular argumentos de forma direta e individual.",
+      "user_answered": true,
+      "was_checked": true,
+      "original_explanation": "O item B está correto porque, no shell do Linux (incluindo distribuições como openEuler), as variáveis posicionais `$n` (onde n varia de 1 a 9) representam os parâmetros passados para um script ou função. Por exemplo, `$1` acessa o primeiro argumento, `$2` o segundo, e assim por diante até `$9`. Essa é uma funcionalidade padrão do shell que permite manipular argumentos de forma direta e individual."
+    },
+    {
+      "id": 12,
+      "original_correct_answer": "B",
+      "current_correct_answer": "B",
+      "explanation_pt": "O item B está correto porque o comando `mount` não serve apenas para montar sistemas de arquivos. Ele também pode ser usado para exibir o status atual das montagens, ou seja, listar os sistemas de arquivos que estão montados no momento. Isso é feito sem argumentos ou com opções como `mount | column -t`, tornando a afirmação de que ele \"não pode ser usado para ver o status\" incorreta.",
+      "user_answered": true,
+      "was_checked": true,
+      "original_explanation": "O item B está correto porque o comando `mount` não serve apenas para montar sistemas de arquivos. Ele também pode ser usado para exibir o status atual das montagens, ou seja, listar os sistemas de arquivos que estão montados no momento. Isso é feito sem argumentos ou com opções como `mount | column -t`, tornando a afirmação de que ele \"não pode ser usado para ver o status\" incorreta."
+    },
+    {
+      "id": 13,
+      "original_correct_answer": "D",
+      "current_correct_answer": "D",
+      "explanation_pt": "O item D está correto porque, por padrão, o comando `cp` copia arquivos a partir do diretório atual onde o comando é executado, a menos que caminhos absolutos ou relativos diferentes sejam especificados. O shell assume o diretório atual como origem e destino padrão, tornando o \"current directory\" a resposta correta.",
+      "user_answered": true,
+      "was_checked": true,
+      "original_explanation": "O item D está correto porque, por padrão, o comando `cp` copia arquivos a partir do diretório atual onde o comando é executado, a menos que caminhos absolutos ou relativos diferentes sejam especificados. O shell assume o diretório atual como origem e destino padrão, tornando o \"current directory\" a resposta correta."
+    },
+    {
+      "id": 14,
+      "original_correct_answer": "A",
+      "current_correct_answer": "A",
+      "explanation_pt": "O item A está correto porque o comando `gs_collector` é utilizado no openGauss para coletar informações do sistema operacional e logs relevantes, com o objetivo de diagnosticar falhas. Ele reúne dados como status de processos, uso de memória, e mensagens de log, sendo uma ferramenta essencial para análise de problemas.",
+      "user_answered": true,
+      "was_checked": true,
+      "original_explanation": "O item A está correto porque o comando `gs_collector` é utilizado no openGauss para coletar informações do sistema operacional e logs relevantes, com o objetivo de diagnosticar falhas. Ele reúne dados como status de processos, uso de memória, e mensagens de log, sendo uma ferramenta essencial para análise de problemas."
+    },
+    {
+      "id": 15,
+      "original_correct_answer": "B",
+      "current_correct_answer": "B",
+      "explanation_pt": "O item B está correto porque o openGauss suporta até 8 nós standby em sua arquitetura de replicação. Esse limite é definido para garantir desempenho e estabilidade na replicação de dados entre o nó primário e os nós de reserva, conforme especificações oficiais da plataforma.",
+      "user_answered": true,
+      "was_checked": true,
+      "original_explanation": "O item B está correto porque o openGauss suporta até 8 nós standby em sua arquitetura de replicação. Esse limite é definido para garantir desempenho e estabilidade na replicação de dados entre o nó primário e os nós de reserva, conforme especificações oficiais da plataforma."
+    },
+    {
+      "id": 16,
+      "original_correct_answer": "C",
+      "current_correct_answer": "C",
+      "explanation_pt": "O comando **`more`** no Linux é utilizado para exibir o conteúdo de arquivos ou saídas de comandos **uma página por vez**, permitindo ao usuário navegar pelo conteúdo pressionando a tecla Enter ou espaço. Isso é especialmente útil para arquivos longos que não cabem em uma única tela. Diferente de `cat`, que mostra tudo de uma vez, e `grep`, que serve para buscar padrões, `more` foi projetado especificamente para paginação de conteúdo.",
+      "user_answered": true,
+      "was_checked": true,
+      "original_explanation": "O comando **`more`** no Linux é utilizado para exibir o conteúdo de arquivos ou saídas de comandos **uma página por vez**, permitindo ao usuário navegar pelo conteúdo pressionando a tecla Enter ou espaço. Isso é especialmente útil para arquivos longos que não cabem em uma única tela. Diferente de `cat`, que mostra tudo de uma vez, e `grep`, que serve para buscar padrões, `more` foi projetado especificamente para paginação de conteúdo."
+    },
+    {
+      "id": 17,
+      "original_correct_answer": "B",
+      "current_correct_answer": "B",
+      "explanation_pt": "O comando **`format`** não é reconhecido como uma ferramenta padrão para formatação de partições no Linux. Os comandos corretos para formatar uma partição incluem `mkfs` e `mke2fs`, que criam sistemas de arquivos como ext4. Já `mount` serve para montar uma partição, não para formatá-la. Portanto, `format -t ext4 /dev/nvdb6` é inválido no contexto do Linux, tornando-o o item correto como o que **não pode** ser usado para formatar.",
+      "user_answered": true,
+      "was_checked": true,
+      "original_explanation": "O comando **`format`** não é reconhecido como uma ferramenta padrão para formatação de partições no Linux. Os comandos corretos para formatar uma partição incluem `mkfs` e `mke2fs`, que criam sistemas de arquivos como ext4. Já `mount` serve para montar uma partição, não para formatá-la. Portanto, `format -t ext4 /dev/nvdb6` é inválido no contexto do Linux, tornando-o o item correto como o que **não pode** ser usado para formatar."
+    },
+    {
+      "id": 18,
+      "original_correct_answer": "B",
+      "current_correct_answer": "B",
+      "explanation_pt": "A afirmação de que um **database system** se refere exclusivamente a um **database management system (DBMS)** está incorreta. Um sistema de banco de dados (database system) é um conceito mais amplo que inclui **o DBMS e os dados propriamente ditos**, além de possíveis aplicações associadas. Portanto, dizer que um database system é apenas o DBMS é falso, tornando o item **B (False)** o correto.",
+      "user_answered": true,
+      "was_checked": true,
+      "original_explanation": "A afirmação de que um **database system** se refere exclusivamente a um **database management system (DBMS)** está incorreta. Um sistema de banco de dados (database system) é um conceito mais amplo que inclui **o DBMS e os dados propriamente ditos**, além de possíveis aplicações associadas. Portanto, dizer que um database system é apenas o DBMS é falso, tornando o item **B (False)** o correto."
+    },
+    {
+      "id": 19,
+      "original_correct_answer": "B",
+      "current_correct_answer": "B",
+      "explanation_pt": "O servidor **Atlas 800 (modelo 3000)** utiliza os chips **Ascend 910**, não os Ascend 310, para tarefas de computação intensiva em IA. Além disso, ele **também adota os chips Kunpeng 920** para tarefas gerais de processamento. A afirmação de que ele não usa Kunpeng 920 está incorreta, tornando o item **B (False)** o correto.",
+      "user_answered": true,
+      "was_checked": true,
+      "original_explanation": "O servidor **Atlas 800 (modelo 3000)** utiliza os chips **Ascend 910**, não os Ascend 310, para tarefas de computação intensiva em IA. Além disso, ele **também adota os chips Kunpeng 920** para tarefas gerais de processamento. A afirmação de que ele não usa Kunpeng 920 está incorreta, tornando o item **B (False)** o correto."
+    },
+    {
+      "id": 20,
+      "original_correct_answer": "B",
+      "current_correct_answer": "B",
+      "explanation_pt": "Embora o openEuler lance atualizações frequentes para corrigir bugs e CVEs, **elas não são lançadas como atualizações completas toda semana**. Em vez disso, o projeto utiliza atualizações incrementais e mecanismos como o `yum` para distribuir correções de forma eficiente. A afirmação de que toda semana há uma atualização completa é incorreta, tornando o item **B (False)** o correto.",
+      "user_answered": true,
+      "was_checked": true,
+      "original_explanation": "Embora o openEuler lance atualizações frequentes para corrigir bugs e CVEs, **elas não são lançadas como atualizações completas toda semana**. Em vez disso, o projeto utiliza atualizações incrementais e mecanismos como o `yum` para distribuir correções de forma eficiente. A afirmação de que toda semana há uma atualização completa é incorreta, tornando o item **B (False)** o correto."
+    },
+    {
+      "id": 21,
+      "original_correct_answer": "A",
+      "current_correct_answer": "A",
+      "explanation_pt": "O arquivo `/etc/profile` é carregado pelo shell durante o processo de login em sistemas Unix-like, incluindo distribuições como OpenELEC. Esse arquivo contém configurações globais de ambiente que se aplicam a todos os usuários e é executado por shells de login, como quando se acessa via CLI ou SSH. Os demais arquivos listados são específicos de shells como o Bash e de configurações por usuário, mas o OpenELEC utiliza um shell mínimo que não necessariamente carrega esses arquivos.",
+      "user_answered": true,
+      "was_checked": true,
+      "original_explanation": "O arquivo `/etc/profile` é carregado pelo shell durante o processo de login em sistemas Unix-like, incluindo distribuições como OpenELEC. Esse arquivo contém configurações globais de ambiente que se aplicam a todos os usuários e é executado por shells de login, como quando se acessa via CLI ou SSH. Os demais arquivos listados são específicos de shells como o Bash e de configurações por usuário, mas o OpenELEC utiliza um shell mínimo que não necessariamente carrega esses arquivos."
+    },
+    {
+      "id": 22,
+      "original_correct_answer": "D",
+      "current_correct_answer": "D",
+      "explanation_pt": "A verificação de desempenho do SSD envolve acesso direto ao hardware e leitura de métricas sensíveis do sistema, o que exige privilégios elevados. Por isso, apenas o usuário root pode visualizar essas informações ao usar a ferramenta `gs_checkperf`. As demais opções referem-se a níveis de abstração que não exigem permissões administrativas.",
+      "user_answered": true,
+      "was_checked": true,
+      "original_explanation": "A verificação de desempenho do SSD envolve acesso direto ao hardware e leitura de métricas sensíveis do sistema, o que exige privilégios elevados. Por isso, apenas o usuário root pode visualizar essas informações ao usar a ferramenta `gs_checkperf`. As demais opções referem-se a níveis de abstração que não exigem permissões administrativas."
+    },
+    {
+      "id": 23,
+      "original_correct_answer": "D",
+      "current_correct_answer": "D",
+      "explanation_pt": "A ferramenta `gs_guc` é usada para gerenciar parâmetros de configuração do openGauss, como modificar valores e verificar configurações. No entanto, ela não possui funcionalidade para verificar o status de execução do banco de dados (como se está ativo ou inativo), o que torna a opção D incorreta em termos de funcionalidade oferecida.",
+      "user_answered": true,
+      "was_checked": true,
+      "original_explanation": "A ferramenta `gs_guc` é usada para gerenciar parâmetros de configuração do openGauss, como modificar valores e verificar configurações. No entanto, ela não possui funcionalidade para verificar o status de execução do banco de dados (como se está ativo ou inativo), o que torna a opção D incorreta em termos de funcionalidade oferecida."
+    },
+    {
+      "id": 24,
+      "original_correct_answer": "C",
+      "current_correct_answer": "C",
+      "explanation_pt": "A chave primária (PRIMARY KEY) impõe duas restrições simultâneas: os valores devem ser únicos (UNIQUE) e não podem ser nulos (NOT NULL). Essa combinação garante a integridade dos dados e a identificação única de registros na tabela. Por isso, a opção C está correta ao descrever a natureza composta dessa restrição.",
+      "user_answered": true,
+      "was_checked": true,
+      "original_explanation": "A chave primária (PRIMARY KEY) impõe duas restrições simultâneas: os valores devem ser únicos (UNIQUE) e não podem ser nulos (NOT NULL). Essa combinação garante a integridade dos dados e a identificação única de registros na tabela. Por isso, a opção C está correta ao descrever a natureza composta dessa restrição."
+    },
+    {
+      "id": 25,
+      "original_correct_answer": "B",
+      "current_correct_answer": "B",
+      "explanation_pt": "Verificar os recursos do servidor, como memória e espaço em disco, é uma etapa essencial ao diagnosticar a falta de resposta de uma instância de banco de dados. Problemas nesses recursos podem causar travamentos ou lentidão, e identificar essas causas permite ações corretivas antes de medidas mais drásticas como reinício ou restauração.",
+      "user_answered": true,
+      "was_checked": true,
+      "original_explanation": "Verificar os recursos do servidor, como memória e espaço em disco, é uma etapa essencial ao diagnosticar a falta de resposta de uma instância de banco de dados. Problemas nesses recursos podem causar travamentos ou lentidão, e identificar essas causas permite ações corretivas antes de medidas mais drásticas como reinício ou restauração."
+    },
+    {
+      "id": 26,
+      "original_correct_answer": "B",
+      "current_correct_answer": "B",
+      "explanation_pt": "A senha do usuário administrador 'omm' no openGauss não pode ser definida arbitrariamente. O sistema exige que a senha atenda a critérios mínimos de complexidade, como comprimento mínimo e combinação de caracteres, para garantir a segurança da instalação. Portanto, a afirmação de que a senha pode ser definida livremente está incorreta, tornando o item B (False) o correto.",
+      "user_answered": true,
+      "was_checked": true,
+      "original_explanation": "A senha do usuário administrador 'omm' no openGauss não pode ser definida arbitrariamente. O sistema exige que a senha atenda a critérios mínimos de complexidade, como comprimento mínimo e combinação de caracteres, para garantir a segurança da instalação. Portanto, a afirmação de que a senha pode ser definida livremente está incorreta, tornando o item B (False) o correto."
+    },
+    {
+      "id": 27,
+      "original_correct_answer": "A",
+      "current_correct_answer": "A",
+      "explanation_pt": "Durante o processo de upgrade do openGauss, é fundamental evitar a execução simultânea de operações de upgrade e de scale-out/in (expansão ou redução de nós). Isso se deve ao risco de conflitos e inconsistências que podem comprometer a integridade do sistema. Por isso, o item A está correto ao afirmar que essas operações não devem ocorrer ao mesmo tempo.",
+      "user_answered": true,
+      "was_checked": true,
+      "original_explanation": "Durante o processo de upgrade do openGauss, é fundamental evitar a execução simultânea de operações de upgrade e de scale-out/in (expansão ou redução de nós). Isso se deve ao risco de conflitos e inconsistências que podem comprometer a integridade do sistema. Por isso, o item A está correto ao afirmar que essas operações não devem ocorrer ao mesmo tempo."
+    },
+    {
+      "id": 28,
+      "original_correct_answer": "C",
+      "current_correct_answer": "C",
+      "explanation_pt": "A funcionalidade de consulta por igualdade totalmente criptografada no openGauss garante que os dados estejam criptografados durante a transmissão, armazenamento e processamento, sem que possam ser descriptografados. Isso assegura confidencialidade total, mesmo durante a execução de consultas, tornando o item C correto.",
+      "user_answered": true,
+      "was_checked": true,
+      "original_explanation": "A funcionalidade de consulta por igualdade totalmente criptografada no openGauss garante que os dados estejam criptografados durante a transmissão, armazenamento e processamento, sem que possam ser descriptografados. Isso assegura confidencialidade total, mesmo durante a execução de consultas, tornando o item C correto."
+    },
+    {
+      "id": 29,
+      "original_correct_answer": "A",
+      "current_correct_answer": "A",
+      "explanation_pt": "O cache DNS armazena localmente os resultados de resoluções anteriores de nomes de domínio, permitindo que futuras consultas ao mesmo domínio sejam respondidas mais rapidamente, sem necessidade de recorrer novamente ao servidor DNS. Isso acelera significativamente o processo de resolução de nomes, tornando o item A o correto.",
+      "user_answered": true,
+      "was_checked": true,
+      "original_explanation": "O cache DNS armazena localmente os resultados de resoluções anteriores de nomes de domínio, permitindo que futuras consultas ao mesmo domínio sejam respondidas mais rapidamente, sem necessidade de recorrer novamente ao servidor DNS. Isso acelera significativamente o processo de resolução de nomes, tornando o item A o correto."
+    },
+    {
+      "id": 30,
+      "original_correct_answer": "A",
+      "current_correct_answer": "A",
+      "explanation_pt": "No openGauss, a criação de tabelas criptografadas é feita diretamente com o comando CREATE TABLE, onde se especifica o algoritmo de criptografia e a chave correspondente. Esse método permite definir os parâmetros de segurança no momento da criação da tabela, tornando o item A o correto.",
+      "user_answered": true,
+      "was_checked": true,
+      "original_explanation": "No openGauss, a criação de tabelas criptografadas é feita diretamente com o comando CREATE TABLE, onde se especifica o algoritmo de criptografia e a chave correspondente. Esse método permite definir os parâmetros de segurança no momento da criação da tabela, tornando o item A o correto."
+    }
+  ]
+}

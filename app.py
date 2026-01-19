@@ -7,6 +7,7 @@ from tkinter import ttk, messagebox, simpledialog
 import os
 from datetime import datetime
 from deep_translator import GoogleTranslator
+from pathlib import Path
 
 class StudyApp:
     def __init__(self, root):
@@ -23,6 +24,7 @@ class StudyApp:
         self.translator = GoogleTranslator(source='auto', target='en')
         self.user_answers = {}  # Armazenar respostas do usuário
         self.performance = {'correct': 0, 'incorrect': 0}  # Estatísticas de desempenho
+        self.backup_file = "backup/study_backup.json"  # Único arquivo de backup
         
         # Carregar questões
         self.load_questions()
@@ -33,40 +35,45 @@ class StudyApp:
         # Criar interface
         self.create_widgets()
         self.show_question()
+        
+        # Atualizar estatísticas com base no backup carregado
+        self.calculate_performance_from_backup()
     
-    def get_backup_filename(self):
-        """Retorna o nome do arquivo de backup baseado na data atual"""
-        today = datetime.now().strftime("%Y%m%d")
-        return f"backup/study_backup_{today}.json"
+    def get_backup_path(self):
+        """Retorna o caminho completo do arquivo de backup único"""
+        return Path(self.backup_file)
     
     def ensure_backup_dir(self):
         """Garante que a pasta backup existe"""
-        if not os.path.exists("backup"):
-            os.makedirs("backup")
+        backup_path = self.get_backup_path()
+        backup_path.parent.mkdir(parents=True, exist_ok=True)
     
     def save_backup(self):
-        """Salva o estado atual das questões, respostas e alterações"""
+        """Salva o estado atual das questões, respostas e alterações em um único arquivo"""
         try:
             self.ensure_backup_dir()
-            backup_file = self.get_backup_filename()
+            backup_path = self.get_backup_path()
             
-            # Preparar dados para backup
+            # Preparar dados para backup - converter chaves para string
             backup_data = {
                 'timestamp': datetime.now().isoformat(),
-                'user_answers': self.user_answers,
+                'user_answers': {str(k): v for k, v in self.user_answers.items()},  # Converter chaves para string
                 'performance': self.performance,
-                'questions_modified': []
+                'questions_modified': [],
+                'answered_questions': [str(k) for k in self.user_answers.keys()]  # Converter para string
             }
             
             # Incluir apenas questões que foram modificadas
             for i, question in enumerate(self.questions):
                 modified_question = {
                     'id': question['id'],
+                    'index': i,  # Adicionar índice para fácil acesso
                     'original_correct_answer': None,  # Seria o original do JSON
                     'current_correct_answer': question['correct_answer'],
                     'explanation_pt': question['explanation_pt'],
                     'user_answered': i in self.user_answers,
-                    'was_checked': 'checked' in question
+                    'was_checked': 'checked' in question,
+                    'user_answer': self.user_answers.get(i)
                 }
                 
                 # Verificar se houve modificação
@@ -75,35 +82,60 @@ class StudyApp:
                     modified_question['original_correct_answer'] = original_question['correct_answer']
                     modified_question['original_explanation'] = original_question['explanation_pt']
                 
-                # Adicionar apenas se houve modificação
+                # Adicionar apenas se houve modificação ou resposta
                 if (modified_question['current_correct_answer'] != modified_question['original_correct_answer'] or
                     modified_question['explanation_pt'] != modified_question.get('original_explanation', '') or
                     modified_question['user_answered']):
                     backup_data['questions_modified'].append(modified_question)
             
-            # Salvar arquivo de backup
-            with open(backup_file, 'w', encoding='utf-8') as f:
+            # Salvar arquivo de backup único
+            with open(backup_path, 'w', encoding='utf-8') as f:
                 json.dump(backup_data, f, ensure_ascii=False, indent=2)
             
-            print(f"Backup salvo: {backup_file}")
+            print(f"Backup salvo: {backup_path}")
             
         except Exception as e:
             print(f"Erro ao salvar backup: {str(e)}")
+            import traceback
+            traceback.print_exc()
     
     def load_backup(self):
-        """Carrega backup anterior se existir"""
+        """Carrega backup anterior do arquivo único"""
         try:
-            backup_file = self.get_backup_filename()
+            backup_path = self.get_backup_path()
             
-            if not os.path.exists(backup_file):
-                print("Nenhum backup encontrado para hoje.")
+            # PRIMEIRO: Verificar se há backups antigos antes de migrar
+            backup_dir = Path("backup")
+            if backup_dir.exists():
+                old_backups = list(backup_dir.glob("study_backup_*.json"))
+                if old_backups:
+                    print(f"Encontrados {len(old_backups)} backups antigos")
+                    for backup in old_backups:
+                        print(f"  - {backup.name}")
+            
+            if not backup_path.exists():
+                print("Backup único não encontrado. Procurando backups antigos...")
+                
+                # Verificar se há backups antigos e migrar para o formato único
+                self.migrate_old_backups()
                 return
             
-            with open(backup_file, 'r', encoding='utf-8') as f:
+            with open(backup_path, 'r', encoding='utf-8') as f:
                 backup_data = json.load(f)
             
-            # Restaurar respostas do usuário
-            self.user_answers = backup_data.get('user_answers', {})
+            print(f"Backup carregado: {backup_path}")
+            print(f"Carimbos de tempo disponíveis: {backup_data.get('timestamp', 'N/A')}")
+            
+            # Restaurar respostas do usuário - CONVERTER chaves string para int
+            user_answers = backup_data.get('user_answers', {})
+            self.user_answers = {}
+            for key_str, value in user_answers.items():
+                try:
+                    key_int = int(key_str)
+                    self.user_answers[key_int] = value
+                except (ValueError, TypeError):
+                    # Se não puder converter, manter como está (não deve acontecer)
+                    continue
             
             # Restaurar desempenho
             self.performance = backup_data.get('performance', {'correct': 0, 'incorrect': 0})
@@ -111,31 +143,150 @@ class StudyApp:
             # Restaurar modificações nas questões
             for modified_question in backup_data.get('questions_modified', []):
                 question_id = modified_question['id']
+                question_index = modified_question.get('index')
                 
-                # Encontrar a questão correspondente
-                for i, question in enumerate(self.questions):
-                    if question['id'] == question_id:
-                        # Restaurar gabarito modificado
-                        if modified_question['current_correct_answer']:
-                            question['correct_answer'] = modified_question['current_correct_answer']
-                            question['has_answer'] = True
-                        
-                        # Restaurar explicação modificada
-                        if 'explanation_pt' in modified_question:
-                            question['explanation_pt'] = modified_question['explanation_pt']
-                        
-                        # Marcar como verificada se necessário
-                        if modified_question.get('was_checked'):
-                            question['checked'] = True
-                            question['was_correct'] = (self.user_answers.get(i) == question['correct_answer'])
-                        
-                        break
+                # Se não tiver índice, tentar encontrar pelo ID
+                if question_index is None:
+                    for i, question in enumerate(self.questions):
+                        if question['id'] == question_id:
+                            question_index = i
+                            break
+                
+                if question_index is not None and question_index < len(self.questions):
+                    question = self.questions[question_index]
+                    
+                    # Restaurar gabarito modificado
+                    if modified_question['current_correct_answer']:
+                        question['correct_answer'] = modified_question['current_correct_answer']
+                        question['has_answer'] = True
+                    
+                    # Restaurar explicação modificada
+                    if 'explanation_pt' in modified_question:
+                        question['explanation_pt'] = modified_question['explanation_pt']
+                    
+                    # Marcar como verificada se necessário
+                    if modified_question.get('was_checked'):
+                        question['checked'] = True
+                        user_answer = modified_question.get('user_answer')
+                        if user_answer:
+                            question['was_correct'] = (user_answer == question['correct_answer'])
             
-            print(f"Backup carregado: {backup_file}")
-            self.update_performance_display()
+            print(f"Respostas carregadas: {len(self.user_answers)} questões respondidas")
             
         except Exception as e:
             print(f"Erro ao carregar backup: {str(e)}")
+            import traceback
+            traceback.print_exc()
+    
+    def migrate_old_backups(self):
+        """Migra backups antigos para o formato único"""
+        try:
+            backup_dir = Path("backup")
+            if not backup_dir.exists():
+                print("Pasta 'backup' não existe.")
+                return
+            
+            # Encontrar todos os backups antigos
+            old_backups = list(backup_dir.glob("study_backup_*.json"))
+            
+            if not old_backups:
+                print("Nenhum backup antigo encontrado.")
+                return
+            
+            print(f"Encontrados {len(old_backups)} backups antigos:")
+            for backup in old_backups:
+                print(f"  - {backup.name}")
+            
+            # Ordenar por data (do mais recente para o mais antigo)
+            old_backups.sort(key=lambda x: x.stat().st_mtime, reverse=True)
+            
+            # Usar o backup mais recente como base
+            most_recent_backup = old_backups[0]
+            
+            print(f"\nMigrando backup antigo mais recente: {most_recent_backup}")
+            
+            with open(most_recent_backup, 'r', encoding='utf-8') as f:
+                old_data = json.load(f)
+            
+            # Converter chaves de user_answers para int (se forem strings)
+            user_answers = old_data.get('user_answers', {})
+            converted_user_answers = {}
+            for key_str, value in user_answers.items():
+                try:
+                    key_int = int(key_str)
+                    converted_user_answers[key_int] = value
+                except (ValueError, TypeError):
+                    # Se não puder converter, pular
+                    continue
+            
+            # Criar novo formato com timestamp do backup original
+            backup_data = {
+                'timestamp': old_data.get('timestamp', datetime.now().isoformat()),
+                'user_answers': {str(k): v for k, v in converted_user_answers.items()},  # Converter para string para JSON
+                'performance': old_data.get('performance', {'correct': 0, 'incorrect': 0}),
+                'questions_modified': old_data.get('questions_modified', []),
+                'answered_questions': [str(k) for k in converted_user_answers.keys()],
+                'migrated_from': str(most_recent_backup),
+                'migration_date': datetime.now().isoformat()
+            }
+            
+            # Salvar no novo arquivo único
+            backup_path = self.get_backup_path()
+            self.ensure_backup_dir()
+            
+            with open(backup_path, 'w', encoding='utf-8') as f:
+                json.dump(backup_data, f, ensure_ascii=False, indent=2)
+            
+            print(f"Backup migrado para: {backup_path}")
+            
+            # Carregar o backup recém-migrado
+            self.user_answers = converted_user_answers
+            self.performance = backup_data['performance']
+            
+            print(f"Migração concluída: {len(self.user_answers)} respostas carregadas")
+            
+        except Exception as e:
+            print(f"Erro ao migrar backups antigos: {str(e)}")
+            import traceback
+            traceback.print_exc()
+    
+    def calculate_performance_from_backup(self):
+        """Calcula estatísticas de desempenho com base nas respostas do backup"""
+        try:
+            correct = 0
+            incorrect = 0
+            
+            for question_idx, user_answer in self.user_answers.items():
+                # Garantir que question_idx é inteiro
+                if isinstance(question_idx, str):
+                    question_idx = int(question_idx)
+                    
+                if question_idx < len(self.questions):
+                    question = self.questions[question_idx]
+                    
+                    # Marcar a questão como verificada
+                    question['checked'] = True
+                    
+                    # Verificar se a resposta está correta
+                    is_correct = (user_answer == question['correct_answer'])
+                    question['was_correct'] = is_correct
+                    
+                    if is_correct:
+                        correct += 1
+                    else:
+                        incorrect += 1
+            
+            # Atualizar estatísticas
+            self.performance['correct'] = correct
+            self.performance['incorrect'] = incorrect
+            
+            self.update_performance_display()
+            print(f"Desempenho calculado: {correct} corretas, {incorrect} incorretas")
+            
+        except Exception as e:
+            print(f"Erro ao calcular desempenho: {str(e)}")
+            import traceback
+            traceback.print_exc()
     
     def load_questions(self):
         """Carrega as questões do arquivo JSON"""
@@ -158,10 +309,12 @@ class StudyApp:
                 messagebox.showerror("Erro", "Nenhuma questão encontrada no arquivo")
                 return
                 
-            messagebox.showinfo("Sucesso", f"Carregadas {len(self.questions)} questões")
+            print(f"Carregadas {len(self.questions)} questões")
             
         except Exception as e:
             messagebox.showerror("Erro", f"Erro ao carregar questões: {str(e)}")
+            import traceback
+            traceback.print_exc()
     
     def extract_questions_from_json(self, json_data):
         """Extrai questões do formato JSON fornecido"""
@@ -180,7 +333,9 @@ class StudyApp:
                     'level': item['fields']['level'],
                     'track': item['fields']['track'],
                     'has_answer': item['fields']['has_answer'],
-                    'weight': item['fields']['weight']
+                    'weight': item['fields']['weight'],
+                    'answered': False,  # Flag para indicar se já foi respondida
+                    'correct': None  # Flag para indicar se foi respondida corretamente
                 }
         
         # Coletar alternativas
@@ -210,7 +365,7 @@ class StudyApp:
         # Converter para lista ordenada por ID
         questions_list = [questions_dict[key] for key in sorted(questions_dict.keys())]
         return questions_list
-    
+
     def create_widgets(self):
         """Cria os elementos da interface"""
         # Frame principal
@@ -242,9 +397,17 @@ class StudyApp:
         )
         self.backup_btn.grid(row=0, column=1, padx=(10, 10))
         
+        # Botão para ver estatísticas de respostas
+        self.stats_btn = ttk.Button(
+            controls_frame,
+            text="View Statistics",
+            command=self.show_statistics
+        )
+        self.stats_btn.grid(row=0, column=2, padx=(10, 10))
+        
         # Navegação
         nav_frame = ttk.Frame(controls_frame)
-        nav_frame.grid(row=0, column=2)
+        nav_frame.grid(row=0, column=3)
         
         self.prev_btn = ttk.Button(nav_frame, text="← Previous", command=self.previous_question)
         self.prev_btn.grid(row=0, column=0, padx=(0, 5))
@@ -254,7 +417,7 @@ class StudyApp:
         
         # Busca
         search_frame = ttk.Frame(controls_frame)
-        search_frame.grid(row=0, column=3, padx=(20, 0))
+        search_frame.grid(row=0, column=4, padx=(20, 0))
         
         ttk.Label(search_frame, text="Search:").grid(row=0, column=0, padx=(0, 5))
         self.search_var = tk.StringVar()
@@ -267,7 +430,7 @@ class StudyApp:
         
         # Informações da questão
         info_frame = ttk.Frame(controls_frame)
-        info_frame.grid(row=0, column=4, padx=(20, 0))
+        info_frame.grid(row=0, column=5, padx=(20, 0))
         
         self.question_info = ttk.Label(
             info_frame, 
@@ -282,7 +445,7 @@ class StudyApp:
             text="Correct: 0 | Incorrect: 0 | Score: 0%",
             font=('Arial', 9)
         )
-        self.performance_label.grid(row=0, column=5, padx=(20, 0))
+        self.performance_label.grid(row=0, column=6, padx=(20, 0))
         
         # Área da questão
         self.question_frame = ttk.LabelFrame(main_frame, text="QUESTION", padding="10")
@@ -310,7 +473,6 @@ class StudyApp:
         self.alternatives_frame.columnconfigure(0, weight=1)
         
         self.alternative_widgets = []
-        self.alternative_vars = []  # Variáveis para os RadioButtons
         
         # Variável para grupo de RadioButtons (garante que apenas um seja selecionado)
         self.selected_alternative = tk.StringVar()
@@ -874,6 +1036,7 @@ class StudyApp:
             self.clear_btn.config(text="Limpar Seleção")
             self.search_btn.config(text="Buscar")
             self.backup_btn.config(text="Backup Agora")
+            self.stats_btn.config(text="Ver Estatísticas")
             
             # Traduzir a questão atual para português
             self.translate_current_question_to_portuguese()
@@ -895,6 +1058,7 @@ class StudyApp:
             self.clear_btn.config(text="Clear Selection")
             self.search_btn.config(text="Search")
             self.backup_btn.config(text="Backup Now")
+            self.stats_btn.config(text="View Statistics")
         
         # Atualizar a questão atual
         self.show_question()
@@ -941,6 +1105,124 @@ class StudyApp:
             
         except Exception as e:
             print(f"Erro ao traduzir explicação: {str(e)}")
+    
+    def show_statistics(self):
+        """Mostra estatísticas detalhadas das questões respondidas"""
+        answered_count = len(self.user_answers)
+        total_questions = len(self.questions)
+        unanswered_count = total_questions - answered_count
+        
+        # Contar questões corretas e incorretas
+        correct_count = 0
+        incorrect_count = 0
+        
+        for question_idx, user_answer in self.user_answers.items():
+            # Garantir que question_idx é inteiro
+            if isinstance(question_idx, str):
+                question_idx = int(question_idx)
+                
+            if question_idx < len(self.questions):
+                question = self.questions[question_idx]
+                if user_answer == question['correct_answer']:
+                    correct_count += 1
+                else:
+                    incorrect_count += 1
+        
+        # Calcular porcentagens
+        if answered_count > 0:
+            correct_percentage = (correct_count / answered_count) * 100
+            incorrect_percentage = (incorrect_count / answered_count) * 100
+            completion_percentage = (answered_count / total_questions) * 100
+        else:
+            correct_percentage = incorrect_percentage = 0
+            completion_percentage = 0
+        
+        # Criar janela de estatísticas
+        stats_window = tk.Toplevel(self.root)
+        stats_window.title("Statistics")
+        stats_window.geometry("500x400")
+        stats_window.transient(self.root)
+        
+        main_frame = ttk.Frame(stats_window, padding="20")
+        main_frame.pack(fill=tk.BOTH, expand=True)
+        
+        # Título
+        ttk.Label(
+            main_frame, 
+            text="Study Statistics", 
+            font=('Arial', 14, 'bold')
+        ).pack(pady=(0, 20))
+        
+        # Estatísticas gerais
+        stats_frame = ttk.LabelFrame(main_frame, text="General Statistics", padding="15")
+        stats_frame.pack(fill=tk.X, pady=(0, 15))
+        
+        ttk.Label(stats_frame, text=f"Total Questions: {total_questions}").pack(anchor=tk.W, pady=2)
+        ttk.Label(stats_frame, text=f"Answered Questions: {answered_count}").pack(anchor=tk.W, pady=2)
+        ttk.Label(stats_frame, text=f"Unanswered Questions: {unanswered_count}").pack(anchor=tk.W, pady=2)
+        ttk.Label(stats_frame, text=f"Completion: {completion_percentage:.1f}%").pack(anchor=tk.W, pady=2)
+        
+        # Estatísticas de desempenho
+        perf_frame = ttk.LabelFrame(main_frame, text="Performance", padding="15")
+        perf_frame.pack(fill=tk.X, pady=(0, 15))
+        
+        ttk.Label(perf_frame, text=f"Correct Answers: {correct_count} ({correct_percentage:.1f}%)").pack(anchor=tk.W, pady=2)
+        ttk.Label(perf_frame, text=f"Incorrect Answers: {incorrect_count} ({incorrect_percentage:.1f}%)").pack(anchor=tk.W, pady=2)
+        
+        # Botão para ver questões não respondidas
+        ttk.Button(
+            main_frame,
+            text="Show Unanswered Questions",
+            command=self.show_unanswered_questions
+        ).pack(pady=(10, 0))
+    
+    def show_unanswered_questions(self):
+        """Mostra lista de questões não respondidas"""
+        unanswered_indices = []
+        
+        for i in range(len(self.questions)):
+            if i not in self.user_answers:
+                unanswered_indices.append(i)
+        
+        if not unanswered_indices:
+            messagebox.showinfo("No Unanswered Questions", "All questions have been answered!")
+            return
+        
+        # Criar janela com lista de questões não respondidas
+        window = tk.Toplevel(self.root)
+        window.title(f"Unanswered Questions ({len(unanswered_indices)})")
+        window.geometry("600x400")
+        window.transient(self.root)
+        
+        main_frame = ttk.Frame(window, padding="10")
+        main_frame.pack(fill=tk.BOTH, expand=True)
+        
+        # Lista de questões
+        listbox = tk.Listbox(main_frame, font=('Arial', 10))
+        listbox.pack(fill=tk.BOTH, expand=True, pady=(0, 10))
+        
+        # Adicionar questões à lista
+        for idx in unanswered_indices:
+            question = self.questions[idx]
+            listbox.insert(tk.END, f"Question {idx + 1}: {question['text_en'][:80]}...")
+        
+        # Frame para botões
+        button_frame = ttk.Frame(main_frame)
+        button_frame.pack(fill=tk.X)
+        
+        def go_to_selected():
+            selection = listbox.curselection()
+            if not selection:
+                messagebox.showwarning("No Selection", "Please select a question from the list")
+                return
+            
+            selected_idx = unanswered_indices[selection[0]]
+            window.destroy()
+            self.current_question_index = selected_idx
+            self.show_question()
+        
+        ttk.Button(button_frame, text="Go to Selected Question", command=go_to_selected).pack(side=tk.RIGHT)
+        ttk.Button(button_frame, text="Close", command=window.destroy).pack(side=tk.RIGHT, padx=(0, 10))
 
 def main():
     root = tk.Tk()
